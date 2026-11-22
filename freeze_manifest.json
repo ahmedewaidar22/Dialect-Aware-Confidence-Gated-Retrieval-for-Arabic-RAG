@@ -1,0 +1,46 @@
+{
+ "created_utc": "2026-10-22T17:43:20+00:00",
+ "git_commit": null,
+ "params": {
+  "k": "2",
+  "lo": "0.2",
+  "hi": "0.8",
+  "n_cands": "20",
+  "generator": "gpt-4.1-mini",
+  "temperature": "0"
+ },
+ "versions": {
+  "python": "3.11.0",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "numpy": "2.4.6",
+  "scikit-learn": "1.9.1",
+  "torch": "2.14.1+cu126",
+  "transformers": "5.18.0",
+  "sentence-transformers": "6.1.0",
+  "openai": "3.24.0",
+  "rank-bm25": "0.2.2",
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU"
+ },
+ "files": {
+  "models\\dialect_head\\config.json": "c7a4b5dcc38bd5f40a1fd95e89b17eed044c7c1d629e0a77b3852e8e4299e056",
+  "models\\dialect_head\\dialect_report.txt": "c672321cdfa9668699b3caad19813939241454cd6aa72c8a30d2ecc1564b0b03",
+  "models\\dialect_head\\egy_test_scores.jsonl": "e9d2a1bc4e37d094a35a10b7778df8d3d754f52bbf005806b3ce2dfa888f17f1",
+  "models\\dialect_head\\meta.json": "86c7e045bcc34a95f30faf30f5fcdb1ec5efa3e6f72c9435e2ad94db01c43a88",
+  "models\\dialect_head\\model.safetensors": "4967f8598b87982487db667b39f3b29f157da0452da4db9d0f6dcacd780d209b",
+  "models\\dialect_head\\tokenizer.json": "2466f1687e7acb8b2a75596ef16fd460d1d727dbd940d5d97407a848563e4d03",
+  "models\\dialect_head\\tokenizer_config.json": "946877214415867121749cdf2066dbf6c786bc5934b4a8140f9c7cb2a0099e03",
+  "runs_v2\\v2_config.json": "3859b713899b44b8a9f9818af21495c597b70ce36eab0fd345f8ccac9739a047",
+  "arroute\\pipeline\\strategies.py": "f58f828b2f879f043d46d940f1f547005265f45e4b79a12c1b8d589610ff4ccc",
+  "arroute\\pipeline\\final.py": "5176749d6126ef12e47ccacafdadfca7952b8ef228719e014776fc4f5641f04a",
+  "arroute\\pipeline\\judge.py": "0736e5e65fd397dbb6e2f77b77db992ae3a5eace2f731daced6374d521a46d14",
+  "arroute\\egy\\rewrite.py": "f32ccad3f0f49b0c81bf9a5363dda1d47c1298cd80e5816e86395c19db8af9e0",
+  "arroute\\llm.py": "750c2487540b77ce62c4d4e129a1f9f52f78128089866d8ff20e2bddbd2ca444",
+  "arroute\\router\\v2.py": "6f4ec97aea14f12011d29536806a3dfafe465c05da05ba9c3fa3c75b2fbd2448",
+  "scripts\\run_confirmatory.py": "53db637bea1f6ccf62d674f272f1f5912564f0486c69fa9a1fa949a88cd67e01",
+  "scripts\\analyze_confirmatory.py": "3128b4a891f08ee52b2ea2ce55e0d040cb08baf1609a1971c043c0c789230c0d",
+  "data\\corpus\\corpus_stats.txt": "89ccd888169ba53bf69ed508cc3d18fd586dac09eb1ebefaed40300c31ce800b",
+  "data\\corpus\\emb_bgem3.npy": "6e690dbc1662031a0a522c52816d520063a7a1a295afa88e5b1808f3afabdc3f",
+  "data\\corpus\\emb_ids.json": "1a27996b1d36dc28a667e78bb7cecd57e5defc19edd2b842498eeb01fc285438",
+  "data\\corpus\\passages.jsonl": "aa42a5e80a00f59091936cd57c927281a85f2eda87046da81e69701635a98c78"
+ }
+}

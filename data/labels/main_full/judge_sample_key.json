@@ -1,0 +1,602 @@
+{
+ "000": {
+  "id": "hotpot_ctx:5a7263795542997f82783995",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "001": {
+  "id": "arabicaqa:train:681900",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "002": {
+  "id": "arabicaqa:train:1096093",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "003": {
+  "id": "arabicaqa:train:1186423",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "004": {
+  "id": "hotpot_ctx:5a881a3855429938390d3eda",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "005": {
+  "id": "hotpot_ctx:5abbca3955429931dba14537",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "006": {
+  "id": "hotpot_ctx:5a88f1605542997e5c09a6d4",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "007": {
+  "id": "arabicaqa:train:1196568",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "008": {
+  "id": "hotpot_ctx:5ae53b795542992663a4f18a",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "009": {
+  "id": "hotpot_ctx:5ae268eb5542992decbdccf1",
+  "strategy": "C2",
+  "judge": true,
+  "method": "rule"
+ },
+ "010": {
+  "id": "arabicaqa:dev:910396",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "011": {
+  "id": "arabicaqa:train:1033971",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "012": {
+  "id": "arabicaqa:dev:1177194",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "013": {
+  "id": "arabicaqa:test:1184672",
+  "strategy": "C0",
+  "judge": false,
+  "method": "rule"
+ },
+ "014": {
+  "id": "hotpot_ctx:5ae766b35542997b22f6a72d",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "015": {
+  "id": "arabicaqa:dev:1069881",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "016": {
+  "id": "hotpot_ctx:5ab25db35542993be8fa98e5",
+  "strategy": "C1",
+  "judge": true,
+  "method": "rule"
+ },
+ "017": {
+  "id": "arabicaqa:train:1184897",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "018": {
+  "id": "arabicaqa:train:987287",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "019": {
+  "id": "arabicaqa:train:1116642",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "020": {
+  "id": "hotpot_ctx:5ac06291554299294b218fb3",
+  "strategy": "C1",
+  "judge": false,
+  "method": "rule"
+ },
+ "021": {
+  "id": "arabicaqa:train:1182391",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "022": {
+  "id": "arabicaqa:dev:1186896",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "023": {
+  "id": "hotpot_ctx:5a8db175554299068b959db1",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "024": {
+  "id": "hotpot_ctx:5abee5e25542994516f45473",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "025": {
+  "id": "hotpot_ctx:5ac14dac5542994ab5c67cdd",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "026": {
+  "id": "hotpot_ctx:5a74466855429929fddd83f3",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "027": {
+  "id": "arabicaqa:train:925015",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "028": {
+  "id": "arabicaqa:train:929364",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "029": {
+  "id": "arabicaqa:train:1137879",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "030": {
+  "id": "arabicaqa:train:1067404",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "031": {
+  "id": "arabicaqa:train:942401",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "032": {
+  "id": "arabicaqa:train:1092955",
+  "strategy": "C0",
+  "judge": false,
+  "method": "rule"
+ },
+ "033": {
+  "id": "arabicaqa:train:1001990",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "034": {
+  "id": "arabicaqa:test:1070213",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "035": {
+  "id": "arabicaqa:train:1190044",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "036": {
+  "id": "hotpot_ctx:5abbc90b55429931dba14528",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "037": {
+  "id": "arabicaqa:train:1124576",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "038": {
+  "id": "hotpot_ctx:5ae535645542992663a4f166",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "039": {
+  "id": "hotpot_ctx:5aba63da55429955dce3edff",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "040": {
+  "id": "hotpot_ctx:5a77409955429966f1a36cd1",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "041": {
+  "id": "hotpot_ctx:5a88f1605542997e5c09a6d4",
+  "strategy": "C1",
+  "judge": true,
+  "method": "rule"
+ },
+ "042": {
+  "id": "arabicaqa:train:1065459",
+  "strategy": "C0",
+  "judge": false,
+  "method": "rule"
+ },
+ "043": {
+  "id": "hotpot_ctx:5a8581c25542991dd0999e61",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "044": {
+  "id": "hotpot_ctx:5a8efc855542997ba9cb3168",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "045": {
+  "id": "hotpot_ctx:5abb7c26554299642a094a94",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "046": {
+  "id": "hotpot_ctx:5ab5e84e5542992aa134a3d7",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "047": {
+  "id": "arabicaqa:dev:1065414",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "048": {
+  "id": "hotpot_ctx:5a7a09b35542996a35c170a2",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "049": {
+  "id": "arabicaqa:train:702670",
+  "strategy": "C1",
+  "judge": false,
+  "method": "rule"
+ },
+ "050": {
+  "id": "hotpot_ctx:5a73619655429901807db01b",
+  "strategy": "C2",
+  "judge": true,
+  "method": "rule"
+ },
+ "051": {
+  "id": "arabicaqa:test:1167704",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "052": {
+  "id": "arabicaqa:train:1161393",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "053": {
+  "id": "arabicaqa:train:918477",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "054": {
+  "id": "arabicaqa:dev:1043593",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "055": {
+  "id": "arabicaqa:train:1125479",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "056": {
+  "id": "hotpot_ctx:5ae805a2554299321098403f",
+  "strategy": "C2",
+  "judge": true,
+  "method": "rule"
+ },
+ "057": {
+  "id": "arabicaqa:train:1117861",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "058": {
+  "id": "arabicaqa:train:1161945",
+  "strategy": "C2",
+  "judge": true,
+  "method": "rule"
+ },
+ "059": {
+  "id": "arabicaqa:train:938393",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "060": {
+  "id": "arabicaqa:train:1121926",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "061": {
+  "id": "hotpot_ctx:5ab31d43554299233954ff0e",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "062": {
+  "id": "hotpot_ctx:5ac2a4af55429967731025d2",
+  "strategy": "C1",
+  "judge": false,
+  "method": "rule"
+ },
+ "063": {
+  "id": "hotpot_ctx:5a8f248f55429918e830d1a1",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "064": {
+  "id": "arabicaqa:test:647646",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "065": {
+  "id": "hotpot_ctx:5adc602555429947ff17393d",
+  "strategy": "C2",
+  "judge": true,
+  "method": "rule"
+ },
+ "066": {
+  "id": "arabicaqa:train:1125496",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "067": {
+  "id": "arabicaqa:train:960216",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "068": {
+  "id": "hotpot_ctx:5a7642a05542992d0ec06072",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "069": {
+  "id": "arabicaqa:dev:1101764",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "070": {
+  "id": "hotpot_ctx:5a8278bb55429940e5e1a8c5",
+  "strategy": "C2",
+  "judge": true,
+  "method": "rule"
+ },
+ "071": {
+  "id": "hotpot_ctx:5ae5394855429908b6326585",
+  "strategy": "C1",
+  "judge": true,
+  "method": "rule"
+ },
+ "072": {
+  "id": "hotpot_ctx:5ae3d70a5542992f92d82392",
+  "strategy": "C0",
+  "judge": false,
+  "method": "rule"
+ },
+ "073": {
+  "id": "arabicaqa:dev:678739",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "074": {
+  "id": "hotpot_ctx:5abc49635542993a06baf8cb",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "075": {
+  "id": "hotpot_ctx:5ae20b99554299234fd043c3",
+  "strategy": "C1",
+  "judge": true,
+  "method": "rule"
+ },
+ "076": {
+  "id": "arabicaqa:train:1070302",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "077": {
+  "id": "hotpot_ctx:5a77d28e5542997042120b4b",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "078": {
+  "id": "hotpot_ctx:5ae4bd3455429960a22e018c",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "079": {
+  "id": "arabicaqa:train:1096093",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "080": {
+  "id": "arabicaqa:train:1166137",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "081": {
+  "id": "hotpot_ctx:5abd4f635542993062266c4d",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "082": {
+  "id": "hotpot_ctx:5ae727615542991e8301cb66",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "083": {
+  "id": "arabicaqa:train:1198469",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "084": {
+  "id": "arabicaqa:train:1127520",
+  "strategy": "C2",
+  "judge": true,
+  "method": "rule"
+ },
+ "085": {
+  "id": "hotpot_ctx:5ae0fe69554299422ee995ab",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "086": {
+  "id": "arabicaqa:train:942401",
+  "strategy": "C2",
+  "judge": true,
+  "method": "llm"
+ },
+ "087": {
+  "id": "hotpot_ctx:5abed31e5542994516f45441",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "088": {
+  "id": "arabicaqa:dev:647042",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "089": {
+  "id": "arabicaqa:dev:1194921",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "090": {
+  "id": "arabicaqa:train:698564",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "091": {
+  "id": "arabicaqa:test:1196139",
+  "strategy": "C1",
+  "judge": false,
+  "method": "rule"
+ },
+ "092": {
+  "id": "hotpot_ctx:5ae72d6e554299572ea5475d",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "093": {
+  "id": "hotpot_ctx:5a8ceec0554299441c6b9f88",
+  "strategy": "C0",
+  "judge": false,
+  "method": "llm"
+ },
+ "094": {
+  "id": "hotpot_ctx:5a89e8075542992e4fca846e",
+  "strategy": "C2",
+  "judge": true,
+  "method": "rule"
+ },
+ "095": {
+  "id": "arabicaqa:train:679175",
+  "strategy": "C0",
+  "judge": true,
+  "method": "llm"
+ },
+ "096": {
+  "id": "hotpot_ctx:5a8e08595542995085b37392",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ },
+ "097": {
+  "id": "arabicaqa:train:927375",
+  "strategy": "C1",
+  "judge": false,
+  "method": "llm"
+ },
+ "098": {
+  "id": "arabicaqa:test:987111",
+  "strategy": "C1",
+  "judge": true,
+  "method": "llm"
+ },
+ "099": {
+  "id": "hotpot_ctx:5ac1b66f5542994d76dcceca",
+  "strategy": "C2",
+  "judge": false,
+  "method": "llm"
+ }
+}

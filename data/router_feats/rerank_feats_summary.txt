@@ -1,0 +1,15 @@
+reranker features (BAAI/bge-reranker-v2-m3) for 1,955 questions in 1128s -> data\router_feats\rerank_feats.jsonl
+first 5 candidates = C1's passages: 100.0%  (should be ~99%+)
+
+feature             mean   AUC: C1 correct  AUC: C2 rescues
+rr_top5_max         5.30             0.728            0.433
+rr_top5_mean       -1.76             0.607            0.457
+rr_top5_2nd        -0.58             0.606            0.434
+rr_top5_npos        1.64             0.637            0.437
+rr_rank1            4.58             0.713            0.430
+rr_deep_max        -2.12             0.406            0.584
+rr_deep_gain       -7.42             0.258            0.604
+rr_deep_npos        0.53             0.440            0.553
+rr_ans_max          5.92             0.740            0.395
+rr_ans_gain         0.62             0.528            0.421
+(AUC far from 0.5 in EITHER direction = informative; < 0.5 means 'lower value -> more likely')

@@ -1,0 +1,13 @@
+answer-check features for 1,955 questions -> data\router_feats\escalation_feats.jsonl
+C1 passages not found in the corpus: 0 (should be 0)
+
+feature            mean   C1 correct when feature=1 / =0 (binary features)
+c1_idk            0.166     0.0% /  78.3%
+c1_len            1.374
+c1_yesno          0.028    81.8% /  64.8%
+c1_in_passages    0.597    80.6% /  42.6%
+c1_tok_cover      0.760
+c1_in_top1        0.440    82.7% /  51.6%
+c0_idk            0.276    54.9% /  69.2%
+c0c1_overlap      0.160
+c0c1_same         0.081    93.7% /  62.8%

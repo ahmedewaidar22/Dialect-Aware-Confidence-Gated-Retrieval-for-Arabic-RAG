@@ -1,0 +1,13 @@
+created 2026-10-23T11:56:07+00:00
+seed 20261023
+model gpt-4.1-mini
+freeze_manifest.json sha256 0fc9da663a19ca39c964010e95470f1399f7ead8321464dfe9bf9394bcd06344
+arabicaqa questions: 92795
+official test split: 13970
+after excluding everything used before: 11583
+after quality filters: 6361
+sampled: 1050
+rewritten into Egyptian: 1050
+dropped by automatic checks: 23
+final questions: 1027
+dropped examples: arabicaqa:test:1056960 (no Egyptian marker word); arabicaqa:test:648861 (no Egyptian marker word); arabicaqa:test:1162267 (no Egyptian marker word); arabicaqa:test:1119829 (no Egyptian marker word); arabicaqa:test:1189635 (no Egyptian marker word); arabicaqa:test:1188599 (no Egyptian marker word); arabicaqa:test:1180565 (no Egyptian marker word); arabicaqa:test:1033814 (no Egyptian marker word); arabicaqa:test:1174537 (no Egyptian marker word); arabicaqa:test:1180726 (no Egyptian marker word); arabicaqa:test:1188726 (no Egyptian marker word); arabicaqa:test:952912 (no Egyptian marker word); arabicaqa:test:1060048 (no Egyptian marker word); arabicaqa:test:1092988 (no Egyptian marker word); arabicaqa:test:1190425 (no Egyptian marker word); arabicaqa:test:1062507 (no Egyptian marker word); arabicaqa:test:942370 (no Egyptian marker word); arabicaqa:test:1124174 (unchanged, no Egyptian marker word); arabicaqa:test:1191769 (no Egyptian marker word); arabicaqa:test:1159773 (no Egyptian marker word)

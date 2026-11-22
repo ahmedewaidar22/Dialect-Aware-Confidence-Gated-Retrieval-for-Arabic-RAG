@@ -1,0 +1,17 @@
+# Install PyTorch FIRST, matching your CUDA version, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126   (torch >= 2.6 needed)
+transformers>=4.44
+datasets>=2.20
+sentence-transformers>=3.0
+accelerate>=0.33
+rank_bm25>=0.2.2
+faiss-cpu>=1.8
+scikit-learn>=1.4
+pandas>=2.0
+pyyaml>=6.0
+tqdm
+mlflow
+# For 4-bit local LLMs:
+bitsandbytes   # recent versions support Windows; if it fails, use the API for LLMs instead
+openai>=1.40
+huggingface_hub>=0.24

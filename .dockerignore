@@ -1,0 +1,16 @@
+.venv
+.pytest_cache
+__pycache__
+*.zip
+*_console.txt
+err_*.txt
+*.txt
+!requirements*.txt
+*.ps1
+runs*
+data
+models
+scripts
+tests
+configs
+webapp/db.sqlite3

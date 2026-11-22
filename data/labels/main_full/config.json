@@ -1,0 +1,29 @@
+{
+ "run": "main_full",
+ "gen_model": "gpt-4.1-mini",
+ "judge_model": "gpt-4.1-mini",
+ "effort": null,
+ "gen_base_url": null,
+ "retriever_device": null,
+ "sources": [
+  "hotpot_ctx_ar",
+  "arabicaqa"
+ ],
+ "n_per_source": null,
+ "cap_arabicaqa": 1000,
+ "mode": "full",
+ "k": 5,
+ "method": "hybrid",
+ "workers": 4,
+ "budget_usd": 10.0,
+ "price": [
+  "gpt-4.1-mini=0.40,1.60",
+  "gpt-6.1-sol=2,10"
+ ],
+ "max_out_gen": null,
+ "max_out_judge": 60,
+ "corpus": "data/corpus",
+ "processed": "data/processed",
+ "out": "data/labels",
+ "seed": 42
+}

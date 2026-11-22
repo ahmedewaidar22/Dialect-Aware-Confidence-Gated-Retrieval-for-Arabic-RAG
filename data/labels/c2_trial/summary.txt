@@ -1,0 +1,20 @@
+run c2_trial | generator gpt-4.1-mini (effort -) | judge gpt-4.1-mini | mode full | k=5 hybrid
+questions labelled: 100
+spend this run: $0.1100 of $1.00 (new API calls: 203)
+
+source               n       C0       C1       C2     none
+hotpot_ctx_ar      100    25.0%    48.0%    16.0%    11.0%
+
+per strategy (over the questions where it ran):
+  strategy    ran  correct  avg calls  avg in tok  avg out tok  gold found
+  C0          100    25.0%       1.00          78            6           -
+  C1          100    69.0%       1.00         999            5       76.5%
+  C2          100    85.0%       1.61        2272           47       90.0%
+
+HotpotQA by question type (comparison questions with two options can be GUESSED without knowledge):
+  bridge          89C0  16.9%  C1  53.9%  C2  18.0%  none  11.2%  
+  comparison      11C0  90.9%  C1   0.0%  C2   0.0%  none   9.1%  
+  yes/no questions: 3, of which labelled C0: 2
+
+judge decisions: {'rule': 178, 'llm': 122}
+'gold found' = share of the gold passages that were among the passages the strategy used.

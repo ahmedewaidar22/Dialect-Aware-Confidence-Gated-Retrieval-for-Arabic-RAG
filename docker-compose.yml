@@ -1,0 +1,23 @@
+services:
+  web:
+    build: .
+    image: ar-route-web
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - ./models:/app/models:ro
+      - ./data/corpus:/app/data/corpus:ro
+      - ${USERPROFILE}/.cache/huggingface:/root/.cache/huggingface   # reuse models already downloaded on the host
+      - llm_cache:/app/data/llm_cache
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+
+volumes:
+  llm_cache:

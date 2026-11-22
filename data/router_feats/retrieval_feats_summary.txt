@@ -1,0 +1,22 @@
+retrieval features for 1,955 questions in 217s -> data\router_feats\retrieval_feats.jsonl
+same top-5 set as C1 used during labelling: 99.6%   same top-1: 99.9%
+(small differences come from GPU half-precision in the question encoder; below ~90% means the corpus changed)
+
+feature                        mean       sd      min      max
+q_tokens                      2.384    0.446    1.099    3.664
+bm25_top1                    43.838   23.563    6.827  213.479
+bm25_top1_per_tok             4.189    1.426    1.279   11.158
+bm25_gap12                    0.234    0.181    0.000    0.797
+bm25_gap15                    0.372    0.175    0.002    0.847
+dense_top1                    0.607    0.075    0.390    0.831
+dense_gap12                   0.085    0.068    0.000    0.338
+dense_gap15                   0.132    0.071    0.007    0.355
+dense_mean10                  0.488    0.041    0.357    0.733
+agree_top1                    0.612    0.487    0.000    1.000
+overlap5                      0.318    0.209    0.000    1.000
+overlap10                     0.260    0.186    0.000    1.000
+dense_top1_rank_in_bm25       0.937    1.527    0.000    4.615
+hyb_dense_mean5               0.491    0.055    0.322    0.725
+hyb_coherence5                0.486    0.099    0.267    0.901
+cover_top1                    0.569    0.202    0.091    1.000
+cover_top5                    0.796    0.147    0.333    1.000

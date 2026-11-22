@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مساعد الأسئلة العربي</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --fg:#1b1f24; --muted:#6b7280; --accent:#2563eb; --line:#e5e7eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1115; --card:#181b21; --fg:#e6e8eb; --muted:#9aa3af; --accent:#60a5fa; --line:#2a2f37; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 system-ui,"Segoe UI",Tahoma,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 120px; }
+  h1 { font-size:1.3rem; margin:0 0 16px; }
+  .msg { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 16px; margin:12px 0; }
+  .q { border-color:var(--accent); }
+  .meta { color:var(--muted); font-size:.85rem; }
+  details { margin-top:8px; } summary { cursor:pointer; color:var(--muted); font-size:.9rem; }
+  .passage { border-top:1px solid var(--line); padding:8px 0; font-size:.9rem; }
+  form { position:fixed; bottom:0; inset-inline:0; background:var(--bg); border-top:1px solid var(--line); padding:12px 16px; }
+  .row { max-width:760px; margin:0 auto; display:flex; gap:8px; }
+  input { flex:1; padding:10px 12px; font:inherit; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--fg); }
+  button { padding:10px 20px; font:inherit; border:0; border-radius:8px; background:var(--accent); color:#fff; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:wait; }
+</style>
+</head>
+<body>
+<main>
+  <h1>مساعد الأسئلة العربي</h1>
+  <p class="meta">اكتب سؤالك بالفصحى أو بالعامية المصرية.</p>
+  <div id="log"></div>
+</main>
+<form id="f"><div class="row">
+  <input id="q" placeholder="اكتب سؤالك هنا…" autocomplete="off" required maxlength="1000">
+  <button id="b">إرسال</button>
+</div></form>
+<script>
+const log = document.getElementById('log'), f = document.getElementById('f'),
+      q = document.getElementById('q'), b = document.getElementById('b');
+function add(cls, node) { const d = document.createElement('div'); d.className = 'msg ' + cls; d.append(node); log.append(d); d.scrollIntoView({block:'end'}); return d; }
+function text(t) { return document.createTextNode(t); }
+f.addEventListener('submit', async e => {
+  e.preventDefault();
+  const question = q.value.trim(); if (!question) return;
+  q.value = ''; b.disabled = true;
+  add('q', text(question));
+  const pending = add('a', text('جارٍ البحث…'));
+  try {
+    const r = await fetch('/api/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({question})});
+    const d = await r.json();
+    pending.textContent = '';
+    if (!r.ok) { pending.append(text(d.error || 'حدث خطأ')); return; }
+    const ans = document.createElement('div'); ans.textContent = d.answer; pending.append(ans);
+    const meta = document.createElement('div'); meta.className = 'meta';
+    meta.textContent = `${d.dialect === 'egy' ? 'عامية مصرية' : 'فصحى'} · ${d.seconds}s · $${d.usd.toFixed(5)}` + (d.escalated ? ' · بحث متعدد الخطوات' : '');
+    pending.append(meta);
+    const det = document.createElement('details'), s = document.createElement('summary'); s.textContent = 'المصادر وتفاصيل المعالجة';
+    det.append(s);
+    const qq = document.createElement('div'); qq.className = 'meta'; qq.textContent = 'استعلام البحث: ' + d.query; det.append(qq);
+    d.passages.forEach(p => { const x = document.createElement('div'); x.className = 'passage'; x.textContent = p.text; det.append(x); });
+    pending.append(det);
+  } catch (err) { pending.textContent = 'تعذر الاتصال بالخادم'; }
+  finally { b.disabled = false; q.focus(); }
+});
+</script>
+</body>
+</html>

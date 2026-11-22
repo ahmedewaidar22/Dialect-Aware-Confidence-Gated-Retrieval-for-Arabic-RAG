@@ -1,0 +1,19 @@
+EGYPTIAN TEST SET -> data\egy_test\egy_test.jsonl  (145s, LLM spend $0.039)
+
+  ardqa    1167 questions | with an Egyptian marker word  91.3% | auto-flagged 0
+  pilot     200 questions | with an Egyptian marker word  98.5% | auto-flagged 4
+  heldout   300 questions | with an Egyptian marker word  96.7% | auto-flagged 10
+  held-out label mix (MSA outcomes): C0 71, C1 138, C2 34, none 57 | sources: arabicaqa 153, hotpot_ctx_ar 147
+  automatic flags: {'answer not found in context': 4, 'no Egyptian marker word': 10}
+  gold passages missing from the corpus: 0 | held-out questions without gold ids: 0 (both should be 0)
+  (ArDQA/pilot questions were written by people, so a missing marker word there is normal: not every Egyptian question uses one)
+
+YOUR TURN: open data\egy_test\review.csv in Excel. For each row:
+  ok  = y if the Egyptian question (T rows) or the answer (A rows) is right, n if not
+  fix = (optional) the corrected text; leave empty if ok
+Save as CSV, then run:  python scripts/build_egy_testset.py --stage import
+
+REVIEW IMPORTED
+  translation  checked  98 | correct as generated 98 (100%, 95% CI 96-100%) | fixed 0 | rejected 0 | left blank 2
+  answer       checked  30 | correct as generated 30 (100%, 95% CI 89-100%) | fixed 0 | rejected 0 | left blank 0
+  rejected items stay in the file but are EXCLUDED from Phase 8 (0)

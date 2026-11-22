@@ -1,0 +1,17 @@
+run trial_mini | generator gpt-4.1-mini (effort -) | judge gpt-4.1-mini | mode cascade | k=5 hybrid
+questions labelled: 30
+spend this run: $0.0238 of $1.00 (new API calls: 96)
+
+source               n       C0       C1       C2     none
+arabicaqa           10    10.0%    70.0%     0.0%    20.0%
+hotpot_ctx_ar       10    30.0%    50.0%    20.0%     0.0%
+mafqa               10    70.0%    10.0%    10.0%    10.0%
+
+per strategy (over the questions where it ran):
+  strategy    ran  correct  avg calls  avg in tok  avg out tok  gold found
+  C0           30    36.7%       1.00         105           11           -
+  C1           19    68.4%       1.00        1386            9       81.6%
+  C2            6    50.0%       1.83        3007           47       66.7%
+
+judge decisions: {'rule': 18, 'llm': 37}
+'gold found' = share of the gold passages that were among the passages the strategy used.

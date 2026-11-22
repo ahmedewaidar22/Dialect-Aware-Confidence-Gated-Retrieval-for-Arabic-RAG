@@ -1,0 +1,9 @@
+# Packages for local work on your own GPU (install PyTorch first, see setup_train.ps1)
+transformers>=4.44
+scikit-learn>=1.4
+numpy
+datasets>=2.20
+pytest
+sentence-transformers>=3.0     # BGE-M3 dense retrieval (Phase 3)
+rank_bm25>=0.2.2               # BM25 lexical retrieval (Phase 3)
+openai>=1.40                   # translation / generation / judging through your API key

@@ -1,0 +1,5 @@
+﻿vs,judge_diff,human_diff,human_lo,human_hi,mcnemar_p
+adaptive_rag,0.14,0.14,0.07,0.215,0.0004
+always_c2,0.01,0.01,-0.055,0.08,0.8854
+router_v1_quality,0.06,0.045,-0.015,0.1,0.1877
+standard_rag,0.135,0.135,0.065,0.205,0.0005
