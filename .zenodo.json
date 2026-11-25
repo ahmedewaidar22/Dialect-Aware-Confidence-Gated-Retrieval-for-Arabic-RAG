@@ -1,0 +1,12 @@
+{
+  "title": "AR-Route: Dialect-Aware, Confidence-Gated Retrieval for Arabic RAG (code)",
+  "description": "Code for the paper 'Dialect-Aware, Confidence-Gated Retrieval for Arabic RAG: When Learned Complexity Routing Fails to Transfer'. Models and corpus: https://doi.org/10.57967/hf/11867. Evaluation data: https://doi.org/10.57967/hf/11866.",
+  "upload_type": "software",
+  "license": "Apache-2.0",
+  "creators": [
+    {"name": "Ahmed Dewaidar ", "affiliation": "Arab Academy for Science, Technology and Maritime Transport (AAST)"},
+    {"name": "Mohamed Shaheen", "affiliation": "Arab Academy for Science, Technology and Maritime Transport (AAST)"},
+    {"name": "Eman AbdelAziz", "affiliation": "Arab Academy for Science, Technology and Maritime Transport (AAST)"}
+  ],
+  "keywords": ["Arabic", "Egyptian Arabic", "retrieval-augmented generation", "dialect", "adaptive retrieval"]
+}
