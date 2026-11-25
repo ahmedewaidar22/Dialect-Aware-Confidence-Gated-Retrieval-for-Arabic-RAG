@@ -1,0 +1,522 @@
+{
+"T001": [
+"egy:held:arabicaqa:dev:1182541",
+"q_egy"
+],
+"T002": [
+"egy:held:arabicaqa:dev:910396",
+"q_egy"
+],
+"T003": [
+"egy:held:arabicaqa:test:1004455",
+"q_egy"
+],
+"T004": [
+"egy:held:arabicaqa:test:1125648",
+"q_egy"
+],
+"T005": [
+"egy:held:arabicaqa:test:1164839",
+"q_egy"
+],
+"T006": [
+"egy:held:arabicaqa:test:1178326",
+"q_egy"
+],
+"T007": [
+"egy:held:arabicaqa:test:1192535",
+"q_egy"
+],
+"T008": [
+"egy:held:arabicaqa:test:1198196",
+"q_egy"
+],
+"T009": [
+"egy:held:arabicaqa:test:664710",
+"q_egy"
+],
+"T010": [
+"egy:held:arabicaqa:test:977598",
+"q_egy"
+],
+"T011": [
+"egy:held:arabicaqa:train:1026448",
+"q_egy"
+],
+"T012": [
+"egy:held:arabicaqa:train:1058215",
+"q_egy"
+],
+"T013": [
+"egy:held:arabicaqa:train:1060496",
+"q_egy"
+],
+"T014": [
+"egy:held:arabicaqa:train:1065155",
+"q_egy"
+],
+"T015": [
+"egy:held:arabicaqa:train:1067759",
+"q_egy"
+],
+"T016": [
+"egy:held:arabicaqa:train:1067929",
+"q_egy"
+],
+"T017": [
+"egy:held:arabicaqa:train:1100936",
+"q_egy"
+],
+"T018": [
+"egy:held:arabicaqa:train:1114061",
+"q_egy"
+],
+"T019": [
+"egy:held:arabicaqa:train:1118161",
+"q_egy"
+],
+"T020": [
+"egy:held:arabicaqa:train:1118460",
+"q_egy"
+],
+"T021": [
+"egy:held:arabicaqa:train:1125972",
+"q_egy"
+],
+"T022": [
+"egy:held:arabicaqa:train:1137997",
+"q_egy"
+],
+"T023": [
+"egy:held:arabicaqa:train:1160057",
+"q_egy"
+],
+"T024": [
+"egy:held:arabicaqa:train:1163872",
+"q_egy"
+],
+"T025": [
+"egy:held:arabicaqa:train:1164226",
+"q_egy"
+],
+"T026": [
+"egy:held:arabicaqa:train:1164790",
+"q_egy"
+],
+"T027": [
+"egy:held:arabicaqa:train:1166846",
+"q_egy"
+],
+"T028": [
+"egy:held:arabicaqa:train:1167334",
+"q_egy"
+],
+"T029": [
+"egy:held:arabicaqa:train:1182786",
+"q_egy"
+],
+"T030": [
+"egy:held:arabicaqa:train:1183406",
+"q_egy"
+],
+"T031": [
+"egy:held:arabicaqa:train:1186655",
+"q_egy"
+],
+"T032": [
+"egy:held:arabicaqa:train:1188485",
+"q_egy"
+],
+"T033": [
+"egy:held:arabicaqa:train:1194563",
+"q_egy"
+],
+"T034": [
+"egy:held:arabicaqa:train:1197372",
+"q_egy"
+],
+"T035": [
+"egy:held:arabicaqa:train:1197840",
+"q_egy"
+],
+"T036": [
+"egy:held:arabicaqa:train:1199913",
+"q_egy"
+],
+"T037": [
+"egy:held:arabicaqa:train:649945",
+"q_egy"
+],
+"T038": [
+"egy:held:arabicaqa:train:652844",
+"q_egy"
+],
+"T039": [
+"egy:held:arabicaqa:train:666646",
+"q_egy"
+],
+"T040": [
+"egy:held:arabicaqa:train:667568",
+"q_egy"
+],
+"T041": [
+"egy:held:arabicaqa:train:676467",
+"q_egy"
+],
+"T042": [
+"egy:held:arabicaqa:train:680811",
+"q_egy"
+],
+"T043": [
+"egy:held:arabicaqa:train:699186",
+"q_egy"
+],
+"T044": [
+"egy:held:arabicaqa:train:918373",
+"q_egy"
+],
+"T045": [
+"egy:held:arabicaqa:train:921848",
+"q_egy"
+],
+"T046": [
+"egy:held:arabicaqa:train:925771",
+"q_egy"
+],
+"T047": [
+"egy:held:arabicaqa:train:929353",
+"q_egy"
+],
+"T048": [
+"egy:held:arabicaqa:train:931923",
+"q_egy"
+],
+"T049": [
+"egy:held:arabicaqa:train:958637",
+"q_egy"
+],
+"T050": [
+"egy:held:arabicaqa:train:987020",
+"q_egy"
+],
+"T051": [
+"egy:held:arabicaqa:train:998362",
+"q_egy"
+],
+"T052": [
+"egy:held:hotpot_ctx:5a7134ef5542994082a3e668",
+"q_egy"
+],
+"T053": [
+"egy:held:hotpot_ctx:5a7321c35542992359bc323e",
+"q_egy"
+],
+"T054": [
+"egy:held:hotpot_ctx:5a73619655429901807db01b",
+"q_egy"
+],
+"T055": [
+"egy:held:hotpot_ctx:5a7767265542993569682d7f",
+"q_egy"
+],
+"T056": [
+"egy:held:hotpot_ctx:5a77cca95542995d831812e8",
+"q_egy"
+],
+"T057": [
+"egy:held:hotpot_ctx:5a7a600155429941d65f25ee",
+"q_egy"
+],
+"T058": [
+"egy:held:hotpot_ctx:5a7b524c5542995eb53be912",
+"q_egy"
+],
+"T059": [
+"egy:held:hotpot_ctx:5a7ba4de554299294a54aa53",
+"q_egy"
+],
+"T060": [
+"egy:held:hotpot_ctx:5a7dd0875542990b8f503ac4",
+"q_egy"
+],
+"T061": [
+"egy:held:hotpot_ctx:5a80c65f55429938b61421d4",
+"q_egy"
+],
+"T062": [
+"egy:held:hotpot_ctx:5a80d3d4554299260e20a17d",
+"q_egy"
+],
+"T063": [
+"egy:held:hotpot_ctx:5a8505855542997175ce1f72",
+"q_egy"
+],
+"T064": [
+"egy:held:hotpot_ctx:5a85cf2e5542997175ce2033",
+"q_egy"
+],
+"T065": [
+"egy:held:hotpot_ctx:5a86109b5542996432c57189",
+"q_egy"
+],
+"T066": [
+"egy:held:hotpot_ctx:5a8de99d5542995a26add44b",
+"q_egy"
+],
+"T067": [
+"egy:held:hotpot_ctx:5a8f43035542997ba9cb3203",
+"q_egy"
+],
+"T068": [
+"egy:held:hotpot_ctx:5a90655055429933b8a20514",
+"q_egy"
+],
+"T069": [
+"egy:held:hotpot_ctx:5ab25b9f5542993be8fa98e1",
+"q_egy"
+],
+"T070": [
+"egy:held:hotpot_ctx:5ab2a1a1554299194fa9348e",
+"q_egy"
+],
+"T071": [
+"egy:held:hotpot_ctx:5ab2bdcd554299194fa934dc",
+"q_egy"
+],
+"T072": [
+"egy:held:hotpot_ctx:5ab3c0d255429969a97a81ad",
+"q_egy"
+],
+"T073": [
+"egy:held:hotpot_ctx:5ab5141a5542991779162d70",
+"q_egy"
+],
+"T074": [
+"egy:held:hotpot_ctx:5ab5e84e5542992aa134a3d7",
+"q_egy"
+],
+"T075": [
+"egy:held:hotpot_ctx:5ab7af445542992aa3b8c834",
+"q_egy"
+],
+"T076": [
+"egy:held:hotpot_ctx:5ab7b82755429928e1fe389f",
+"q_egy"
+],
+"T077": [
+"egy:held:hotpot_ctx:5abbb4185542992ccd8e7f75",
+"q_egy"
+],
+"T078": [
+"egy:held:hotpot_ctx:5abc38ba554299700f9d782a",
+"q_egy"
+],
+"T079": [
+"egy:held:hotpot_ctx:5abd18be55429924427fcef5",
+"q_egy"
+],
+"T080": [
+"egy:held:hotpot_ctx:5abdc0275542993f32c2a04c",
+"q_egy"
+],
+"T081": [
+"egy:held:hotpot_ctx:5ac120f0554299294b2190b0",
+"q_egy"
+],
+"T082": [
+"egy:held:hotpot_ctx:5ac1326b55429964131be179",
+"q_egy"
+],
+"T083": [
+"egy:held:hotpot_ctx:5ac1933b55429964131be237",
+"q_egy"
+],
+"T084": [
+"egy:held:hotpot_ctx:5ac2c4255542990b17b1548f",
+"q_egy"
+],
+"T085": [
+"egy:held:hotpot_ctx:5ac415395542997ea680c9f5",
+"q_egy"
+],
+"T086": [
+"egy:held:hotpot_ctx:5ac509215542996feb3fe9d7",
+"q_egy"
+],
+"T087": [
+"egy:held:hotpot_ctx:5ac5235a55429924173fb5f9",
+"q_egy"
+],
+"T088": [
+"egy:held:hotpot_ctx:5adc602555429947ff17393d",
+"q_egy"
+],
+"T089": [
+"egy:held:hotpot_ctx:5adcc3855542994d58a2f6c3",
+"q_egy"
+],
+"T090": [
+"egy:held:hotpot_ctx:5adce6dc5542992c1e3a2488",
+"q_egy"
+],
+"T091": [
+"egy:held:hotpot_ctx:5ade207a5542997c77aded5e",
+"q_egy"
+],
+"T092": [
+"egy:held:hotpot_ctx:5adecff95542993344016b9c",
+"q_egy"
+],
+"T093": [
+"egy:held:hotpot_ctx:5adfe24b55429925eb1afaf2",
+"q_egy"
+],
+"T094": [
+"egy:held:hotpot_ctx:5ae0e5b655429945ae95948b",
+"q_egy"
+],
+"T095": [
+"egy:held:hotpot_ctx:5ae0fdf15542997b2ef7d0d1",
+"q_egy"
+],
+"T096": [
+"egy:held:hotpot_ctx:5ae1cfbf554299234fd04308",
+"q_egy"
+],
+"T097": [
+"egy:held:hotpot_ctx:5ae4843f5542996836b02cc1",
+"q_egy"
+],
+"T098": [
+"egy:held:hotpot_ctx:5ae50e4f5542990ba0bbb1b0",
+"q_egy"
+],
+"T099": [
+"egy:held:hotpot_ctx:5ae5feab554299546bf83006",
+"q_egy"
+],
+"T100": [
+"egy:held:hotpot_ctx:5ae762385542995703ce8c02",
+"q_egy"
+],
+"A001": [
+"egy:pilot:q003",
+"answer"
+],
+"A002": [
+"egy:pilot:q012",
+"answer"
+],
+"A003": [
+"egy:pilot:q023",
+"answer"
+],
+"A004": [
+"egy:pilot:q025",
+"answer"
+],
+"A005": [
+"egy:pilot:q047",
+"answer"
+],
+"A006": [
+"egy:pilot:q064",
+"answer"
+],
+"A007": [
+"egy:pilot:q066",
+"answer"
+],
+"A008": [
+"egy:pilot:q067",
+"answer"
+],
+"A009": [
+"egy:pilot:q075",
+"answer"
+],
+"A010": [
+"egy:pilot:q087",
+"answer"
+],
+"A011": [
+"egy:pilot:q095",
+"answer"
+],
+"A012": [
+"egy:pilot:q097",
+"answer"
+],
+"A013": [
+"egy:pilot:q100",
+"answer"
+],
+"A014": [
+"egy:pilot:q102",
+"answer"
+],
+"A015": [
+"egy:pilot:q109",
+"answer"
+],
+"A016": [
+"egy:pilot:q110",
+"answer"
+],
+"A017": [
+"egy:pilot:q121",
+"answer"
+],
+"A018": [
+"egy:pilot:q122",
+"answer"
+],
+"A019": [
+"egy:pilot:q139",
+"answer"
+],
+"A020": [
+"egy:pilot:q140",
+"answer"
+],
+"A021": [
+"egy:pilot:q144",
+"answer"
+],
+"A022": [
+"egy:pilot:q154",
+"answer"
+],
+"A023": [
+"egy:pilot:q156",
+"answer"
+],
+"A024": [
+"egy:pilot:q170",
+"answer"
+],
+"A025": [
+"egy:pilot:q178",
+"answer"
+],
+"A026": [
+"egy:pilot:q179",
+"answer"
+],
+"A027": [
+"egy:pilot:q187",
+"answer"
+],
+"A028": [
+"egy:pilot:q189",
+"answer"
+],
+"A029": [
+"egy:pilot:q196",
+"answer"
+],
+"A030": [
+"egy:pilot:q198",
+"answer"
+]
+}

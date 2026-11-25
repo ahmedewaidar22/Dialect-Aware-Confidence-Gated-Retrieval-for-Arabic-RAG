@@ -1,0 +1,840 @@
+﻿eval_set,build_set,kind,variant,score,eval_id,eval_text,build_id,build_text,same_question (y/n)
+test_ardqa,dialect_dev_ardqa,exact,msa,1.0,egy:ardqa:0eda3279ed11,كم كمية معجون الطماطم؟,ardqa:vlogs:dev:248ee62479fa:glf,كم كمية معجون الطماطم؟,y
+test_ardqa,dialect_dev_ardqa,exact,msa,1.0,egy:ardqa:ceeb9c2c015a,ما هي التوابل المستخدمة؟,ardqa:vlogs:dev:2875cb4d836a:msa,ما هي التوابل المستخدمة؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1026448,ما هي تركيبة سكانية كوفنتري؟,arabicaqa:train:1026448,ما هي تركيبة سكانية كوفنتري؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1118161,كيف تم تنظيم الدوري الفلسطيني الممتاز عام 1945؟,arabicaqa:train:1118161,كيف تم تنظيم الدوري الفلسطيني الممتاز عام 1945؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1118460,أين ولد أحمد محمد الحسن ؟,arabicaqa:train:1118460,أين ولد أحمد محمد الحسن ؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1124632,في أي مناسبة دولية شارك دي جافو؟,arabicaqa:train:1124632,في أي مناسبة دولية شارك دي جافو؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1160057,لماذا أستعان الدامرجي بشركة مصرية لبناء العمارة؟,arabicaqa:train:1160057,لماذا أستعان الدامرجي بشركة مصرية لبناء العمارة؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1161933,"من قام بكتابة النص وإخراج فيلم ""جمال أسود""؟",arabicaqa:train:1161933,"من قام بكتابة النص وإخراج فيلم ""جمال أسود""؟",y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1167591,من هو مات كربون؟,arabicaqa:train:1167591,من هو مات كربون؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1169283,أين ولد فرانكو كوستانزو؟,arabicaqa:train:1169283,أين ولد فرانكو كوستانزو؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1169355,من هو كارلوس ريكالدي؟,arabicaqa:train:1169355,من هو كارلوس ريكالدي؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1183770,ما هو كلوبينثيكسول؟,arabicaqa:train:1183770,ما هو كلوبينثيكسول؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1184250,ما هو تعريف كسوف الشمس؟,arabicaqa:train:1170719,ما هو تعريف كسوف الشمس ؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1184913,ما هي الأغنية الأولى التي أخرجها إينار ؟,arabicaqa:train:1184913,ما هي الأغنية الأولى التي أخرجها إينار ؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:1188268,متي بدأ الأنتاج؟,arabicaqa:train:1188268,متي بدأ الأنتاج؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:649945,اذكر ما هو المنطق ل الفارابي ؟,arabicaqa:train:649945,اذكر ما هو المنطق ل الفارابي ؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:652844,ما مميزات فتره هوجو ؟,arabicaqa:train:652844,ما مميزات فتره هوجو ؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:666646,ما هي العاصمة وأكبر مدينة في أوزبكستان؟,arabicaqa:train:666646,ما هي العاصمة وأكبر مدينة في أوزبكستان؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:676467,من هم حكام المماليك البرجية؟,arabicaqa:train:676467,من هم حكام المماليك البرجية؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:686933,ما هي اللغة الرسمية التي تحدث بها المروانيون؟,arabicaqa:train:686933,ما هي اللغة الرسمية التي تحدث بها المروانيون؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:699866,متي اصدرت أغنيثا فلتسكوغ أول أغنية لها؟,arabicaqa:train:699866,متي اصدرت أغنيثا فلتسكوغ أول أغنية لها؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:918241,ما هي البلدة التي أهداها ليوناردو الملك فرانسوا الأول فيها منزلاً؟,arabicaqa:train:918241,ما هي البلدة التي أهداها ليوناردو الملك فرانسوا الأول فيها منزلاً؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:918373,ما هي التدابير التي اتخذتها الحكومة لإحباط المظاهرات المحتملة؟,arabicaqa:train:918373,ما هي التدابير التي اتخذتها الحكومة لإحباط المظاهرات المحتملة؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:922775,ما هي الدول التي تحدها سريلانكا بحدود بحرية؟,arabicaqa:train:922775,ما هي الدول التي تحدها سريلانكا بحدود بحرية؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:927146,ما هي أهم الشركات والمؤسسات المتمركزة في بريمن؟,arabicaqa:train:927146,ما هي أهم الشركات والمؤسسات المتمركزة في بريمن؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:929353,ما هي أهداف الجيش الأحمر الياباني؟,arabicaqa:train:929353,ما هي أهداف الجيش الأحمر الياباني؟,y
+test_heldout,complexity_train,exact,msa,1.0,egy:held:arabicaqa:train:929383,ما هي أختام كرمة؟,arabicaqa:train:929383,ما هي أختام كرمة؟,y
+confirm_arabicaqa,complexity_train,exact,msa,1.0,confirm2:arabicaqa:test:1103167,من هو مخرج فيلم من الصعب أن تكون إلها ؟,arabicaqa:train:1103164,من هو مخرج فيلم من الصعب أن تكون إلها؟,y
+confirm_arabicaqa,complexity_train,exact,msa,1.0,confirm2:arabicaqa:test:1182528,متي ظهرت الشخصية لأول مرة ؟,arabicaqa:train:1182895,متي ظهرت الشخصية لأول مرة؟,y
+confirm_arabicaqa,complexity_train,exact,msa,1.0,confirm2:arabicaqa:test:1193635,من هو مخرج المسلسل؟,arabicaqa:train:1192139,من هو مخرج المسلسل,y
+confirm_arabicaqa,complexity_train,exact,msa,1.0,confirm2:arabicaqa:test:1186997,متى تم عرض الفيلم؟,arabicaqa:train:1183894,متي تم عرض الفيلم؟,y
+confirm_arabicaqa,complexity_train,exact,msa,1.0,confirm2:arabicaqa:test:1158817,من هو مخرج وكاتب الفيلم ؟,arabicaqa:train:1179322,من هو مخرج وكاتب الفيلم؟,y
+test_heldout,complexity_dev,exact,msa,1.0,egy:held:arabicaqa:dev:1163570,ما هو دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,arabicaqa:dev:1163570,ما هو دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,y
+test_heldout,complexity_dev,exact,msa,1.0,egy:held:arabicaqa:dev:678739,ما هي أهمية ميشيغان في الإبحار الترفيهي؟,arabicaqa:dev:678739,ما هي أهمية ميشيغان في الإبحار الترفيهي؟,y
+test_heldout,complexity_dev,exact,msa,1.0,egy:held:arabicaqa:dev:998826,ما هي الصفات الفاصلة التي يتم الاستشهاد بها في المؤلفات العلمية لتصنيف المواد الفوقية؟,arabicaqa:dev:998826,ما هي الصفات الفاصلة التي يتم الاستشهاد بها في المؤلفات العلمية لتصنيف المواد الفوقية؟,y
+test_pilot,router_labels,exact,msa,1.0,egy:pilot:q079,ما هي عاصمة المملكة العربية السعودية؟,arabicaqa:dev:916485,ما هي عاصمة المملكة العربية السعودية؟,y
+test_ardqa,calibration_667,exact,egy,1.0,egy:ardqa:604e34a50f04,إيه النتيجة النهائية للقصة؟,egy:ardqa:bfd0b189fd41#egy,إيه النتيجة النهائية للقصة؟,y
+test_ardqa,calibration_667,exact,msa,1.0,egy:ardqa:604e34a50f04,ما النتيجة النهائية للقصة؟,egy:ardqa:bfd0b189fd41,ما النتيجة النهائية للقصة؟,y
+test_ardqa,calibration_667,exact,egy,1.0,egy:ardqa:b1c1e87980f6,رد فعل الست العجوزة كان إيه على كلام الديك؟,egy:ardqa:c8b1bc0517c1#egy,رد فعل الست العجوزة كان إيه على كلام الديك؟,y
+test_ardqa,calibration_667,exact,egy,1.0,egy:ardqa:0eda3279ed11,كام كمية معجون الطماطم؟,egy:ardqa:e3b3be69f0ad#egy,كام كمية معجون الطماطم؟,y
+test_ardqa,calibration_667,exact,msa,1.0,egy:ardqa:0eda3279ed11,كم كمية معجون الطماطم؟,egy:ardqa:e3b3be69f0ad,كم كمية معجون الطماطم؟,y
+test_ardqa,calibration_667,exact,egy,1.0,egy:ardqa:44f4150d8ff1,احنا فين دلوقتي؟,egy:ardqa:a5059fe71f37#egy,إحنا فين دلوقتي؟,y
+test_ardqa,calibration_667,exact,msa,1.0,egy:ardqa:44f4150d8ff1,أين نحن الآن؟,egy:ardqa:a5059fe71f37,أين نحن الآن؟,y
+test_ardqa,calibration_667,exact,egy,1.0,egy:ardqa:a551b703f044,إيه التوابل المستخدمة حسب الرغبة؟,egy:ardqa:e25a6cc3dbf0#egy,إيه التوابل المستخدمة حسب الرغبة؟,y
+test_ardqa,calibration_667,exact,msa,1.0,egy:ardqa:a551b703f044,ما هي التوابل المستخدمة حسب الذوق؟,egy:ardqa:e25a6cc3dbf0,ما هي التوابل المستخدمة حسب الذوق؟,y
+test_pilot,dialect_train,near,egy,1.0,egy:pilot:q158,الحرب العالمية الاولى بدات امتى؟,arabicragb:test:469,إمتى بدأت الحرب العالمية الأولى؟,y
+test_ardqa,calibration_667,near,egy,0.956,egy:ardqa:3afcaeb8b5f6,ايه اللي موجود في القطب الشمالي ومش موجود في القارة القطبية الجنوبية؟,egy:ardqa:c9bb980f467e#egy,ايه اللي موجود في القارة القطبية الجنوبية ومش موجود في القطب الشمالي؟,n
+test_ardqa,calibration_667,near,msa,0.953,egy:ardqa:3afcaeb8b5f6,ماذا يوجد في القطب الشمالي ولا يوجد في القارة القطبية الجنوبية؟,egy:ardqa:c9bb980f467e,ماذا يوجد في القارة القطبية الجنوبية ولا يوجد في القطب الشمالي؟,n
+test_pilot,dialect_dev,near,egy,0.926,egy:pilot:q064,مقر جامعة الدول العربية فين؟,arabicragb:train:3287,فين مقر جامعة الدول العربية؟,y
+test_pilot,dialect_train,near,msa,0.9,egy:pilot:q158,متى بدأت الحرب العالمية الأولى؟,arabicragb:test:469,إمتى بدأت الحرب العالمية الأولى؟,y
+test_ardqa,calibration_667,near,egy,0.891,egy:ardqa:6cb09a4b4593,اعتبارا من سنة 2011، كان عدد سكان قلب لندن قد إيه؟,egy:ardqa:1f5977cb2e01#egy,اعتبارا من سنة 2011، كان عدد سكان لندن قد إيه؟,n
+test_heldout,complexity_dev,near,egy,0.875,egy:held:arabicaqa:dev:1163570,إيه دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,arabicaqa:dev:1163570,ما هو دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,y
+test_ardqa,calibration_667,near,egy,0.867,egy:ardqa:c6bb210cc4ca,كام كمية الثوم المبشور المستخدمة؟,egy:ardqa:abe128dcf158,كم كمية الثوم المبشور المستخدمة؟,y
+confirm_arabicaqa,complexity_train,near,egy,0.857,confirm2:arabicaqa:test:1171591,كام عدد الأحداث في دورة ساروس 134؟,arabicaqa:train:1176344,كم عدد الأحداث في دورة ساروس 134؟,y
+test_ardqa,calibration_667,near,msa,0.857,egy:ardqa:6cb09a4b4593,اعتبارا من عام 2011، ما كان عدد سكان قلب لندن؟,egy:ardqa:1f5977cb2e01,اعتبارا من عام 2011، ما كان عدد سكان لندن؟,n
+confirm_arabicaqa,complexity_train,near,msa,0.854,confirm2:arabicaqa:test:1167024,متى سيحدث الكسوف الكلي للشمس في عام 2023؟,arabicaqa:train:1175164,متى سيحدث الكسوف الكلي للشمس في عام 2057؟,n
+confirm_arabicaqa,complexity_train,near,msa,0.85,confirm2:arabicaqa:test:1178334,متى سيحدث كسوف جزئي للشمس في عام 2069 ؟,arabicaqa:train:1179566,متى سيحدث كسوف جزئي للشمس في عام 2072؟,n
+test_ardqa,dialect_dev_ardqa,semantic,msa,1.0,egy:ardqa:0eda3279ed11,كم كمية معجون الطماطم؟,ardqa:vlogs:dev:248ee62479fa:glf,كم كمية معجون الطماطم؟,y
+test_ardqa,dialect_dev_ardqa,semantic,msa,1.0,egy:ardqa:ceeb9c2c015a,ما هي التوابل المستخدمة؟,ardqa:vlogs:dev:2875cb4d836a:msa,ما هي التوابل المستخدمة؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1026448,ما هي تركيبة سكانية كوفنتري؟,arabicaqa:train:1026435,أين تقع؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1033868,ما هي أعلى قمة جبل في الهيمالايا؟,arabicaqa:train:1033869,أين تقع الهيمالايا؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1043104,كم يبلغ ارتفاع هايلاند بارك عن سطح البحر؟,arabicaqa:train:1043120,ما هو العمر الوسطي للسكان في هايلاند بارك؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1054740,ما هي مساحة داوفين السكنية؟,arabicaqa:train:1054739,في أي ولاية تقع منطقة داوفين السكنية؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1058215,ما ارتفاع بيكشور روكز عن سطح البحر؟,arabicaqa:train:1058229,ما نسبة الأسر في بيكشور روكز التي تتألف من عدة أفراد يعيشون في نفس المنزل؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1060496,ما هو عدد سكان فرانكفورت سكوير في عام 2010؟,arabicaqa:train:1060511,ما هي نسبة الأسر التي لديها معيلون من الذكور دون وجود شريكة في فرانكفورت سكوير؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1062491,من هو ناثان مايكل كولينز؟,arabicaqa:train:1062492,متى ولد ناثان مايكل كولينز؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1064216,كم استغرق وقت تأليف الكتاب؟,arabicaqa:train:1064217,كم عدد المجلدات التي تألف منها الكتاب؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1065155,ما هي اللقب الذي يكنى به المبارك بن أبي الفتح الدينوري؟,arabicaqa:train:1065154,في أي مدينة ولد المبارك بن أبي الفتح الدينوري؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1066739,من هو شيخه العظيم الذي تلقى العلوم الدينية منه؟,arabicaqa:train:1066741,ما هي العلوم التي درسها أحمد بن عمر الشاطري؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1067759,ما هي الصفات السلبية التي يشير إليها مصطلح التبرير المجتمعي؟,arabicaqa:train:1067761,ما هو اهتمام نظرية العدالة الإلهية في علم اللاهوت؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1068674,متي تم هزيمه المانيا ؟,arabicaqa:train:1068671,من قام بتصميم وتصنيع Z4؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1068748,من هي ويلما لويز سكوت هايدي؟,arabicaqa:train:1068756,وفي أي ولاية أمريكية ولدت هايدي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1081087,ما هي عملية ومبوشو؟,arabicaqa:train:1081089,ما هو الهدف من عملية ومبوشو؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1092955,ما هي الجامعات التي تم تخرج طلاب منها في معهد طشقند الإسلامي؟,arabicaqa:train:1092950,ما هو اسم المؤسسة التعليمية الدينية في طشقند؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1093292,ما هي بعض الجماعات القومية والدينية المتواجدة في القدس؟,arabicaqa:train:1093294,ما هي بعض التقديرات لأعداد السكان في القدس عبر التاريخ؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1100749,"ما هي المسافة التقريبية بين الأرض ونجم ""دلتا وحيد القرن""؟",arabicaqa:train:1100751,"ما هي كتلة النجم الفرعي الأكثر تطورًا من ""دلتا وحيد القرن""؟",n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1100936,لماذا تُعتبر البرمجيات الحرة مضادة للتنافس؟,arabicaqa:train:1100933,ما هي السلع المضادة للتنافس؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1112142,من فاز بالمركز الثالث في طواف النرويج للسيدات 2015؟,arabicaqa:train:1112135,ما هو طواف النرويج للسيدات؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1114061,متى اندلعت معركة ترافالغار؟,arabicaqa:train:1114062,ما الهدف من انسحاب أسراب الحصار البريطانية إلى الميناء؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1114265,"كيف ذكر اسم ""ميلا"" في الشعر؟",arabicaqa:train:1114263,"ما معني أسم ""ميلا"" في اللغة الروسية؟",n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1117898,متي توفي أبو العباس عبد الله بن أحمد التميمي؟,arabicaqa:train:1117893,ما هي المناصب التي شغلها أبو العباس عبد الله بن أحمد التميمي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1118161,كيف تم تنظيم الدوري الفلسطيني الممتاز عام 1945؟,arabicaqa:train:1118161,كيف تم تنظيم الدوري الفلسطيني الممتاز عام 1945؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1118460,أين ولد أحمد محمد الحسن ؟,arabicaqa:train:1118456,ما هو المنصب الذي شغله بمعهد الأمراض المتوطنة في جامعة الخرطوم؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1119621,كم نسبة النساء التي حصلت في العام الدراسي علي درجة البكالوريوس؟,arabicaqa:train:1119618,كم نسبة النساء التي حصلت في العام الدراسي علي درجة الزمالة؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1119738,ما هو المؤتمر الذي شاركت فيه مجموعة من الناشطات الإسرائيليات والفلسطينيات في عام 1989؟,arabicaqa:train:1119733,"ما هي ""بات شالوم"" وما عضويتها في تحالف المرأة من أجل السلام؟",n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1124632,في أي مناسبة دولية شارك دي جافو؟,arabicaqa:train:1124625,أين ولد لوران مايابا دي جافو؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1125972,ما هي الألعاب غير الرسمية التي نشأت؟,arabicaqa:train:1125967,متى بدأ انتشار ألعاب الهاتف المحمول؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1137402,في أي مدينة يقع معهد البروسي الرئيسي كاديت؟,arabicaqa:train:1137400,ما هومعهد البروسي الرئيسي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1138379,ما هي وصف إليزابيث فيغ لو برون لشكل لويزا؟,arabicaqa:train:1138380,ما هي الأحداث التي أعقبت نفي لويزا وفرديناند؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1139162,ما هو سبب بداية هذه الأعمال؟,arabicaqa:train:1139189,هل حدثت أي حوادث خطيرة خلال هذه الأحداث؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1139700,من أسس لوسواغ إيكو ومتى؟,arabicaqa:train:1139703,متى توقفت لوسواغ إيكو عن النشر ولماذا؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1142633,ما هي مهنة إزميرالدا بيمنتل؟,arabicaqa:train:1142636,حيث تعيش حاليًا إزميرالدا بيمنتل؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1142810,ما هي رمي القفازات؟,arabicaqa:train:1142818,علي أي منصة تم عرض حلقة رمي القفازات خارج الولايات المتحدة؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1160057,لماذا أستعان الدامرجي بشركة مصرية لبناء العمارة؟,arabicaqa:train:1160062,ما هي القصة الشعبية المرتبطة بعمارة الدامرجي ولماذا أصبحت مثالاً في الخيال الشعبي البغدادي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1161393,ما هو الهاتف الأول الذي اخترعه الكسندر غراهام بيل وفي أي سنة؟,arabicaqa:train:1161378,متى تم افتتاح متحف الاتصالات؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1161933,"من قام بكتابة النص وإخراج فيلم ""جمال أسود""؟",arabicaqa:train:1161933,"من قام بكتابة النص وإخراج فيلم ""جمال أسود""؟",y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1163872,من هو رين شين؟,arabicaqa:train:1163875,متي ولد رين شين؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1164226,مع أي نوادي لعب ستيفن مارتينسن خلال مسيرته الرياضية؟,arabicaqa:train:1164223,في أي مركز يلعب ستيفن مارتينسن في كرة القدم؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1164790,كم نسبة القمر التي تمت مغاطاتها بظل الأرض أثناء الخسوف الجزئي في 26 يونيو 2010؟,arabicaqa:train:1164793,متى كان الكسوف الكلي النهائي لسلسلة الخسوف؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1166846,أين يحدث كسوف جزئي للشمس ؟,arabicaqa:train:1166848,ما هو الكسوف الأول في هذا الموسم ؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1166974,متى وجد الإنسان الحديث تشريحيًا في شمال إفريقيا؟,arabicaqa:train:1166979,ما هو دور مناخ الصحراء الكبرى في تأثير الاستيطان البشري في شمال إفريقيا؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1167334,من هي راجحة بنت عبد الأمير بن علي اللواتي؟,arabicaqa:train:1167343,متى توفيت راجحة بنت عبد الأمير وما هو سبب وفاتها؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1167591,من هو مات كربون؟,arabicaqa:train:1167591,من هو مات كربون؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1168020,متي اشترى له شقيقه أول آلة تصوير؟,arabicaqa:train:1168018,ما هو مجال لطيف العاني؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1168160,من هم نجوم فيلم وهبتك حياتي؟,arabicaqa:train:1168158,من هو المخرج لفيلم وهبتك حياتي ؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1169283,أين ولد فرانكو كوستانزو؟,arabicaqa:train:1169283,أين ولد فرانكو كوستانزو؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1169355,من هو كارلوس ريكالدي؟,arabicaqa:train:1169357,ما هو مركز اللاعب كارلوس ريكالدي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1179588,أين درس فوزي منيب؟,arabicaqa:train:1179594,متي توفي فوزي منيب؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1179990,"ما هو مسلسل ""محاصر""؟",arabicaqa:train:1180004,"في أي بلد تم إنتاج مسلسل ""محاصر""؟",n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1181857,ما هو القطر الظاهر للشمس خلال الحد الأقصى للكسوف؟,arabicaqa:train:1181858,ما هي الدورة الكسوفية التي ينتمي إليها هذا الكسوف؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1182786,من هي ابنة شقيق الكاتب المسرحي الأمريكي جورج كيلي؟,arabicaqa:train:1182783,من هو كاتب مسرحية زوجة كريج ؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1183406,في أي مركز كان يلعب جيمي دوغديل في كرة القدم؟,arabicaqa:train:1183408,في أي تاريخ توفي جيمي دوغديل؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1183770,ما هو كلوبينثيكسول؟,arabicaqa:train:1183770,ما هو كلوبينثيكسول؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1184250,ما هو تعريف كسوف الشمس؟,arabicaqa:train:1184255,ما هي سلسلة تريتوس؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1184913,ما هي الأغنية الأولى التي أخرجها إينار ؟,arabicaqa:train:1184913,ما هي الأغنية الأولى التي أخرجها إينار ؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1186655,ما هو مركز اللاعب ماريو مايستوروفيتش؟,arabicaqa:train:1186654,من هو ماريو مايستوروفيتش؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1188268,متي بدأ الأنتاج؟,arabicaqa:train:1188268,متي بدأ الأنتاج؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1188944,ما هي الجائزة التي حصل عليها عبد الحق نجيب في 18 أكتوبر 2017؟,arabicaqa:train:1188941,في أي سنة ولد عبد الحق نجيب؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1189517,ما هي أبرز السباقات التي شارك فيها مشرف وحقق فيها الفوز؟,arabicaqa:train:1189511,من هو مالك الحصان مشرف؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1189578,ما هو المركز الذي يلعب فيه خافي مارتينيز في كرة القدم؟,arabicaqa:train:1189582,من هو خافي مارتينيز؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1192346,ما هي محطة القطار في كريات حاييم؟,arabicaqa:train:1192349,كم عدد السكك الحديدية في المحطة؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1192844,متي ولد أغوستين كانو؟,arabicaqa:train:1192841,من هو أغوستين كانو؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1194563,ما هي المحكمة التي نظرت في القضية التي رفعتها عائلات الضحايا الأمريكيين ضد إيران؟,arabicaqa:train:1194561,ما هي القضية التي رفعتها عائلات الضحايا الأمريكيين ضد إيران؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1197191,ماهي عصا الساحر؟,arabicaqa:train:1197192,ما هو شكل وتصميم عصا الساحر في العصر الحديث؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1197372,متي ولد لاجوس دوناي؟,arabicaqa:train:1197369,من هو لاجوس دوناي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1197840,أين ولد ابراهيم حسن ناصر ؟,arabicaqa:train:1197837,من هو ابراهيم حسن ناصر ؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1198142,ما هو الأسم المعروفة به ليتيسيا كاليجاس باوتيستا؟,arabicaqa:train:1198141,من هي ليتيسيا كاليجاس باوتيستا؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:1199913,كم تبلغ نسبة ملكية صندوق تقاعد الموظفين التابع لحكومة جنوب أفريقيا في فوداكوم؟,arabicaqa:train:1199911,ما هي القيمة السوقية الحالية لشركة فوداكوم؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:649945,اذكر ما هو المنطق ل الفارابي ؟,arabicaqa:train:649936,من هو ابن خلكان؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:650721,من هو أحمد ياسين وما هي دوره في تحويل الإخوان المسلمين إلى المنظمات الإسلامية المنخرطة في السياسة الفلسطينية؟,arabicaqa:train:650780,من هو خالد مشعل وماذا حدث معه في الأردن؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:652844,ما مميزات فتره هوجو ؟,arabicaqa:train:652440,ماذا سمي حكومه كاماكورا جدايّ ؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:659015,ما هي الملوثات الرئيسية غير محددة المصدر التي تساهم في الانجراف المائي للأنظمة البيئية المائية وتلوث المياه الجوفية؟,arabicaqa:train:653415,ما هي الزراعة وما هي عملياتها؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:666646,ما هي العاصمة وأكبر مدينة في أوزبكستان؟,arabicaqa:train:666646,ما هي العاصمة وأكبر مدينة في أوزبكستان؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:667568,ما هو قانون الجذب العام؟,arabicaqa:train:667565,من أول من وضع نظرية للجاذبية؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:674699,ما هي العملية التي يتم فيها رمي حفنة من الملح فوق الحلبة قبل النزال؟,arabicaqa:train:674700,ما هي هدف النزال في رياضة السومو؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:676467,من هم حكام المماليك البرجية؟,arabicaqa:train:676492,من هم السلاطين والأمراء المسلمين الذين حكموا تحت الراية العباسية؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:680811,وما هي أغراضها؟,arabicaqa:train:680823,ما هي نصوص الأهرام؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:686933,ما هي اللغة الرسمية التي تحدث بها المروانيون؟,arabicaqa:train:686941,ما هي الفترة التي بدأ فيها الأمراء المروانيون بالتناحر؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:699186,متى سيطرت مملكة كوش على مصر؟,arabicaqa:train:698537,ما هي المساحة الإجمالية للسودان؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:699866,متي اصدرت أغنيثا فلتسكوغ أول أغنية لها؟,arabicaqa:train:699882,"لماذا أشترك الرباعي في مسابقة أغاني الأوروبية ""يوروفيجن""؟",n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:910532,ما هو طائر الجانجنيهيسو؟,arabicaqa:train:910529,متى تم تقدير فترة حكم جانجنيهيسو؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:912969,ما هو موقع البرتغال في أوروبا؟,arabicaqa:train:912973,من هم الشعوب التي سيطرت على المنطقة بعد سقوط الإمبراطورية الرومانية؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:914241,ما هو تاريخ يوم 6 / 11 ؟,arabicaqa:train:914242,ما هو ترتيب يوم 6 / 11 في السنوات البسيطة؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:918241,ما هي البلدة التي أهداها ليوناردو الملك فرانسوا الأول فيها منزلاً؟,arabicaqa:train:918229,ما هي بعض الاختراعات والإنجازات العلمية التي اشتهر بها ليوناردو دا فينشي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:918373,ما هي التدابير التي اتخذتها الحكومة لإحباط المظاهرات المحتملة؟,arabicaqa:train:918374,كم مرة حدثت مثل هذه الاضطرابات في بيليز؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:921848,من هو الشخص الأول الذي وصل إلى برمودا؟,arabicaqa:train:921846,ما هو موقع برمودا في المحيط الأطلسي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:922775,ما هي الدول التي تحدها سريلانكا بحدود بحرية؟,arabicaqa:train:922771,ما هي الحدود البحرية لسريلانكا؟,y
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:925771,ما هي الأسماء التي استخدمتها الدول الأجنبية للإشارة إلى أنقرة؟,arabicaqa:train:925762,ما هو تاريخ تسمية مدينة أنقرة؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:927146,ما هي أهم الشركات والمؤسسات المتمركزة في بريمن؟,arabicaqa:train:927126,ما هي ولاية ساكسونيا السفلى؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:929353,ما هي أهداف الجيش الأحمر الياباني؟,arabicaqa:train:929347,ما هي الجيش الأحمر الياباني؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:929383,ما هي أختام كرمة؟,arabicaqa:train:929385,أين وجدت أختام المكاتب الإدارية في القصر؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:931923,ما هي الأماكن التي تتكوّن فيها الطرانيد؟,arabicaqa:train:931909,ما هو الإعصار القمعي؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:955996,ما هو ما يميز الضريح عن باقي الضريحات؟,arabicaqa:train:955989,ما هو ضريح توشوغو؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:956351,ما هي الحرب التي خاضتها الدولة في عهد الصفويين؟,arabicaqa:train:956359,ما هو سبب الحرب التي حدثت بين فرنسا والنمسا؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:958637,ما هو سبب تسمية سورة الأنفال بهذا الاسم؟,arabicaqa:train:958636,ما هي أحكام الأسرى والغنائم التي تناولتها سورة الأنفال؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:970921,من هو ناظم حكمت ؟,arabicaqa:train:970929,ما هو سبب نفي ناظم حكمت من تركيا ومكوثه في المعتقلات؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:987020,يمكن الحصول على المزيد من المعلومات حول عناصر المجموعة الثالثة من وصلات خارجية؟,arabicaqa:train:987001,ما هي عناصر المجموعة الثالثة في الجدول الدوري للعناصر؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:987607,ما هي أسباب استقالة محمد نجيب قطب؟,arabicaqa:train:987611,منح محمد نجيب تقديرًا عسكريًا بسبب أي حادثة؟,n
+test_heldout,complexity_train,passage,-,1.0,egy:held:arabicaqa:train:998362,ما هو تأثير المسلمين في طقوس الذبح في منطقة نيوجيرسي ببكين؟,arabicaqa:train:998365,من قام ببناء مسجد نيوجيه في بكين؟,n
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1026448,ما هي تركيبة سكانية كوفنتري؟,arabicaqa:train:1026448,ما هي تركيبة سكانية كوفنتري؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1118161,كيف تم تنظيم الدوري الفلسطيني الممتاز عام 1945؟,arabicaqa:train:1118161,كيف تم تنظيم الدوري الفلسطيني الممتاز عام 1945؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1118460,أين ولد أحمد محمد الحسن ؟,arabicaqa:train:1118460,أين ولد أحمد محمد الحسن ؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1124632,في أي مناسبة دولية شارك دي جافو؟,arabicaqa:train:1124632,في أي مناسبة دولية شارك دي جافو؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1160057,لماذا أستعان الدامرجي بشركة مصرية لبناء العمارة؟,arabicaqa:train:1160057,لماذا أستعان الدامرجي بشركة مصرية لبناء العمارة؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1161933,"من قام بكتابة النص وإخراج فيلم ""جمال أسود""؟",arabicaqa:train:1161933,"من قام بكتابة النص وإخراج فيلم ""جمال أسود""؟",y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1167591,من هو مات كربون؟,arabicaqa:train:1167591,من هو مات كربون؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1169283,أين ولد فرانكو كوستانزو؟,arabicaqa:train:1169283,أين ولد فرانكو كوستانزو؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1169355,من هو كارلوس ريكالدي؟,arabicaqa:train:1169355,من هو كارلوس ريكالدي؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1183770,ما هو كلوبينثيكسول؟,arabicaqa:train:1183770,ما هو كلوبينثيكسول؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1184913,ما هي الأغنية الأولى التي أخرجها إينار ؟,arabicaqa:train:1184913,ما هي الأغنية الأولى التي أخرجها إينار ؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:1188268,متي بدأ الأنتاج؟,arabicaqa:train:1188268,متي بدأ الأنتاج؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:649945,اذكر ما هو المنطق ل الفارابي ؟,arabicaqa:train:649945,اذكر ما هو المنطق ل الفارابي ؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:652844,ما مميزات فتره هوجو ؟,arabicaqa:train:652844,ما مميزات فتره هوجو ؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:666646,ما هي العاصمة وأكبر مدينة في أوزبكستان؟,arabicaqa:train:666646,ما هي العاصمة وأكبر مدينة في أوزبكستان؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:676467,من هم حكام المماليك البرجية؟,arabicaqa:train:676467,من هم حكام المماليك البرجية؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:686933,ما هي اللغة الرسمية التي تحدث بها المروانيون؟,arabicaqa:train:686933,ما هي اللغة الرسمية التي تحدث بها المروانيون؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:699866,متي اصدرت أغنيثا فلتسكوغ أول أغنية لها؟,arabicaqa:train:699866,متي اصدرت أغنيثا فلتسكوغ أول أغنية لها؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:918241,ما هي البلدة التي أهداها ليوناردو الملك فرانسوا الأول فيها منزلاً؟,arabicaqa:train:918241,ما هي البلدة التي أهداها ليوناردو الملك فرانسوا الأول فيها منزلاً؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:918373,ما هي التدابير التي اتخذتها الحكومة لإحباط المظاهرات المحتملة؟,arabicaqa:train:918373,ما هي التدابير التي اتخذتها الحكومة لإحباط المظاهرات المحتملة؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:922775,ما هي الدول التي تحدها سريلانكا بحدود بحرية؟,arabicaqa:train:922775,ما هي الدول التي تحدها سريلانكا بحدود بحرية؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:927146,ما هي أهم الشركات والمؤسسات المتمركزة في بريمن؟,arabicaqa:train:927146,ما هي أهم الشركات والمؤسسات المتمركزة في بريمن؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:929353,ما هي أهداف الجيش الأحمر الياباني؟,arabicaqa:train:929353,ما هي أهداف الجيش الأحمر الياباني؟,y
+test_heldout,complexity_train,semantic,msa,1.0,egy:held:arabicaqa:train:929383,ما هي أختام كرمة؟,arabicaqa:train:929383,ما هي أختام كرمة؟,y
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:1065414,ما هي الدرجة التي حصل عليها طالب الرفاعي في التصميم الحضري والتخطيط الإقليمي؟,arabicaqa:dev:1065415,ما هي البعثة التي قادها طالب الرفاعي إلى واشنطن العاصمة؟,n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:1103031,"من هم أبطال فيلم ""تويكست""؟",arabicaqa:dev:1103033,"متي صدر فيلم ""تويكست""؟",n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:1134663,كيف توفي أحمد شطا؟,arabicaqa:dev:1134660,ما هي خبراته العملية قبل توليه منصب وزير التجارة؟,n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:1163570,ما هو دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,arabicaqa:dev:1163570,ما هو دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,y
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:1186896,ما هي ثاني أعلى قمة في شبه الجزيرة العربية؟,arabicaqa:dev:1186888,ما هو اسم الجبل الذي يعرف أيضًا باسم جبل عدية؟,n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:676283,أين دفن عثمان بن عفان بعد اغتياله؟,arabicaqa:dev:676211,من هي بنات النبي محمد اللاتي تزوجهن عثمان بن عفان؟,n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:678739,ما هي أهمية ميشيغان في الإبحار الترفيهي؟,arabicaqa:dev:678710,ما هي البحيرات التي تحيط بولاية ميشيغان؟,n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:688172,ما هي الأحداث التي أدت إلى تأسيس إمارة الأرتقيون؟,arabicaqa:dev:688175,"من هم أبناء ""أرتق بن أكسب"" وما هي الفروع التي أسسوها؟",n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:910396,وما هي الآثار التي وُجِدَت فيها؟,arabicaqa:dev:910379,من هم السكان الأوائل للأحساء؟,n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:935304,ما هي المواقع الأثرية الأخرى الموجودة في الموقع؟,arabicaqa:dev:935308,ما هي فرضية وجود الأهرامات؟,n
+test_heldout,complexity_dev,passage,-,1.0,egy:held:arabicaqa:dev:998826,ما هي الصفات الفاصلة التي يتم الاستشهاد بها في المؤلفات العلمية لتصنيف المواد الفوقية؟,arabicaqa:dev:998826,ما هي الصفات الفاصلة التي يتم الاستشهاد بها في المؤلفات العلمية لتصنيف المواد الفوقية؟,y
+test_heldout,complexity_dev,semantic,msa,1.0,egy:held:arabicaqa:dev:1163570,ما هو دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,arabicaqa:dev:1163570,ما هو دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,y
+test_heldout,complexity_dev,semantic,msa,1.0,egy:held:arabicaqa:dev:678739,ما هي أهمية ميشيغان في الإبحار الترفيهي؟,arabicaqa:dev:678739,ما هي أهمية ميشيغان في الإبحار الترفيهي؟,y
+test_heldout,complexity_dev,semantic,msa,1.0,egy:held:arabicaqa:dev:998826,ما هي الصفات الفاصلة التي يتم الاستشهاد بها في المؤلفات العلمية لتصنيف المواد الفوقية؟,arabicaqa:dev:998826,ما هي الصفات الفاصلة التي يتم الاستشهاد بها في المؤلفات العلمية لتصنيف المواد الفوقية؟,y
+test_pilot,router_labels,semantic,msa,1.0,egy:pilot:q079,ما هي عاصمة المملكة العربية السعودية؟,arabicaqa:dev:916485,ما هي عاصمة المملكة العربية السعودية؟,y
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:01ae914e8a74,ماذا طلب الذئب من الخباز؟,egy:ardqa:959de254d847,أين ذهب الذئب بعد فشله الثاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:080de6512e0f,أين تدرب الابن الأوسط؟,egy:ardqa:26e2302b7c65,ماذا قرر الرجل الثري لأبنائه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:08422e2af3b8,كيف شعر الصبي بعد ذلك؟,egy:ardqa:3d9532a5e4e5,ما كان رد الوحوش؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:08ea5d492633,ماذا حدث للذئب عند النهر؟,egy:ardqa:547ad2d741dc,كيف كان رد فعل الجديان عند رؤية الذئب ينجرف؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0c30c40295ae,أين ذهب الذئب بعد ذلك؟,egy:ardqa:5ac822d5db3d,كم عدد الجديان الذين أكلهم الذئب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0cad6db923e4,ماذا فعلت الفتاة عندما طلبت منها شجرة العنب المساعدة؟,egy:ardqa:4ad23719eae7,كيف كانت المرأة العجوز تعامل ابنة زوجها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0d6c8133d089,ماذا قالت الأم العنزة لجديانها قبل ذهابها؟,egy:ardqa:8571d9297d58,ماذا طلبت الأم العنزة من جديانها بشأن الغرباء؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0d7494ef1c90,ماذا فعلت الأم في النهاية؟,egy:ardqa:154985c37b1d,ماذا سمع الصبي من الناس في القرية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0f95d61a9d95,من الذي أجاب نداء الأم؟,egy:ardqa:0e1899cad03e,ماذا أخبر الجدي الصغير أمه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1237e8da0595,ماذا فعل الجديان عندما سمعوا صوت الذئب هذه المرة؟,egy:ardqa:959de254d847,أين ذهب الذئب بعد فشله الثاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:155778bcc126,ماذا فعل الرجل الثري بأمواله؟,egy:ardqa:1c959c25eb3b,ما الإنجاز الذي قام به الابن الأصغر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:15dc686ef0a1,ماذا قدمت الجنيات للفتاة كمكافأة؟,egy:ardqa:253f3da8c2c6,ما الشروط التي وضعتها الجنيات للعمل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1607ced16831,كيف انتهت قصة المزارع الفقير؟,egy:ardqa:5dc6e73e308d,من شكر المزارع؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:168113cb7e06,ماذا فعل القنفذ بالديك والسرج؟,egy:ardqa:d405333326b0,كيف انطلق القنفذ بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:19cb939cc671,ماذا رأى الصبي من خلال ثقب في الغيوم؟,egy:ardqa:37aca9c2c6ee,ماذا قرر الصبي أن يفعل بعد رؤية المنزل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1a11febf9efa,ماذا حدث عند منتصف الليل؟,egy:ardqa:061605424eb1,لماذا طلبت المرأة من الصبي أن يختبئ بسرعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1ca20f2b8ff9,ماذا سمع الفتى أثناء مراقبته للقطيع؟,egy:ardqa:3a8ad2461c39,ماذا فعل الراعي بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1d2cb7791241,كيف رد الرجل الفقير على القنفذ؟,egy:ardqa:02fbe8c10a40,ماذا سمع الرجل الفقير بعد أن ذهب إلى فراشه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:213a866b92aa,ماذا قال لها الكلب الصغير؟,egy:ardqa:267b078b5857,ما رد فعل الفتاة تجاه طلبات الكلب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:22cf685fb089,كيف كانت المرأة العجوز الثالثة؟,egy:ardqa:d1d119f08550,ماذا قالت المرأة العجوز للصبي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:23deeb9490fb,ما الأدوات التي طلبتها الأم العنزة من ابنها؟,egy:ardqa:0040d63bf3f6,ماذا فعلت الأم العنزة ببطن الذئب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:24ecfa8faa7a,كيف استقبلها الفرن عند عودتها؟,egy:ardqa:9f0779a70a49,ما الذي قالته شجرة الكمثرى للفتاة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:25b90df26c7a,كيف تصرفت الفتيات بعد عودتهن؟,egy:ardqa:57d63f64b2a4,ماذا حدث للفتيات خلال العام؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:26ee33a0d661,متى قررا الالتقاء للسباق؟,egy:ardqa:10304f744300,ماذا قال الأرنب ليسخر من القنفذ؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2772a1df44b8,ما الخطة التي وضعها القنفذ مع زوجته؟,egy:ardqa:5206eb512863,من أخبر القنفذ بما حدث مع الأرنب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2b5ef4baa743,ماذا قرر الصبي أن يفعل لرؤية قمة النبتة؟,egy:ardqa:15b7482112f7,أين زرع الصبي حبة الفاصوليا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2d048be0d8f9,كيف هرب الصبي من التنين؟,egy:ardqa:7ac969bd7a9f,ماذا فعل الصبي عندما نام التنين وزوجته؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2d577d608636,لماذا طلبت الأم العنزة من جديانها العودة إلى المنزل بسرعة؟,egy:ardqa:547ad2d741dc,كيف كان رد فعل الجديان عند رؤية الذئب ينجرف؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2f369cad0db5,لماذا طلب والدهم عودتهم؟,egy:ardqa:8daac1233b21,ماذا سأل الرجل الثري ابنه الجندي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:36d4404b2d55,لماذا رفض القنفذ الركض في نفس اليوم؟,egy:ardqa:10304f744300,ماذا قال الأرنب ليسخر من القنفذ؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3863e288d381,ماذا رأى الصبي أثناء سيره؟,egy:ardqa:d1d119f08550,ماذا قالت المرأة العجوز للصبي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3b41ef92c8ec,أين اختبأ الثعبان فجأة؟,egy:ardqa:014cad94323f,كيف كانت الجدران مزخرفة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3b89ba635ebb,كيف تصرف الجديان عندما دخل الذئب؟,egy:ardqa:5ac822d5db3d,كم عدد الجديان الذين أكلهم الذئب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4086bbf8d57c,ما الاقتراح الذي قدمه القنفذ للركض؟,egy:ardqa:047c5811016e,أين وقف الأرنب والقنفذ لبدء السباق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:43b2cb522cda,ما الشرط الذي وضعته الجنيات؟,egy:ardqa:aa8b9557267d,ماذا طلبت الجنيات من الفتاة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:458575cfa989,ما كان رد الأم على سؤال ابنها؟,egy:ardqa:29f60f6471cb,ماذا أنجبت الأم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:47c991c4da48,ماذا قال الثعبان للراعي بعد إنقاذه؟,egy:ardqa:3a8ad2461c39,ماذا فعل الراعي بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:48c4695b4096,لماذا فرح الجميع؟,egy:ardqa:bbee60a180a1,كيف استعد الرجل لشراء النحل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:49d28ffb3966,كيف أجاب الابن الأكبر؟,egy:ardqa:8daac1233b21,ماذا سأل الرجل الثري ابنه الجندي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4e6afeff294e,من كانت الفتاة الصغيرة ترغب بإسعاده؟,egy:ardqa:bdb2e82912f0,ما قرار المرأة العجوز بشأن ابنتها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:50ac563cd5a1,ماذا حدث لإحدى مزارع الرجل الثري؟,egy:ardqa:119c4fe615dd,ماذا كان الكثيرون متأكدين منه بشأن الرجل الثري؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5291988c3e56,ماذا سأل الرجل الثري ابنه الأوسط؟,egy:ardqa:27de5bdc3522,كيف أجاب الابن الأوسط؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:54105d1f8d3d,كيف حاولت الأم منعه؟,egy:ardqa:154985c37b1d,ماذا سمع الصبي من الناس في القرية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:54257ecf6768,ماذا حدث عندما حاولت الفتاة الشرب من البئر؟,egy:ardqa:85e56cb9d7d4,ما الذي أعلنه الديك عند عودة الفتاة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5661f233622b,ما الرسالة التي تلقاها الأبناء؟,egy:ardqa:8daac1233b21,ماذا سأل الرجل الثري ابنه الجندي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:56f76f18247f,ماذا قال الرجل الثري بعد سماع ابنه الجندي؟,egy:ardqa:8daac1233b21,ماذا سأل الرجل الثري ابنه الجندي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:59942ccb6eda,كيف كان رد فعل التاجر عند رؤية القنفذ؟,egy:ardqa:0a6417f68c65,إلى أين وصل القنفذ بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:59c7c3430bbc,ما الذي لم يستطع الملك العجوز أن يقرره؟,egy:ardqa:b39c47596601,ماذا أراد الملك العجوز أن يفعل قبل أن يموت؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5a3951ffb962,كيف ردت الأميرة على سؤال القنفذ عن خوفها منه؟,egy:ardqa:22b3bc840dd8,ماذا حدث للقنفذ بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5a8db89bcc10,ما القرار الذي اتخذه الملك بشأن أجمل ممالكه؟,egy:ardqa:b39c47596601,ماذا أراد الملك العجوز أن يفعل قبل أن يموت؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5abc4d9dd8b3,ماذا قالت الفتاة الجميلة للقنفذ عندما سألها: هل ما زلت تبكين؟,egy:ardqa:0a6417f68c65,إلى أين وصل القنفذ بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5b5e0e58e485,ماذا حدث للأخ الشجاع؟,egy:ardqa:57d63f64b2a4,ماذا حدث للفتيات خلال العام؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5bb8607de27a,ماذا فكر الذئب عندما استيقظ؟,egy:ardqa:547ad2d741dc,كيف كان رد فعل الجديان عند رؤية الذئب ينجرف؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5c71e077deb4,لماذا اقتنع الجديان بأن أمهم عادت؟,egy:ardqa:959de254d847,أين ذهب الذئب بعد فشله الثاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5e5b0ff6ca70,ماذا وجدت الأم العنزة عند عودتها؟,egy:ardqa:0e1899cad03e,ماذا أخبر الجدي الصغير أمه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5e781c32186a,كيف كانت رد فعل الفتاة عند رؤية الصبي؟,egy:ardqa:32c53824d2fa,ماذا فعلت الفتاة للصبي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5fe29779cc66,كيف استعاد مربي النحل السيطرة على النحل؟,egy:ardqa:61b7a1b52d43,ما النتيجة النهائية للنحل والمزرعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:604e34a50f04,ما النتيجة النهائية للقصة؟,egy:ardqa:95af34cd84e9,ماذا حدث عندما ظهرت الأميرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:63dc82a3a293,ماذا قررت الأم في النهاية؟,egy:ardqa:12bb6e98bd6a,إلى أي اتجاه اختفين؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6480dacdec4b,ماذا قال الرجل الثري بعد ذلك؟,egy:ardqa:27de5bdc3522,كيف أجاب الابن الأوسط؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:64f463e84f88,ماذا قال الثعبان ذو البطن الصفراء لوالده؟,egy:ardqa:1fd31ace4fae,ماذا اختار الراعي الفقير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:67c51cebc525,كيف ساعدت الفتاة البئر المتهدم؟,egy:ardqa:267b078b5857,ما رد فعل الفتاة تجاه طلبات الكلب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:68f5c0ce00a5,من الذي عرض مساعدة الرجل الفقير؟,egy:ardqa:66dc395c2d6a,كيف قاد القنفذ الرجل الفقير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6b854078c87a,ماذا قالت زوجة القنفذ عندما سمعت عن الرهان؟,egy:ardqa:5206eb512863,من أخبر القنفذ بما حدث مع الأرنب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6c7b822880f3,أين أخفت المرأة الصبي؟,egy:ardqa:061605424eb1,لماذا طلبت المرأة من الصبي أن يختبئ بسرعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6d2827829d30,ماذا قال الذئب بعد أن أكل الجديان؟,egy:ardqa:5ac822d5db3d,كم عدد الجديان الذين أكلهم الذئب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6f387e93cf8a,كيف طمأن الصبي أمه بعد عودته؟,egy:ardqa:6e50d166bdf5,ما الذي استمرت الدجاجة السوداء بفعله؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6f9fa6c350a7,ماذا طلبت الأم من ابنها أن يفعل بالبقرة؟,egy:ardqa:011969ab4d06,بماذا استبدل الابن البقرة في السوق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7199537d9341,ماذا حدث للملك عندما ذهب للصيد؟,egy:ardqa:4b88578f2447,من الذي ظهر للملك لمساعدته؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:751f2cc88b0f,كم كان عدد بنات الملك العجوز؟,egy:ardqa:b39c47596601,ماذا أراد الملك العجوز أن يفعل قبل أن يموت؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:79c226425432,ماذا وعد التاجر لمن يرشده للخروج من الغابة؟,egy:ardqa:acf1a1f956fe,من الأشخاص الثلاثة المذكورين في بداية القصة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7b3dc4431429,ماذا حدث بعد خروج النحل إلى الحقول؟,egy:ardqa:7c49d35cf89c,كيف رد رئيس المحطة على اعتراض مربي النحل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7d8dbd5133ae,كم عدد بنات الأم؟,egy:ardqa:12bb6e98bd6a,إلى أي اتجاه اختفين؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7e8709c151d1,كيف بدأ السباق؟,egy:ardqa:047c5811016e,أين وقف الأرنب والقنفذ لبدء السباق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:810a72ade172,من الذي قال إنه يعرف كل شيء عن النحل؟,egy:ardqa:bbee60a180a1,كيف استعد الرجل لشراء النحل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:82eb8f1a2c33,ما الذي قاله الذئب للجديان بعد عودته من المخبز؟,egy:ardqa:959de254d847,أين ذهب الذئب بعد فشله الثاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8306fc9f9b81,ماذا شم التنين داخل المنزل؟,egy:ardqa:8d7ae556ab2e,كيف ردت الزوجة على شكوك التنين؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8429145f78a3,من رأى الصبي داخل المنزل؟,egy:ardqa:37aca9c2c6ee,ماذا قرر الصبي أن يفعل بعد رؤية المنزل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8a7e985c52c4,ماذا طلبت شجرة العنب من الفتاة؟,egy:ardqa:8d31564eb8a7,لماذا رفضت الفتاة مساعدة الفرن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8b8edc72450c,من الذي وصل متأخرا؟,egy:ardqa:01158a2c067f,ماذا لاحظت المرأة العجوز بين الطيور؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8c4f0b111e01,ماذا وجدت الفتاة في الغرفة السابعة؟,egy:ardqa:aa8b9557267d,ماذا طلبت الجنيات من الفتاة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8ed3ece21547,ماذا فعل رئيس المحطة لحل المشكلة؟,egy:ardqa:61b7a1b52d43,ما النتيجة النهائية للنحل والمزرعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9073fd0f744b,كيف سافر القنفذ والأميرة؟,egy:ardqa:22b3bc840dd8,ماذا حدث للقنفذ بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9477926a0330,لماذا لم يفتح الجديان الباب في المرة الأولى؟,egy:ardqa:9763122403d2,من كان يستمع للأم العنزة وجديانها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:96432ef072bb,من التقى الأب في الغابة؟,egy:ardqa:a44aa958d12b,ماذا قرر الأب أن يفعل لمساعدة أسرته؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:99fd28e27fd0,ماذا فعلوا للرجل قبل أن ينطلق؟,egy:ardqa:bbee60a180a1,كيف استعد الرجل لشراء النحل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9cf8f097cdbd,ماذا سأل الصبي أمه؟,egy:ardqa:29f60f6471cb,ماذا أنجبت الأم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9dbc7ca69c12,ماذا كان رد الابنة الثانية على سؤال والدها؟,egy:ardqa:1a4c03bdb52d,كيف أجابت الابنة الصغرى عندما سألها والدها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9f0fcb6ff85e,ماذا قالت المرأة العجوز الثانية للصبي؟,egy:ardqa:252b2c79a024,ما كان وعدها للصبي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a07ffbbabf29,ماذا أخبرته المرأة عن زوجها؟,egy:ardqa:37aca9c2c6ee,ماذا قرر الصبي أن يفعل بعد رؤية المنزل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a118de250d4c,كيف عاش الابن الجندي حياته؟,egy:ardqa:579a61091412,هل كان الأبناء قلقين مثل والدهم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a5b31d350bae,ماذا كشف الراعي بعد دفع الحجر؟,egy:ardqa:014cad94323f,كيف كانت الجدران مزخرفة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a68d4a490fad,ماذا كان يفعل أمير المملكة المجاورة؟,egy:ardqa:6a99dc276409,كيف تصرفت الأميرة في البداية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a82897176b56,كيف جمع الرجل الثري ثروته؟,egy:ardqa:119c4fe615dd,ماذا كان الكثيرون متأكدين منه بشأن الرجل الثري؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:aae73ad7be88,ما النتيجة التي حدثت للأسرة؟,egy:ardqa:174bf3fac1d4,لماذا لم يعد للشيطان قوة على البشر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ada62f565e51,كيف كانت حالة الرجل الفقير وأسرته؟,egy:ardqa:a44aa958d12b,ماذا قرر الأب أن يفعل لمساعدة أسرته؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:adc9e67f36a3,ما الذي لاحظه الملك العجوز بشأن الطعام؟,egy:ardqa:95af34cd84e9,ماذا حدث عندما ظهرت الأميرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b1a0a34f6448,ماذا وجدت في الغابة؟,egy:ardqa:7fa37c772521,كيف شعرت الأميرة بعد طردها من القصر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b1c1e87980f6,كيف كانت ردة فعل المرأة العجوز على كلام الديك؟,egy:ardqa:bdb2e82912f0,ما قرار المرأة العجوز بشأن ابنتها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b39f3d4dd979,ماذا كان يفعل الملك عندما يريد إعطاء أوامره؟,egy:ardqa:1fd31ace4fae,ماذا اختار الراعي الفقير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b50920bf4153,ماذا وعدته المرأة العجوز؟,egy:ardqa:582bae4c7804,ماذا فعلت المرأة العجوز في الصباح؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b5bbdac59327,ماذا كان عمل الراعي الصغير؟,egy:ardqa:3a8ad2461c39,ماذا فعل الراعي بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b78f91ab181b,ماذا فعل الراعي بعد وداع الثعبان ووالده؟,egy:ardqa:07d9417eab81,ماذا وجد الراعي عند جذع الشجرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b9c34404dcdd,ماذا رأى الصبي أثناء رحلته؟,egy:ardqa:3652649de247,ماذا قالت المرأة العجوز للصبي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bac959266825,ماذا فعل الذئب ليجعل صوته حلوا؟,egy:ardqa:9763122403d2,من كان يستمع للأم العنزة وجديانها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bc4b6a3c8575,ماذا فكر الذئب عندما سمع حديث الأم العنزة؟,egy:ardqa:9763122403d2,من كان يستمع للأم العنزة وجديانها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bca5adeb6c0b,ماذا طلب الرجل بعد ذلك؟,egy:ardqa:b98b8e19485d,ما هو أول أمر أعطاه الرجل للجوزة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bd5f54cfad9a,من الذين تجمعوا حول المنزل؟,egy:ardqa:3d9532a5e4e5,ما كان رد الوحوش؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bd8e5f1dd84a,لماذا أخفت الفتاة الصبي؟,egy:ardqa:30dd243fbb1f,ماذا فعلت الفتيات بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:be592499ef1a,كيف كان شعور الأبناء تجاه رغبة والدهم؟,egy:ardqa:26e2302b7c65,ماذا قرر الرجل الثري لأبنائه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c0f4052ba230,ماذا حدث عند منتصف الليل؟,egy:ardqa:11ff67f19ddb,ماذا فعل الرجل بعد نصيحة الرجلين المسنين؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c1a4bd0a4720,كيف تعامل الرجل مع النحل؟,egy:ardqa:bbee60a180a1,كيف استعد الرجل لشراء النحل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c1fafce17067,ماذا سألت الأميرة القنفذ؟,egy:ardqa:22b3bc840dd8,ماذا حدث للقنفذ بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c2da5df99cd0,ماذا طلب الكلب الصغير منها؟,egy:ardqa:8d31564eb8a7,لماذا رفضت الفتاة مساعدة الفرن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c313093fe7c5,كيف كانت ردة فعل رئيس المحطة؟,egy:ardqa:0dd070781c0c,ماذا فعل النحل بعد اكتشاف اختفاء خلاياهم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c501c838f476,كم عدد أبناء الرجل الثري؟,egy:ardqa:119c4fe615dd,ماذا كان الكثيرون متأكدين منه بشأن الرجل الثري؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c596c6b72b1b,كيف رد الملك الشاب على استفسار الملك العجوز؟,egy:ardqa:95af34cd84e9,ماذا حدث عندما ظهرت الأميرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c65dafeb6ab7,ما الذي كان يحمله الابن الأكبر بجانبه؟,egy:ardqa:26e2302b7c65,ماذا قرر الرجل الثري لأبنائه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c6d99d132738,ماذا توقع الأبناء عند عودتهم؟,egy:ardqa:8daac1233b21,ماذا سأل الرجل الثري ابنه الجندي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c84ddc96032d,أين أخفت الفتاة الصبي؟,egy:ardqa:39325ba67719,ماذا سمع الصبي والفتاة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c9bd3b8e5bd7,ماذا قال الديك عند عودة الفتاة؟,egy:ardqa:bdb2e82912f0,ما قرار المرأة العجوز بشأن ابنتها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cb59cda4ffb8,ماذا فعلت الفتيات عند عودتهن؟,egy:ardqa:39325ba67719,ماذا سمع الصبي والفتاة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cb5ddff79b6c,أين ذهب الصبي بعد مغادرته الكوخ الأول؟,egy:ardqa:252b2c79a024,ما كان وعدها للصبي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cd75a78ab43d,ماذا حدث بعد أن أعطى الرجل أوامره للجوزة؟,egy:ardqa:b98b8e19485d,ما هو أول أمر أعطاه الرجل للجوزة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cd787c980835,ماذا نصحت الفتاة الصبي؟,egy:ardqa:39325ba67719,ماذا سمع الصبي والفتاة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cea03d65ebe6,ماذا قدمت المرأة العجوز للصبي؟,egy:ardqa:061605424eb1,لماذا طلبت المرأة من الصبي أن يختبئ بسرعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cfd3b7881370,ماذا وجد الفتى في الحفرة؟,egy:ardqa:3a8ad2461c39,ماذا فعل الراعي بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d0b380825bf9,ماذا طلب التنين من زوجته بعد العشاء؟,egy:ardqa:8d7ae556ab2e,كيف ردت الزوجة على شكوك التنين؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d0eeb313b411,ماذا فعل الصبي؟,egy:ardqa:d1d119f08550,ماذا قالت المرأة العجوز للصبي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d21ecd296441,ما الفكرة التي خطرت للملك الشاب؟,egy:ardqa:6593a35aa7b6,ما كان سبب طرد والدها لها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d84884d248e0,كيف جاء الملك العجوز إلى القصر؟,egy:ardqa:95af34cd84e9,ماذا حدث عندما ظهرت الأميرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:dc92900e4164,كيف غادرت البنات المنزل؟,egy:ardqa:12bb6e98bd6a,إلى أي اتجاه اختفين؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:de10dfa0391b,هل حصلت المرأة العجوز على معلومات مفيدة من الزواحف؟,egy:ardqa:582bae4c7804,ماذا فعلت المرأة العجوز في الصباح؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e051e07fd0c6,ماذا قال الملك للقنفذ؟,egy:ardqa:52c1add14aa3,ماذا فعل الملك بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e37ddaf26cb7,ماذا فعل القنفذ بعد ذلك؟,egy:ardqa:0a6417f68c65,إلى أين وصل القنفذ بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e5334066d1fe,ماذا حدث للتاجر في الغابة؟,egy:ardqa:acf1a1f956fe,من الأشخاص الثلاثة المذكورين في بداية القصة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e7269d4b18cd,ماذا حدث للفتاة في النهاية؟,egy:ardqa:4ad23719eae7,كيف كانت المرأة العجوز تعامل ابنة زوجها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e767e827d00d,ما هي قدرة الجوزة الصغيرة؟,egy:ardqa:b8326a491034,ماذا عرض الشيطان على الرجل الفقير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e918c5245b16,ماذا قالت إحدى العصفورتين للأخرى؟,egy:ardqa:07d9417eab81,ماذا وجد الراعي عند جذع الشجرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e988918fccb8,كيف حاول رئيس المحطة وزوجته حماية نفسيهما؟,egy:ardqa:09279001a4ff,ماذا فعل رئيس المحطة بعد سماع صراخ زوجته؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ec6d2e746a1b,ما الذي كان يقلق الرجل الثري بشأن أبنائه؟,egy:ardqa:119c4fe615dd,ماذا كان الكثيرون متأكدين منه بشأن الرجل الثري؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ee5e94c1dd61,ما الشيء الوحيد الذي كان يملكه الراعي الفقير؟,egy:ardqa:3a8ad2461c39,ماذا فعل الراعي بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f2caf80566aa,كيف ردت ابنة المرأة العجوز على طلب شجرة الكمثرى؟,egy:ardqa:8d31564eb8a7,لماذا رفضت الفتاة مساعدة الفرن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f3180e2d8fbc,ماذا حدث للتنين بعد قطع النبتة؟,egy:ardqa:7ac969bd7a9f,ماذا فعل الصبي عندما نام التنين وزوجته؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f5c7acb7374c,ماذا حدث عندما كانوا في منتصف الطريق إلى المزرعة؟,egy:ardqa:7d75ea032672,ماذا قرر مربي النحل أن يفعل بعد حديثه مع رئيس المحطة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f7788354be06,ماذا رأى الغراب الجريح؟,egy:ardqa:01158a2c067f,ماذا لاحظت المرأة العجوز بين الطيور؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f950630bb4a9,كيف كان ملك الثعابين يجلس؟,egy:ardqa:1fd31ace4fae,ماذا اختار الراعي الفقير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:fa32085ce6ad,ماذا قال الابن لأمه ليواسيها؟,egy:ardqa:011969ab4d06,بماذا استبدل الابن البقرة في السوق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:fef6be23cc5c,من هو والد الثعبان ذو البطن الصفراء؟,egy:ardqa:3a8ad2461c39,ماذا فعل الراعي بعد ذلك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ffae6711723d,ماذا رأى الصبي عندما نظر خلفه؟,egy:ardqa:7ac969bd7a9f,ماذا فعل الصبي عندما نام التنين وزوجته؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:00dae7111b2c,ما هو المنصب الذي شغله مي في نادي أرسنال قبل أن يصبح مديرا؟,egy:ardqa:8dcbc974a0b3,متى أصبح بيرتي مي مديرا لنادي أرسنال؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:034f14b06ea8,متى تم إصدار iMac G5؟,egy:ardqa:13db87393a99,كم عدد منافذ نقل البيانات المضمنة في معظم أجهزة Mac الحالية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:039fb0431fba,أين يحبس جيم زميله في المدرسة في القصة؟,egy:ardqa:4120a5c4bb3a,كيف تستجيب سكوت للجمهور؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:03b943d344c3,"على من استندت لي في بناء شخصيات رواية ""قتل طائر بريء""؟",egy:ardqa:cede48bcda84,"ما هي الجائزة التي فازت بها رواية ""قتل طائر بريء""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:05f1ab16e6ee,متى أصبح أرسنال مقره في هاي بيري؟,egy:ardqa:3b43fad0495e,في أي سنة تأسس نادي أرسنال؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0647d07850d3,متى استضافت لندن أول دورة ألعاب أولمبية صيفية لها؟,egy:ardqa:801f3261f23b,ما هو السبب الرئيسي لتفشي وباء الكوليرا في لندن في القرن التاسع عشر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:078a69bf15e0,اعتمدت نينتندو بشكل أساسي على ماذا لدعمها؟,egy:ardqa:3349a7aac4e5,من كان مثالا على ناشر من الطرف الثالث؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:07a32d47e67b,من بنى قاعة وستمنستر؟,egy:ardqa:3a82dc6e3980,من أي بناء نشأ قصر وستمنستر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:07f1541090c7,من هم أعضاء هيئة محلفين توم؟,egy:ardqa:7eddcfab2133,في وقت الرواية، ما العقوبة التي كان يتلقاها الذكور السود غالبا بسبب الاتصالات الجنسية المفترضة مع امرأة بيضاء؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0a1c5d895633,ما سرعة المعالج في جهاز ماكينتوش IIfx الجديد؟,egy:ardqa:29ebbd713a97,أي ماكينتوش كان أول من تضمن وحدة إدارة الذاكرة المدمجة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0a988ede43ec,مع اقتراب نهاية عمر جهاز NES، أي من وحدات التحكم المنافسة ذات شروط الترخيص الأقل صرامة كانت مدعومة؟,egy:ardqa:3349a7aac4e5,من كان مثالا على ناشر من الطرف الثالث؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0d0edc7a7fc2,"لماذا تم إنشاء ""مجلس لندن الكبرى""؟",egy:ardqa:900072f5fd93,"في أي عام تم تشكيل ""مجلس لندن الكبرى""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0e39891496a6,ما هو عدد سكان لندن الكبرى؟,egy:ardqa:3a94bd01710b,في منتصف عام 2014، كان عدد سكان لندن يشكل نسبة كم من إجمالي سكان المملكة المتحدة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:107a0e135866,ماذا تم تثبيته في مقدمة وحدة التحكم لتمكين استخدام عصا التحكم؟,egy:ardqa:85eae8e39636,من الذي قام بتثبيت لوحة الاتجاه (D-pad) من Game & Watch على نموذج Famicom؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:115a8a68cbab,ما المصطلح الذي استخدمته لي لوصف محكمة المدينة؟,egy:ardqa:5204d458012c,"ما النوع الأدبي الذي تعرف به رواية ""قتل طائر برئ"" عادة؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:116b690ddca2,نينتندو شجعت بنشاط مشاركة أي نوع من الأطراف؟,egy:ardqa:6c4866dcdc22,تدابير نينتندو لمطوري الألعاب من الأطراف الثالثة تم تبنيها أيضا من قبل أي من الشركات المصنعة اللاحقة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:123a45df31e9,من أوقف الحشد عن طريق إحراجه؟,egy:ardqa:09ff8c3c627f,ما اسم موكل أتيكوس في محاكمة الاغتصاب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:142828ed4daf,من أنقذ سكوت وجيم؟,egy:ardqa:1ff0d9db9622,من هاجم بوب إيول خلال القصة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:147e7476c550,"من هو مؤلف رواية ""قتل طائر بريء""؟",egy:ardqa:cede48bcda84,"ما هي الجائزة التي فازت بها رواية ""قتل طائر بريء""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:148bdbe489cb,وفقا لكرونيكل الأنجلو-ساكسونيين، من أعاد تأسيس لندن في عام 886 ميلادي؟,egy:ardqa:c9e74c1406a3,بعد الغزو الفايكنجي، متى بدأت لندن في النمو والتوسع بشكل كبير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:179635f3595b,من تعظم سكوت فوق الجميع؟,egy:ardqa:5204d458012c,"ما النوع الأدبي الذي تعرف به رواية ""قتل طائر برئ"" عادة؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:17a4f711979d,من هو النموذج الذي تم على غراره تشكيل شخصية ديل؟,egy:ardqa:1f60b2184043,في أي سنة سافر لي وكابوت إلى كانساس معا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:185067cc7207,من هو المدير الذي تم تعيينه لقيادة أرسنال في عام 1925؟,egy:ardqa:35f996ad31c7,في أي عقد هيمن أرسنال على كرة القدم الإنجليزية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1a127300c549,في عام 1986، ماذا قدمت أبل لتمكين المطورين من إنشاء البرمجيات لجهاز ماكينتوش على جهاز ماكينتوش؟,egy:ardqa:259733ea7938,ما هو أطول جهاز ماكينتوش عمرا في تاريخ أبل أثناء فترة إنتاجه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1bf628600fd7,كيف مات توم روبنسون في الرواية؟,egy:ardqa:7eddcfab2133,في وقت الرواية، ما العقوبة التي كان يتلقاها الذكور السود غالبا بسبب الاتصالات الجنسية المفترضة مع امرأة بيضاء؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1ff05a01fa0c,في أي عام ولدت هاربر لي؟,egy:ardqa:15f37187a243,أين التحقت لي بالجامعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:279f2c765638,أي فريق هزم أرسنال في نهائي دوري أبطال أوروبا في موسم 2005-2006؟,egy:ardqa:122c3d3a24d0,بما في ذلك أرسنال، كم عدد الفرق التي فازت بالدوري الإنجليزي الممتاز حتى عام 2013؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2a17d26c0f59,قبل أن تكون الحكومة الإنجليزية في موقع مركزي، كيف كانت تتم إدارتها من حيث الموقع؟,egy:ardqa:84b97b9a2416,في القرن الثاني عشر، أين كانت المؤسسات الحكومية الإنجليزية تقع بشكل مركزي في معظم الأحيان؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2d680b13bd00,"من قدم مفهوم التسويق عبر الفعاليات ""العديد من الإعلانات الحصرية"" إلى شركة أبل؟",egy:ardqa:2976c76f3a20,ما الدور الذي قام به آندي كانينغهام وجين أندرسون في خطة إطلاق الماكنتوش؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2d92a04e72a3,ما هي كمية الذاكرة العشوائية (RAM) القياسية التي تشحن بها معظم نماذج Mac؟,egy:ardqa:13db87393a99,كم عدد منافذ نقل البيانات المضمنة في معظم أجهزة Mac الحالية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2de053db0f28,متى تم نشر الكتاب الثاني؟,egy:ardqa:254a6ca9f21d,متى توفيت لي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:301bf0ed9d46,ما كان عدد السكان في لندن في عام 2014؟,egy:ardqa:3a94bd01710b,في منتصف عام 2014، كان عدد سكان لندن يشكل نسبة كم من إجمالي سكان المملكة المتحدة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3221643b967d,ما اسم المعرض الذي كشفت فيه نينتندو عن النسخة الأمريكية من جهاز الفاميكوم؟,egy:ardqa:1199801e32d4,من أين بدأت نينتندو في الكشف عن الأنظمة الجديدة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:33690fef3d87,ما هي السعة الإجمالية للقرص؟,egy:ardqa:6cf5a59a5b04,في أي عام أصدرت نينتندو نظام فاميكوم ديسك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:33e593b0bb1f,"من كتب رواية ""قتل طائر بريء""؟",egy:ardqa:cede48bcda84,"ما هي الجائزة التي فازت بها رواية ""قتل طائر بريء""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:352b76606975,ما المنطقة التي استمرت في الوجود بعد التخلي عن لندنينيوم بعد انهيار الحكم الروماني؟,egy:ardqa:20c98d94e810,ما الذي تسبب في تراجع مستوطنة الأنجلو-ساكسونيين لوندينويك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:381ae92be50c,ما هو عنوان المسودة الأولى لـ قتل طائر بريء؟,egy:ardqa:123db93e28dc,ما هو اسم المحررة التي ساعدت لي في إنهاء كتابها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3e62fe18401d,ما هو أحد مواقع التراث العالمي في لندن؟,egy:ardqa:63774d3b4438,أين يقع المتحف البريطاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3e6cdb86768e,ماذا سمحت أبل للمشترين المحتملين بأخذه إلى المنزل وتجربته لمدة 24 ساعة؟,egy:ardqa:3090fb8b5d6e,ما اسم الترويج الكبير الذي قامت به أبل في العدد الخاص من مجلة نيوزويك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3f5b7178152e,كم عدد الهجمات المعروفة التي نفذها الفايكنج على لندن؟,egy:ardqa:20c98d94e810,ما الذي تسبب في تراجع مستوطنة الأنجلو-ساكسونيين لوندينويك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4064fee34fd4,من كانت قائدة قبيلة الإيكيني؟,egy:ardqa:024cb9cc4f57,في أي عام غزا الرومان المنطقة التي تعرف الآن بلندن وأسسوا أول مستوطنة كبيرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:418dc7722ce9,عندما أسسها الرومان، ما الاسم الذي أطلقوه على المدينة؟,egy:ardqa:1d60b107c6eb,ما هي المدينة التي تعد عاصمة إنجلترا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:41ae1d8ea90a,أي واجهة قدمتها أبل والتي يمكن التحكم بها باستخدام جهاز Apple Remote أو لوحة المفاتيح للوصول إلى الوسائط المخزنة على الكمبيوتر؟,egy:ardqa:13db87393a99,كم عدد منافذ نقل البيانات المضمنة في معظم أجهزة Mac الحالية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:471776059745,أي ملحقين تم عرضهما في الفيلم The Wizard؟,egy:ardqa:374862d87601,لم يكن جهاز NES Max يحتوي على ماذا أيضا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:48d9d853d70b,المنافسون في أي فترة معرفة ذاتيا استفادوا من دعم أقوى من الشركات الثالثة؟,egy:ardqa:3349a7aac4e5,من كان مثالا على ناشر من الطرف الثالث؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:49ad0ab35516,"متى فاز أرسنال بأول ""دبل"" (اللقب المزدوج)؟",egy:ardqa:068f43f2ead8,كم عدد بطولات الدوري التي فاز بها أرسنال في الثلاثينيات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4b7a25c64721,أي ميزة تصميمية استخدمها سميث في النهاية لجعل إنتاج اللوحة الجديدة أكثر فعالية من حيث التكلفة؟,egy:ardqa:b315bffbbbcc,ماذا كان أول ما دمجه تريبل في الماك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4c0024f64862,ماذا أضافت أبل من خلال هايبركارد وماكث فايندر لجهاز ماكينتوش؟,egy:ardqa:259733ea7938,ما هو أطول جهاز ماكينتوش عمرا في تاريخ أبل أثناء فترة إنتاجه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4ce0dc51d132,كم عدد مواقع التراث العالمي الموجودة في لندن؟,egy:ardqa:63774d3b4438,أين يقع المتحف البريطاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4d7091eacb7a,ما اسم الرجل الأسود الذي اتهم بالاغتصاب في بلدة لي عندما كانت في العاشرة؟,egy:ardqa:254c93f4f454,في أي عمر كانت لي عندما اتهمت امرأة بيضاء رجلا أسودا بالاغتصاب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4e25790829ec,ما المؤرخ الذي تم اقتباسه قائلا إن لندن كانت تمتلك جميع الخصائص اللازمة لتكون عاصمة كبرى؟,egy:ardqa:63a16162bc8c,ما هو الطراز المعماري الذي أعيدت بناء كاتدرائية وستمنستر به؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:509e8f062165,في أي سنة انضم أرسنال إلى دوري كرة القدم؟,egy:ardqa:068f43f2ead8,كم عدد بطولات الدوري التي فاز بها أرسنال في الثلاثينيات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5154767084e0,في أي سنة قدم ريتشارد كوتس تفسيرا مختلفا حول أصول اسم لندن؟,egy:ardqa:d85c40f43933,ما معنى أصل الاسم الأوروبي القديم ما قبل السلتية الذي يعتقد لاحقا أنه أصل اسم لندن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:521d29a47ee2,أي شركة قامت بتوزيع NES في المملكة المتحدة وإيطاليا وأستراليا؟,egy:ardqa:93fa8d1c5391,ما النسختان من NES اللتان تم إصدارهما في المملكة المتحدة وإيطاليا وأستراليا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5439cbbe33fe,ما هي عاصمة بريتانيا قبل لوندينيوم؟,egy:ardqa:024cb9cc4f57,في أي عام غزا الرومان المنطقة التي تعرف الآن بلندن وأسسوا أول مستوطنة كبيرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:556b5d54e9e9,من هزم أرسنال في نهائي كأس الدوري 2011؟,egy:ardqa:191a52704261,أي فريق شهير هزم أرسنال في كأس الدوري 2007؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:58e4ee950849,أي ثلاث دول تشترك في منطقة PAL A؟,egy:ardqa:93fa8d1c5391,ما النسختان من NES اللتان تم إصدارهما في المملكة المتحدة وإيطاليا وأستراليا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5961157276dc,ما الميزة التي كانت مفقودة في التصميم النهائي لجهاز الماكينتوش الذي أنتجه سميث؟,egy:ardqa:b315bffbbbcc,ماذا كان أول ما دمجه تريبل في الماك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:59fd1724862e,من عاد إلى شركة آبل في عام 1997؟,egy:ardqa:4b44d11dcff1,"ما الذي أنهته تسمية نظام التشغيل ""ماك أو إس 8"" فعليا؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5b935b53b9d1,في أي منطقة اختبار أفاد التجار بفشل ذريع في المبيعات؟,egy:ardqa:5775b2845fb7,متى كانت المرة الثانية التي قامت فيها نينتندو بتسويق جهاز NES؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5bf51ec8eb52,ما الوظيفة التي بدأت هاربر لي العمل بها في مدينة نيويورك؟,egy:ardqa:15f37187a243,أين التحقت لي بالجامعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5d7ebbc826de,ما هو العمل الذي تم اكتشافه والذي أدى إلى طرد غراهام من أرسنال؟,egy:ardqa:233d8aa22e93,من هو المنافس الذي هزمه أرسنال للحصول على لقب الدوري في موسم 1988-89؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5d90a17ed3ad,كم كانت الذاكرة العشوائية في اللوحة الأولى لجهاز الماكينتوش؟,egy:ardqa:b315bffbbbcc,ماذا كان أول ما دمجه تريبل في الماك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5e857c4439e0,ما الذي باع أكثر من جهاز NES في أوروبا وأمريكا الجنوبية؟,egy:ardqa:149ca54e3973,أين لم يكن نظام نينتندو متاحا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5f5c08385e2c,ماذا يحدث لتوم عندما يحاول الهروب من السجن؟,egy:ardqa:cd6aa361ed0a,ما أسماء أطفال أتيكوس في الكتاب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:60cf9f9ad4b3,أين كانت تخزن الخزانة الملكية؟,egy:ardqa:84b97b9a2416,في القرن الثاني عشر، أين كانت المؤسسات الحكومية الإنجليزية تقع بشكل مركزي في معظم الأحيان؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:625ae53987eb,من تسبب في اتخاذ نينتندو إجراء رسميا بشأن التأجير؟,egy:ardqa:7320ef564990,ما الذي تم حظره على بلوكباستر لتضمينه مع ألعابهم المؤجرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6855fa4acd95,إلى أين تقوم أجهزة Mac بالإقلاع مباشرة في معظم أجهزة Mac التي تعتمد على معالجات PowerPC؟,egy:ardqa:6e5fbf875267,ما هي التقنية التي كانت تستخدم لتشغيل نظام تشغيل بديل عن Mac OS؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:68f23efbf734,من أصبح أكبر مصنع لأجهزة الكمبيوتر الشخصية في عام 1994، تاركا شركة أبل في المركز الثالث؟,egy:ardqa:06a35680f3d1,أين وجدت أنظمة الماكينتوش النجاح في السوق في البداية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:697bf7b7aac5,في أواخر القرن السابع، ما كانت الوظيفة الرئيسية لمستوطنة لوندينويك؟,egy:ardqa:20c98d94e810,ما الذي تسبب في تراجع مستوطنة الأنجلو-ساكسونيين لوندينويك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6a8593cda09a,متى انتقل أرسنال إلى ملعب أرسنال في هاي بيري؟,egy:ardqa:3df378d22ca8,في أي سنة أصبح أرسنال شركة محدودة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6cb09a4b4593,اعتبارا من عام 2011، ما كان عدد سكان قلب لندن؟,egy:ardqa:1d60b107c6eb,ما هي المدينة التي تعد عاصمة إنجلترا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6df59780bad2,ما اسم المحارب الدنماركي الذي لعب دورا رئيسيا في تأسيس دانلاو؟,egy:ardqa:c9e74c1406a3,بعد الغزو الفايكنجي، متى بدأت لندن في النمو والتوسع بشكل كبير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6df6c4ab48e7,في أي موسم فاز أرسنال بأول كأس أوروبية له؟,egy:ardqa:8dcbc974a0b3,متى أصبح بيرتي مي مديرا لنادي أرسنال؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:78d75d4074d8,ما الحدث الذي حضره جيم وسكوت قبل أن يهاجما في الليل؟,egy:ardqa:1ff0d9db9622,من هاجم بوب إيول خلال القصة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7d8c75dc9add,أي جهاز تحكم كان يحتوي على ميزة التوربو غير القابلة للتعديل؟,egy:ardqa:374862d87601,لم يكن جهاز NES Max يحتوي على ماذا أيضا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7e8b7ba2918f,في أي سنة مثل والد هاربر لي رجلين أسودين متهمين بالقتل؟,egy:ardqa:cb869dbb6d96,في أي عمر كانت هاربر لي عندما توفيت والدتها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7e9a9c2ed013,أين تحتل لندن من حيث ناتج المنطقة الحضرية؟,egy:ardqa:01220a0625e8,أين تحتل لندن في العالم من حيث الناتج المحلي الإجمالي للمنطقة الحضرية؟,y
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:81aff4e0a57e,إلى أي سنة تقريبا تعود بقايا هيكل قديم غير معروف عثر عليه على شاطئ نهر التايمز؟,egy:ardqa:eab52594e011,إلى أي فترة أثرية تعود بقايا جسر قديم عثر عليه على شاطئ نهر التايمز؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8486858d8308,أي نظام مثال بدأ يشير إلى نهاية هيمنة جهاز NES؟,egy:ardqa:66e2e083d058,متى انخفض الطلب على برامج NES الجديدة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:861511bcb2df,متى كان من المفترض أن يتم إصدار النظام في الأصل؟,egy:ardqa:5775b2845fb7,متى كانت المرة الثانية التي قامت فيها نينتندو بتسويق جهاز NES؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:87c657406bec,في أي منطقة من أمريكا كانت الرواية تدور أحداثها؟,egy:ardqa:3e2c07f7c58e,"ما هو نوع الرواية ""قتل طائر بريء""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:880cbe58fbbf,من هو اللاعب السابق في أرسنال الذي أصبح مديرا في عام 1986؟,egy:ardqa:233d8aa22e93,من هو المنافس الذي هزمه أرسنال للحصول على لقب الدوري في موسم 1988-89؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:89b1a5b8730e,لمن دفعت أبل رسوم استشارات باهظة قبل أن تبدأ العمل الداخلي؟,egy:ardqa:6d72e3258de2,كيف حسن نظام Mac 7 التعدد المهام؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:89b88bc123e6,ما الذي كانت تستخدمه أجهزة Mac المبنية على Open Firmware كوسيلة لتسهيل العمل بسبب؟,egy:ardqa:6e5fbf875267,ما هي التقنية التي كانت تستخدم لتشغيل نظام تشغيل بديل عن Mac OS؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8daa0add2f88,ماذا فعلت شركات مختلفة في اليابان لألعابها لأغراض محددة؟,egy:ardqa:6a705f334497,أي واجهة استخدم جهاز NES؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8e261bde22d6,ما الذي تم تقديمه لجعل استخدام أنظمة تشغيل بديلة لـ Mac OS أسهل؟,egy:ardqa:6e5fbf875267,ما هي التقنية التي كانت تستخدم لتشغيل نظام تشغيل بديل عن Mac OS؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8eb91530b539,كم بقي جهاز ماكينتوش بلس في الإنتاج دون تغيير؟,egy:ardqa:259733ea7938,ما هو أطول جهاز ماكينتوش عمرا في تاريخ أبل أثناء فترة إنتاجه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8f7f9d3b3dfb,إلى أين تقوم أجهزة Mac بالإقلاع مباشرة في جميع أجهزة Mac التي تعتمد على معالجات Intel؟,egy:ardqa:6e5fbf875267,ما هي التقنية التي كانت تستخدم لتشغيل نظام تشغيل بديل عن Mac OS؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:904cc0931cdc,من الذين حاولت أتاري إجبارهم على التوقف عن إنتاج الألعاب لجهازها؟,egy:ardqa:6c4866dcdc22,تدابير نينتندو لمطوري الألعاب من الأطراف الثالثة تم تبنيها أيضا من قبل أي من الشركات المصنعة اللاحقة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:929e92a32593,أين درست لي القانون؟,egy:ardqa:15f37187a243,أين التحقت لي بالجامعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:944b19865424,"في أي موسم فاز أرسنال بأول ""ثنائية"" في الدوري وكأس إنجلترا؟",egy:ardqa:8dcbc974a0b3,متى أصبح بيرتي مي مديرا لنادي أرسنال؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:95de2033bad5,ما هي المساحة الجغرافية التي غطاها دانلاو، الذي أسسه الفايكنج؟,egy:ardqa:c9e74c1406a3,بعد الغزو الفايكنجي، متى بدأت لندن في النمو والتوسع بشكل كبير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:96026c44b17d,من كتب سيناريو الفيلم الذي عرض في عام 1962؟,egy:ardqa:1f15542a4463,"متى تم تحويل رواية ""قتل طائر بريء"" إلى فيلم؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9612b841bb6e,"من الذي فشلت ""خطوط الاتصال"" في منعه من دخول لندن؟",egy:ardqa:42119ee19d52,ما اسم السور الدفاعي الذي أحاط بلندن في عام 1642؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:96528b8de847,أين تم إصدار النظام إلى منطقتين تسويقيتين منفصلتين؟,egy:ardqa:1b70afdf3e08,من كانت مسؤولة عن إصدار الخراطيش في أوروبا القارية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9a0b501b7749,ما هما جهازي التحكم التوربينيين اللذان صنعتهما نينتندو لجهاز NES؟,egy:ardqa:374862d87601,لم يكن جهاز NES Max يحتوي على ماذا أيضا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9bda84100593,في أي موسم فاز أرسنال بدبل الدوري والكأس للمرة الثانية؟,egy:ardqa:73bbf12ad198,ما السبب الذي أدى إلى خسارة أرسنال أمام غلطة سراي في موسم 1999-2000؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9c9a4f438c78,ما هو مسقط رأس هاربر لي؟,egy:ardqa:1f15542a4463,"متى تم تحويل رواية ""قتل طائر بريء"" إلى فيلم؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9ec9aa0eb998,ما الذي يرمز إليه إطلاق أتيكوس النار على الكلب المسعور؟,egy:ardqa:53ac5b3e25f9,ما الحيوان الذي يكلف أتيكوس بقتله في الرواية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9ef9f0174c90,"""قتل طائر بريء"" تقرأ على نطاق واسع في مدارس أي بلد؟",egy:ardqa:3e2c07f7c58e,"ما هو نوع الرواية ""قتل طائر بريء""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9fa59b457e28,من أعاد بناء كاتدرائية وستمنستر؟,egy:ardqa:63a16162bc8c,ما هو الطراز المعماري الذي أعيدت بناء كاتدرائية وستمنستر به؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a05089d8a881,كم سنة لعب أرسنال في هايبري؟,egy:ardqa:122c3d3a24d0,بما في ذلك أرسنال، كم عدد الفرق التي فازت بالدوري الإنجليزي الممتاز حتى عام 2013؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a64cba1f9ab6,ما هو العمل الوحيد الآخر الذي نشرته هاربر لي؟,egy:ardqa:254a6ca9f21d,متى توفيت لي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a6757fce6836,ما الظاهرة التي أحدثها الإصلاح؟,egy:ardqa:2ae6f554e729,ما الحدث الذي أعطى دفعة كبيرة للشحن والتجارة الإنجليزية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a67c0c1a35f0,أين يشاهد الأطفال الثلاثة المحاكمة؟,egy:ardqa:cd6aa361ed0a,ما أسماء أطفال أتيكوس في الكتاب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a78065a200af,"كم عدد العمال تقريبا الذين شاركوا في بناء ""خطوط الاتصال""؟",egy:ardqa:42119ee19d52,ما اسم السور الدفاعي الذي أحاط بلندن في عام 1642؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a84c7b6142c2,"على مدى كم سنة تدور أحداث رواية ""قتل طائر بريء""؟",egy:ardqa:2d2496d7232f,من هي الشخصية الرئيسية في الكتاب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:aa286b23f7ed,أي لغة استبدلت باسكال في نظام System 7؟,egy:ardqa:128cf90cc667,ما الذي كان ضروريا على خط Mac OS بسبب البنية القديمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:aa6d77020e2a,ما هو اسم القصر الشهير الموجود في لندن؟,egy:ardqa:63774d3b4438,أين يقع المتحف البريطاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ab333961da1c,في أي تاريخ تم استبدال بيرتي مي بنادي أرسنال؟,egy:ardqa:3ee3baa40fa5,ما هي الإجراءات التي جلبت الازدهار لأرسنال؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ae24f7101d0c,ما هو الشكل الحديث للكلمة لندن في الويلزية؟,egy:ardqa:d85c40f43933,ما معنى أصل الاسم الأوروبي القديم ما قبل السلتية الذي يعتقد لاحقا أنه أصل اسم لندن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ae7aca2da35b,"خلال ""المشاكل"" في أيرلندا الشمالية، من الذي شن الهجمات بالقنابل على لندن؟",egy:ardqa:900072f5fd93,"في أي عام تم تشكيل ""مجلس لندن الكبرى""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:aea8def28215,ما هي المطبوعة التي منحت الكتاب إعادة طبع جزئية مما أعطاها انتشارا جماهيريا واسعا؟,egy:ardqa:135d3d8ce43c,"في أي تاريخ بدأ كتاب ""قتل طائر بريء"" في التداول؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:af37047e5849,ما اسم قوة الشرطة التي تم تأسيسها في لندن في عام 1750؟,egy:ardqa:0cc25b6c559d,ما هو مركز الصحافة البريطانية في لندن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b07bb69e872e,ما الذي تسبب في تحدي استخدام الرواية في الفصول الدراسية؟,egy:ardqa:3e2c07f7c58e,"ما هو نوع الرواية ""قتل طائر بريء""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b20bfa3fd86a,ما هي القيمة التي تقدرها مجلة فوربس لنادي أرسنال في عام 2015؟,egy:ardqa:3b43fad0495e,في أي سنة تأسس نادي أرسنال؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b383e3eaea01,ما اسم المرأة التي تم اتهامها بالاغتصاب في الكتاب؟,egy:ardqa:09ff8c3c627f,ما اسم موكل أتيكوس في محاكمة الاغتصاب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b559a7aa2d87,في أي لغة برمجة تم تطوير نظام Mac OS في البداية؟,egy:ardqa:128cf90cc667,ما الذي كان ضروريا على خط Mac OS بسبب البنية القديمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b7e4a601a58b,ما هو السبب الجذري لأعمال الشغب في بريكستون في عام 1981؟,egy:ardqa:900072f5fd93,"في أي عام تم تشكيل ""مجلس لندن الكبرى""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bcb620566595,من بين الهجمات الثلاثة المسجلة للفايكنج على لندن، كم منها كان ناجحا؟,egy:ardqa:20c98d94e810,ما الذي تسبب في تراجع مستوطنة الأنجلو-ساكسونيين لوندينويك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:be586ecf2090,أي منصة، عندما تم تحسينها في التسعينات، استحوذت على حصة السوق من أنظمة الماكينتوش؟,egy:ardqa:06a35680f3d1,أين وجدت أنظمة الماكينتوش النجاح في السوق في البداية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c070efaefdff,ما هو تصنيف مركز أرسنال في الدوري في نهاية القرن العشرين؟,egy:ardqa:068f43f2ead8,كم عدد بطولات الدوري التي فاز بها أرسنال في الثلاثينيات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c0c29488f271,ماذا كانت الأقراص تستخدم لتخزينه؟,egy:ardqa:6cf5a59a5b04,في أي عام أصدرت نينتندو نظام فاميكوم ديسك؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c559ce96bd5c,"من جمع انطباعات عن رواية ""قتل طائر بريء"" من مؤلفين وشخصيات مشهورة؟",egy:ardqa:1f15542a4463,"متى تم تحويل رواية ""قتل طائر بريء"" إلى فيلم؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c79b3393c111,من أين يراقب جيم وسكوت وديل محاكمة توم روبنسون؟,egy:ardqa:cd6aa361ed0a,ما أسماء أطفال أتيكوس في الكتاب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cac6f901f5db,ما هو الشعار الخاص بعلامة نينتندو التجارية؟,egy:ardqa:149ca54e3973,أين لم يكن نظام نينتندو متاحا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cbdb7bac499d,أي فريق هزم أرسنال في ملعب ويمبلي في عام 2015؟,egy:ardqa:191a52704261,أي فريق شهير هزم أرسنال في كأس الدوري 2007؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d0b0b5f251d5,هل توجد أي جسور تقع في لندن؟,egy:ardqa:63774d3b4438,أين يقع المتحف البريطاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d45252e98afd,ما هو أسلوب تشابمان التكتيكي الذي شكل أساس نجاح نادي أرسنال؟,egy:ardqa:35f996ad31c7,في أي عقد هيمن أرسنال على كرة القدم الإنجليزية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d8ed1414dcbd,إلى أي مدى استمرت نينتندو في إصلاح وحدات فاميكوم؟,egy:ardqa:66e2e083d058,متى انخفض الطلب على برامج NES الجديدة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:da04ddedf355,ما هو النهر الذي يصب في نهر التايمز؟,egy:ardqa:eab52594e011,إلى أي فترة أثرية تعود بقايا جسر قديم عثر عليه على شاطئ نهر التايمز؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:de293a3b4412,"ما هو النوع الأدبي الذي نفت هاربر لي أن يكون كتاب ""قتل طائر بريء"" ينتمي إليه؟",egy:ardqa:cb869dbb6d96,في أي عمر كانت هاربر لي عندما توفيت والدتها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:df6bc35a6066,متى أصبحت إنجلترا قادرة مرة أخرى على الشحن إلى هولندا؟,egy:ardqa:2ae6f554e729,ما الحدث الذي أعطى دفعة كبيرة للشحن والتجارة الإنجليزية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:df960c38f776,ما هي كمية الذاكرة العشوائية (RAM) القياسية المضمنة في معظم نماذج Mac الحالية؟,egy:ardqa:13db87393a99,كم عدد منافذ نقل البيانات المضمنة في معظم أجهزة Mac الحالية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e04c09115176,من أين نسخت وحدات التحكم في الألعاب؟,egy:ardqa:85eae8e39636,من الذي قام بتثبيت لوحة الاتجاه (D-pad) من Game & Watch على نموذج Famicom؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e0b0df986b89,ما هو الكأس الذي فاز به أرسنال في موسم 2003-2004 دون خسارة أي مباراة؟,egy:ardqa:73bbf12ad198,ما السبب الذي أدى إلى خسارة أرسنال أمام غلطة سراي في موسم 1999-2000؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e1bfe6cbe8d5,ما المساحة التقريبية لقلب مدينة لندن؟,egy:ardqa:1d60b107c6eb,ما هي المدينة التي تعد عاصمة إنجلترا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e70e3c397511,في أي قرن بدأت لندن تصبح مدينة رئيسية بارزة؟,egy:ardqa:63a16162bc8c,ما هو الطراز المعماري الذي أعيدت بناء كاتدرائية وستمنستر به؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e7ebfb94ddf1,ماهي وظيفة الهياكل من فترة العصر الحجري المتوسط التي تم العثور على بقاياها على شاطئ نهر التايمز؟,egy:ardqa:eab52594e011,إلى أي فترة أثرية تعود بقايا جسر قديم عثر عليه على شاطئ نهر التايمز؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ea4eb5ef52c8,ماذا فعلت بلوكباستر بدلا من استخدام كتيبات التعليمات المحمية بحقوق الطبع والنشر؟,egy:ardqa:7320ef564990,ما الذي تم حظره على بلوكباستر لتضمينه مع ألعابهم المؤجرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ed4308514f1e,ما التأثير الذي أحدثه قرار آبل بتسمية نظام التشغيل ماك أو إس 8 على شركات مثل موتورولا؟,egy:ardqa:4b44d11dcff1,"ما الذي أنهته تسمية نظام التشغيل ""ماك أو إس 8"" فعليا؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f10e58f5949a,كان من المتفق عليه في البداية أن اسم لندن كان من أصل أي لغة؟,egy:ardqa:d85c40f43933,ما معنى أصل الاسم الأوروبي القديم ما قبل السلتية الذي يعتقد لاحقا أنه أصل اسم لندن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f1ef2dd3fd83,من الذي قدم تفسيرا لأصول اسم لندن يتعارض مع الافتراضات السابقة؟,egy:ardqa:d85c40f43933,ما معنى أصل الاسم الأوروبي القديم ما قبل السلتية الذي يعتقد لاحقا أنه أصل اسم لندن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f2d7e29599c8,أين أقيمت دورة الألعاب الأولمبية الصيفية 1948 في لندن؟,egy:ardqa:801f3261f23b,ما هو السبب الرئيسي لتفشي وباء الكوليرا في لندن في القرن التاسع عشر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f30a639bfee0,ما الحركة السياسية التي أثارتها وفاة إيميت تيل في الخمسينيات؟,egy:ardqa:254c93f4f454,في أي عمر كانت لي عندما اتهمت امرأة بيضاء رجلا أسودا بالاغتصاب؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f538b1ae693c,"في أي عام نشرت رواية ""قتل طائر بريء"" لأول مرة؟",egy:ardqa:cede48bcda84,"ما هي الجائزة التي فازت بها رواية ""قتل طائر بريء""؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f5e0407ebfb3,"ما هي دار النشر التي اشترت ""قتل طائر بريء""؟",egy:ardqa:15f37187a243,أين التحقت لي بالجامعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f657e22f3962,في أي فترة حدث الإصلاح البروتستانتي؟,egy:ardqa:2ae6f554e729,ما الحدث الذي أعطى دفعة كبيرة للشحن والتجارة الإنجليزية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f6695913f549,كم من المال خسرت شركة يومكس عندما خرجت من سوق النسخ المقلدة المنخفضة لجهاز ماكينتوش؟,egy:ardqa:4b44d11dcff1,"ما الذي أنهته تسمية نظام التشغيل ""ماك أو إس 8"" فعليا؟",n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f70119f7156d,ما هي آخر لعبة فاميكوم أصدرت في أمريكا الشمالية؟,egy:ardqa:66e2e083d058,متى انخفض الطلب على برامج NES الجديدة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f78541f739ce,الجرائم كانت أساس لأي قصة كتبها كابوت؟,egy:ardqa:1f60b2184043,في أي سنة سافر لي وكابوت إلى كانساس معا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f9060f8eef1c,ما هي المعالجات المستخدمة في عائلة منتجات Mac الحالية؟,egy:ardqa:13db87393a99,كم عدد منافذ نقل البيانات المضمنة في معظم أجهزة Mac الحالية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:fb7164640d65,متى كان الإطلاق الوطني لجهاز NES؟,egy:ardqa:5775b2845fb7,متى كانت المرة الثانية التي قامت فيها نينتندو بتسويق جهاز NES؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:fde2d23f856d,في أي سنوات اعتبرت لندن المدينة الأكثر سكانا في العالم؟,egy:ardqa:3a94bd01710b,في منتصف عام 2014، كان عدد سكان لندن يشكل نسبة كم من إجمالي سكان المملكة المتحدة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:fe97e5e86631,مع من أصبحت هاربر لي صديقة في الطفولة؟,egy:ardqa:15f37187a243,أين التحقت لي بالجامعة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:039a95557a4d,هل يحتاج أحد إلى تأشيرة لزيارتها؟,egy:ardqa:09af9f1a99cf,ما حالة السجن في توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:03c0969c25ad,أين يمكن التوقف والنوم خلال الرحلة؟,egy:ardqa:a62240eee484,ما الذي يميز المنازل في هذه الجزيرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:03ca82e79e82,كيف تبدو فاكهة تفاح مامي من الخارج والداخل؟,egy:ardqa:3b17ac48c809,كيف هو طعم غريناديلا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:04052ef215e6,ماذا يجلبون إلى السوق في القوارب؟,egy:ardqa:9766e36958fa,كم تبلغ تكلفة السلة الكاملة من الآساي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:092f2c88aac7,كم كمية الزيت النباتي المستخدمة؟,egy:ardqa:1a73025d74cb,ما الذي سنقوم بإعداده؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0ad72b87c59b,كيف يوصف طعم الآساي الذي جربه؟,egy:ardqa:9766e36958fa,كم تبلغ تكلفة السلة الكاملة من الآساي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0ea8441e0f21,ما الذي يمكنك شراؤه من المتجر الاتصالات؟,egy:ardqa:19d828c223bf,ما هو عدد مراكز الشرطة في توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0eda3279ed11,كم كمية معجون الطماطم؟,egy:ardqa:234a00fc38a7,كم كمية البصل المفروم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0f320422d683,أين ذهبنا للتسوق؟,egy:ardqa:3685a82703d4,ماذا وجدنا في المتجر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0fa3e9d3a5c4,ماذا يرش على الخضار المبشورة؟,egy:ardqa:1a8b535d7aa4,ما كمية البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:0fd8f020389e,كيف سنفتح كوبواسو؟,egy:ardqa:3b17ac48c809,كيف هو طعم غريناديلا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:119a714c905d,من بنى المطار في عام 1941؟,egy:ardqa:108748c3a952,إلى أين سنأخذ الطائرة الصغيرة الآن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:12870c4ec31a,كم كمية الملح المطلوبة؟,egy:ardqa:1a73025d74cb,ما الذي سنقوم بإعداده؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:12bfc566ab1c,كم طول الشبكة التي وضعها بيدرو؟,egy:ardqa:034341bb1aa9,ما الذي يميز أسنان سمكة البيرانا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1307edf9d51c,هل سمكة البيرانا صالحة للأكل؟,egy:ardqa:034341bb1aa9,ما الذي يميز أسنان سمكة البيرانا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1545d7975ef9,ما هدف المدون من الفيديو الحالي؟,egy:ardqa:d229e614e19d,كم يوم يخطط المدون للبقاء في أيسلندا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1598f8cbd202,ماذا يفعل السجناء خلال اليوم؟,egy:ardqa:ec82e61c8e36,ما النشاط الذي يقوم به الناس في معظم الأوقات والذي لاحظه المدون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:1ede7327c1d2,أين يجب وضع التتبيلة للحصول على نكهة إضافية؟,egy:ardqa:2c9d74d9ff56,كيف يمكن الحصول على التتبيلة المتبقية في الوعاء؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2199b28f3cdc,من أين انطلقنا للوصول إلى جرينلاند؟,egy:ardqa:108748c3a952,إلى أين سنأخذ الطائرة الصغيرة الآن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:21b646653c5f,على أي درجة حرارة يسخن الفرن؟,egy:ardqa:62a3f7e587e1,بماذا يزين الطبق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:241f686b0a03,ما هي السمكة الخطيرة المشهورة في الأمازون؟,egy:ardqa:034341bb1aa9,ما الذي يميز أسنان سمكة البيرانا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:242491287f8e,ماذا يفعل بالمطبق بعد وضعه على صينية الخبز؟,egy:ardqa:4d0842df3e6b,ماذا يضاف للحصول على نكهة منعشة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:25ce63b4defb,كم عدد الأشجار وأنواعها في مدينة بيليم؟,egy:ardqa:002f74a82a5e,ماذا تحتوي منطقة الأمازون من النباتات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:26938e26ffd2,ما هي مساحة أيسلندا؟,egy:ardqa:2118b7914aa5,كيف تصنف أيسلندا من حيث الغلاء مقارنة بدول العالم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:272f960859fa,كم كمية الثوم المبشور؟,egy:ardqa:234a00fc38a7,كم كمية البصل المفروم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2749cafda376,كم عدد سكان مدينة ماناوس؟,egy:ardqa:47fac4ecaaed,من أي مدينة انطلقنا إلى منطقة الأمازون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:29731a918a43,كيف هو السجن في توفالو؟,egy:ardqa:ec82e61c8e36,ما النشاط الذي يقوم به الناس في معظم الأوقات والذي لاحظه المدون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:29a098028a72,من أين تحصل هذه الدولة على معظم دخلها؟,egy:ardqa:09af9f1a99cf,ما حالة السجن في توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2a59bf32dade,ما هو أهم شيء لديهم هنا؟,egy:ardqa:3add427422af,لماذا تستورد العديد من دول العالم الأسماك من النرويج؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2ad3f7d70644,لماذا خزنوا الباقي من البذور؟,egy:ardqa:fc3218550de3,ما البذور التي أخرجوها من القبو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2b69c7cce8df,ما الكمية المستخدمة من دقيق القمح الكامل؟,egy:ardqa:14b5d55ae42b,كم ملعقة ملح تضاف؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2b77aa412ae8,كم كمية الزبدة المستخدمة؟,egy:ardqa:0d7118c84a84,كم عدد حبات البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2bc2940594af,كيف تقدم الكفتة مع الصلصة؟,egy:ardqa:24d4a6fcf80f,بماذا يتم تتبيل الصلصة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2d56a3a2b526,كم كمية اللحم المفروم؟,egy:ardqa:0f925f5d6999,كم كمية البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2d97c4e575fc,ما هو الشكل المطلوب للعجين بعد الفرد؟,egy:ardqa:9bcdd587d6f2,أين توضع ورقة السبرينغ رول؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2da0fa4fbc4c,كيف يشعر النرويجيون تجاه الشخص الذي اكتشف النفط؟,egy:ardqa:829de18ade2f,ما هو صندوق الثروة السيادية للنرويج؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:2ee1edde40f7,ما هي مهمتنا بعد ترومسو؟,egy:ardqa:6eb9e4841c14,ما اسم المدينة التي ذهبنا إليها بعد أوسلو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:313542ab5955,كم كمية الملح المضافة؟,egy:ardqa:a81c5f5f8d8d,ماذا يجب فعله بعد خلط المكونات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3398a02a1c05,كم كمية الكراث المطلوبة في الحشوة؟,egy:ardqa:d8075a3228c2,ما مقدار الكمون المطلوب في الحشوة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:346dffa0c2b8,ما هو الشيء الوحيد المألوف بالنسبة لنا من طعامهم؟,egy:ardqa:58ce9dc91dc1,هل يأكلون هذه الأطعمة فقط بسبب التصوير؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:375fbbc8b3d7,أين ينتهي نهر الأمازون؟,egy:ardqa:205827c6be3d,من أين ينبع نهر الأمازون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3afcaeb8b5f6,ماذا يوجد في القطب الشمالي ولا يوجد في القارة القطبية الجنوبية؟,egy:ardqa:2d29efae061a,كيف يدار أرخبيل سفالبارد إداريا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3afd14871794,ما هي المنتجات المحلية؟,egy:ardqa:38164285931d,كيف يتم تناول جلد الحوت؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3b380b17587a,كم كمية العدس الأحمر المستخدمة؟,egy:ardqa:d6736b992d9f,ما نوع الشوربة التي سيتم إعدادها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3c23b06cd8e7,ماذا كتب على نظاراتهم؟,egy:ardqa:dabdd16e2604,متى من المتوقع أن تغرق البلاد؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3f93fc7d9093,من الذين جاءوا للترحيب بنا؟,egy:ardqa:2110c92ee790,ما هو الطعام الغريب الذي سنجربه مع القبائل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:3fc0e284780a,ماذا يمكن رؤيته على الطريق أثناء القيادة في أيسلندا؟,egy:ardqa:d5e7d184214a,ما اسم الشاطئ الذي زاره المدون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:409e38dc4a83,هل يحتاج أحد إلى تأشيرة لدخول سفالبارد؟,egy:ardqa:20fb59c57ba1,كيف يمكن الوصول إلى أرخبيل سفالبارد؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:417e3377c15e,على أي حرارة يجب طهي الكفتة؟,egy:ardqa:7ea8b7ebbd68,لماذا يجب طهي الكفتة على دفعات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:41a9a8482866,لماذا هذه هي المدينة الوحيدة التي يمكن الذهاب إليها مباشرة من كوبنهاغن؟,egy:ardqa:108748c3a952,إلى أين سنأخذ الطائرة الصغيرة الآن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:41e4d31ab417,ماذا يعني لون المبنى الأصفر؟,egy:ardqa:0ae8610c3a99,كم عدد إشارات المرور في الجزيرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:44f4150d8ff1,أين نحن الآن؟,egy:ardqa:3add427422af,لماذا تستورد العديد من دول العالم الأسماك من النرويج؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:47437b81a767,ما هي الخيارات المتاحة للتنقل بعد الوصول؟,egy:ardqa:5c365cd27422,ماذا رأينا عند دخولنا سفالبارد؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:47a1bc997567,ما نوع المرافق السياحية المتوفرة في الطريق؟,egy:ardqa:2ae87473be27,ما المناطق التي استكشفها الكاتب في أيسلندا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:4c68dde4a724,ماذا يوجد بالقرب من الشلال في الموقع الثاني؟,egy:ardqa:2f70f5e5bf94,كيف يمكن وصف التجربة في الموقع الثاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:50f6c82c29fb,ما المكونات التي توضع على السطح؟,egy:ardqa:62a3f7e587e1,بماذا يزين الطبق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:51417ab9aae7,كيف يحاولون توسيع أسطح الأرض؟,egy:ardqa:dabdd16e2604,متى من المتوقع أن تغرق البلاد؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:517943bdf6a8,لماذا تسمى الجزيرة جزيرة الببغاء؟,egy:ardqa:e2523f1adb2f,من أين تأتي الببغاوات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:51ed70e224dc,من الذين التقينا بهم على الجزيرة؟,egy:ardqa:e2523f1adb2f,من أين تأتي الببغاوات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:52d8abee43a8,كم كمية الفلفل الرومي؟,egy:ardqa:0f925f5d6999,كم كمية البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:555516a15526,لماذا لا يحبون أن يطلق عليهم اسم الإسكيمو؟,egy:ardqa:003e755f8ddf,ما هي إحدى وسائل النقل بين الجزر غير الطيران؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:562c809a2783,أين يميل الناس إلى رمي القمامة؟,egy:ardqa:b929fefa04b3,ماذا يفعلون في مكب النفايات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5680b1df6b80,كم كمية البصل الأخضر المطلوبة في الحشوة؟,egy:ardqa:d8075a3228c2,ما مقدار الكمون المطلوب في الحشوة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:56d858d2f714,ما الذي تشتهر به مدينة بيليم؟,egy:ardqa:2c274fd11c3e,ما هي الفاكهة التي أصبحت رائجة في أمريكا وأوروبا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:58be7e612dc1,كم مدة الطبخ في الفرن؟,egy:ardqa:62a3f7e587e1,بماذا يزين الطبق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5b608aa5de6f,كيف تغير الجو خلال زيارة الموقع الثاني؟,egy:ardqa:2f70f5e5bf94,كيف يمكن وصف التجربة في الموقع الثاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5d5b9468e5bc,ماذا يقولون عن المكتبات في المدينة؟,egy:ardqa:1bb9ac2f30af,ما العامل الذي أدى إلى تحسين وضع أيسلندا الاقتصادي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:5e0a3948a881,ما اسم المدينة التي وصلنا إليها في قلب منطقة الأمازون؟,egy:ardqa:47fac4ecaaed,من أي مدينة انطلقنا إلى منطقة الأمازون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:61c25efb19bc,ماذا يفعل جميع السكان هنا؟,egy:ardqa:38164285931d,كيف يتم تناول جلد الحوت؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6509acd3f32b,إلى أين ينقل البصل بعد أن يكرمل بالكامل؟,egy:ardqa:0d7118c84a84,كم عدد حبات البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6689af1ffa8e,أي فاكهة هي أكثر فاكهة يحبها الناس؟,egy:ardqa:3b17ac48c809,كيف هو طعم غريناديلا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6a4a5b63a3f6,لماذا كانوا يأكلون النمل في الماضي؟,egy:ardqa:2110c92ee790,ما هو الطعام الغريب الذي سنجربه مع القبائل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6abcd75b2e5a,ماذا عرضت عليهم أستراليا ونيوزلندا؟,egy:ardqa:dabdd16e2604,متى من المتوقع أن تغرق البلاد؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:6b98f4656cda,ماذا يعني لون المبنى الأحمر؟,egy:ardqa:0ae8610c3a99,كم عدد إشارات المرور في الجزيرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:70e748df0cf8,ماذا يفعلون عند غروب الشمس؟,egy:ardqa:40746c4aabc0,ما النشاط الذي يجتمعون للقيام به؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7152873eeaba,كيف يبدو طعم الحوت؟,egy:ardqa:38164285931d,كيف يتم تناول جلد الحوت؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:724a9b023417,ماذا يجب عليك أن تفعل بسبب الخطر هناك؟,egy:ardqa:5c365cd27422,ماذا رأينا عند دخولنا سفالبارد؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:77f07bfbb16b,كم كمية الماء المطلوب إضافته تدريجيا؟,egy:ardqa:1a73025d74cb,ما الذي سنقوم بإعداده؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:78b120f71d8e,كم من الوقت يستغرق طهي كل جانب من الكفتة؟,egy:ardqa:7ea8b7ebbd68,لماذا يجب طهي الكفتة على دفعات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7936e8b1ebd2,ما طعم النمل؟,egy:ardqa:2110c92ee790,ما هو الطعام الغريب الذي سنجربه مع القبائل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7a0195d6c0ee,كم عدد المراكز التجارية في جرينلاند؟,egy:ardqa:0ae8610c3a99,كم عدد إشارات المرور في الجزيرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7aa27e83a7b9,مع ماذا يقدم الطبق؟,egy:ardqa:62a3f7e587e1,بماذا يزين الطبق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7f3a357a8038,كيف تستخدم صلصة البصل المكرمل؟,egy:ardqa:1be6b2c4ff7b,كم من الوقت يجب شوي الدجاج؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:7f7b34afc4e4,ما الطريقتان المقترحتان لقلي شرائح الباذنجان؟,egy:ardqa:7e32e66ba9f3,كم مدة ترك الباذنجان جانبا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8389f9e72287,على أي درجة حرارة يشوى الدجاج؟,egy:ardqa:1be6b2c4ff7b,كم من الوقت يجب شوي الدجاج؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:84cab3ffc8f5,كم مدة الطهي الأولى؟,egy:ardqa:234a00fc38a7,كم كمية البصل المفروم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:84d1c16247a1,كم كمية الدقيق المستخدمة؟,egy:ardqa:1a73025d74cb,ما الذي سنقوم بإعداده؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8533eaa9dc7c,ما اسم المدينة التي نحن فيها الآن؟,egy:ardqa:2d29efae061a,كيف يدار أرخبيل سفالبارد إداريا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:857b0eb3433b,كيف يتم تحضير عصير الآساي؟,egy:ardqa:0dd366d5c131,كيف يوصف مشروب الآساي؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:885e4f15ba02,ماذا يجب فعله أثناء طهي البصل؟,egy:ardqa:0d7118c84a84,كم عدد حبات البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8902f8293a20,كم يكسب بيدرو شهريا؟,egy:ardqa:bf985e29d4d2,منذ متى لم يستقبل ضيفا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:891ed1ae29c7,ما هي عاصمة ولاية أمازوناس؟,egy:ardqa:47fac4ecaaed,من أي مدينة انطلقنا إلى منطقة الأمازون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8c37f221c5a5,كم عدد الرحلات التي لدى هذه الدولة في الأسبوع؟,egy:ardqa:09af9f1a99cf,ما حالة السجن في توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8e14f27a9885,ما هي الفاكهة الأكثر شهرة في ماناوس؟,egy:ardqa:3b17ac48c809,كيف هو طعم غريناديلا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8ef13d153ba7,كم عدد فصوص الثوم؟,egy:ardqa:0f925f5d6999,كم كمية البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:8f96cea27f77,ما الأعشاب المضافة إلى الصلصة؟,egy:ardqa:24d4a6fcf80f,بماذا يتم تتبيل الصلصة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:908fc874705f,على أي شكل يمكن تشكيل الكفتة؟,egy:ardqa:7ea8b7ebbd68,لماذا يجب طهي الكفتة على دفعات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:95b3a4ed5e2b,ماذا كان يوجد في جميع جزر الأرخبيل؟,egy:ardqa:3a70ca9833fc,ما هي العربات الموجودة في الأعلى؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:95def6442c9f,ما هي أكبر جزيرة بركانية في العالم؟,egy:ardqa:3c2c8bdc3fc0,ما الخصائص الطبيعية التي تتميز بها الجزيرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9636b2d10f7b,كيف يمكنهم الاستفسار عن رصيدهم؟,egy:ardqa:0385d6e2e36f,كم عدد البنوك في توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9673a3529223,ماذا يطلق على مدينة ترومسو أيضا؟,egy:ardqa:6eb9e4841c14,ما اسم المدينة التي ذهبنا إليها بعد أوسلو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:96f486452e37,متى فتحوا القبو؟,egy:ardqa:fc3218550de3,ما البذور التي أخرجوها من القبو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:973e615fb54a,لماذا تسمى هذه الجزيرة جزيرة الاكتئاب في العالم؟,egy:ardqa:20fb59c57ba1,كيف يمكن الوصول إلى أرخبيل سفالبارد؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:980db6c260f5,ما الفرق بين برشلونة وتوفالو فيما يتعلق بالسياحة؟,egy:ardqa:112552fb9f11,كيف اقترحوا الوصول إلى الفندق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:98e732abe900,كم من الوقت يجب ترك الخضار المبشورة؟,egy:ardqa:1a8b535d7aa4,ما كمية البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9b2661eb6252,ما الذي يحرم على النساء هنا؟,egy:ardqa:3685a82703d4,ماذا وجدنا في المتجر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9c2782cc82fe,كم عدد الببغاوات الموجودة على الجزيرة؟,egy:ardqa:e2523f1adb2f,من أين تأتي الببغاوات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:9db6830d659c,كيف هي رائحة ومذاق كوبواسو؟,egy:ardqa:3b17ac48c809,كيف هو طعم غريناديلا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a12450a38bed,كم عدد قطع الدجاج المستخدمة؟,egy:ardqa:2c9d74d9ff56,كيف يمكن الحصول على التتبيلة المتبقية في الوعاء؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a19adc135e46,كيف سنذهب إلى جزيرة سفالبارد؟,egy:ardqa:6eb9e4841c14,ما اسم المدينة التي ذهبنا إليها بعد أوسلو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a3e59845c6ac,كيف يمكنهم سحب النقود؟,egy:ardqa:0385d6e2e36f,كم عدد البنوك في توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a4e09340eaee,كم مقدار الكمون المطلوب في الحشوة الثانية؟,egy:ardqa:544b6ea553f3,كم عدد البيض المطلوب في الحشوة الثانية؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a551b703f044,ما هي التوابل المستخدمة حسب الذوق؟,egy:ardqa:d8075a3228c2,ما مقدار الكمون المطلوب في الحشوة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a65049859cfe,ما البديل المقترح للكاجو في الوصفة؟,egy:ardqa:825d89a919ef,ما الخطوات النهائية لتقديم الشوربة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a664c1747dde,ما اسم عاصمة توفالو؟,egy:ardqa:112552fb9f11,كيف اقترحوا الوصول إلى الفندق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a6a12b6d1392,ما هو أكبر مصدر دخل للبلد؟,egy:ardqa:4cf1348ab294,ما النطاق الذي يدفع الناس لاستخدامه؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a77cd25d1343,على ماذا كانت تعتمد ايسلندا كمورد أساسي للبقاء والحياة في السابق؟,egy:ardqa:955a99619023,ما الذي يميز موقع أيسلندا جغرافيا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a822680c3e50,ما الذي يتم تناوله مع الآساي في هذه المدينة؟,egy:ardqa:2c274fd11c3e,ما هي الفاكهة التي أصبحت رائجة في أمريكا وأوروبا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:a8cd428882a0,ما هو أطول نهر في العالم الذي يمر عبر الأمازون؟,egy:ardqa:205827c6be3d,من أين ينبع نهر الأمازون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ab10f6f774e2,ما الفكرة المخيفة التي يتحدثون عنها؟,egy:ardqa:fc3218550de3,ما البذور التي أخرجوها من القبو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ae25d8e0ec3c,ما الترتيب المطلوب للمكونات؟,egy:ardqa:62a3f7e587e1,بماذا يزين الطبق؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:af1954ae7f6d,كم سيبقى الكاتب هناك؟,egy:ardqa:38f490998dbd,كم عدد الرحلات في الأسبوع إلى هذه الدولة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b031724e97bd,على أي حرارة تخبز العجينة؟,egy:ardqa:0c3eb25c233b,على ماذا تخبز العجينة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b3e53af19f61,ما اسم المدينة الثانية التي ذهبنا إليها؟,egy:ardqa:2c274fd11c3e,ما هي الفاكهة التي أصبحت رائجة في أمريكا وأوروبا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b4eb56b9609a,ما مدى حجم الجزيرة؟,egy:ardqa:a62240eee484,ما الذي يميز المنازل في هذه الجزيرة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b6176e3649bf,ما هي مميزات البحيرة الزرقاء؟,egy:ardqa:51f80df71a0c,ما الخدمات التي تقدمها البحيرة الزرقاء لزوارها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b76ed0ad73f7,ما هي الجائزة اليوم في القمار؟,egy:ardqa:ec82e61c8e36,ما النشاط الذي يقوم به الناس في معظم الأوقات والذي لاحظه المدون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:b8dc2abd3604,ماذا يجب فعله بعد طي المجموعة الأولى من قطع العجين؟,egy:ardqa:0c3eb25c233b,على ماذا تخبز العجينة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bd70ebbca17a,ما هو الموقع الأول الذي زاره المدون؟,egy:ardqa:a8d0562da039,ما الذي يظهر مستوى الأمان في أيسلندا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bd7ab6868440,كيف يشبه النمل عند النظر إليه من بعيد؟,egy:ardqa:2110c92ee790,ما هو الطعام الغريب الذي سنجربه مع القبائل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bdf4b18f0ff7,كم مدة الرحلة من كوبنهاجن إلى جرينلاند؟,egy:ardqa:108748c3a952,إلى أين سنأخذ الطائرة الصغيرة الآن؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bdfb1c4f8871,كم من الوقت يستغرق التجول في البلاد؟,egy:ardqa:4da8b524c109,كم عدد سكان توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:be135455b373,على ماذا يتم فرد قطع العجين؟,egy:ardqa:9bcdd587d6f2,أين توضع ورقة السبرينغ رول؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:bf7d09a9a2de,ماذا يوجد في المدينة بالإضافة إلى المركز التجاري والمقهى؟,egy:ardqa:399bffca9c25,كم عدد سكان المدينة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c1ca0bb05dc3,ما هي رئتي الأرض؟,egy:ardqa:1f32bfb61c9f,ما النسبة المئوية من إجمالي مساحة الأمازون موجودة في البرازيل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c402b45c7832,ما الذي يشبهون به هذه العملية؟,egy:ardqa:dabdd16e2604,متى من المتوقع أن تغرق البلاد؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c5b67bb5e76e,من يشكل 88% من سكانها؟,egy:ardqa:348091fc6bef,ماذا سنجرب اليوم في جرينلاند؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c65bddf1e3a2,كيف يوصف جمال مدينة ترومسو؟,egy:ardqa:6eb9e4841c14,ما اسم المدينة التي ذهبنا إليها بعد أوسلو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c6bb210cc4ca,ما كمية الثوم المبشور المستخدمة؟,egy:ardqa:99ee308474ac,ما كمية صدر الدجاج المفروم المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:c959adec1e65,كيف يقضون وقتهم؟,egy:ardqa:ec82e61c8e36,ما النشاط الذي يقوم به الناس في معظم الأوقات والذي لاحظه المدون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ca84a6297ac7,أين ذهبنا للتسوق؟,egy:ardqa:38164285931d,كيف يتم تناول جلد الحوت؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:cba65b299333,ما مدة العجن المطلوبة؟,egy:ardqa:1a73025d74cb,ما الذي سنقوم بإعداده؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ccc13285774d,كيف يجب لف العجين؟,egy:ardqa:0c3eb25c233b,على ماذا تخبز العجينة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ceeb9c2c015a,ما هي التوابل المستخدمة؟,egy:ardqa:0f925f5d6999,كم كمية البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d046aabbdf06,ما هي الوزارة التي لديهم للتعامل مع الأزمة؟,egy:ardqa:34c64da4a802,ما اسم الوزير الذي التقوا به؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d0531b3ddd94,ما كمية الخل المضافة؟,egy:ardqa:a81c5f5f8d8d,ماذا يجب فعله بعد خلط المكونات؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d1bfd42f301f,كم مرة تتجدد المياه في هذه البحيرة؟,egy:ardqa:51f80df71a0c,ما الخدمات التي تقدمها البحيرة الزرقاء لزوارها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d32fc1a4ee13,كم المدة اللازمة لنقع العدس الأحمر؟,egy:ardqa:d6736b992d9f,ما نوع الشوربة التي سيتم إعدادها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d3b937067269,كم عدد الشوارع في هذه المدينة؟,egy:ardqa:399bffca9c25,كم عدد سكان المدينة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d502007a3dcc,كيف يتم الحصول على طهي متساوي؟,egy:ardqa:4d0842df3e6b,ماذا يضاف للحصول على نكهة منعشة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:d7f5856c3847,أين تقع هذه الدولة؟,egy:ardqa:09af9f1a99cf,ما حالة السجن في توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:db9bb3c657c1,ما هو أكبر جاكوزي طبيعي في العالم؟,egy:ardqa:51f80df71a0c,ما الخدمات التي تقدمها البحيرة الزرقاء لزوارها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:dd7e0cfd2879,كيف يتم تغذية البحيرة؟,egy:ardqa:51f80df71a0c,ما الخدمات التي تقدمها البحيرة الزرقاء لزوارها؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:de18e01f9274,بمن التقى المدون في مكان عشوائي؟,egy:ardqa:40746c4aabc0,ما النشاط الذي يجتمعون للقيام به؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:de210f267666,ما اسم الجزيرة التي لا يوجد فيها اللون الأخضر؟,egy:ardqa:348091fc6bef,ماذا سنجرب اليوم في جرينلاند؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:de3b52080ff3,كم من الوقت ستستغرق الرحلة بالقارب؟,egy:ardqa:2110c92ee790,ما هو الطعام الغريب الذي سنجربه مع القبائل؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e06379d60d58,ما الذي يحرم على الإنسان في هذه الجزيرة؟,egy:ardqa:3685a82703d4,ماذا وجدنا في المتجر؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e0671ac9682b,لماذا لا يسمح بشراء السيارات؟,egy:ardqa:4da8b524c109,كم عدد سكان توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e1e38de7c512,من هو الشخص الذي التقيناه؟,egy:ardqa:bf985e29d4d2,منذ متى لم يستقبل ضيفا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e48dd182b01d,ما هو ترتيب نصيب الفرد من الدخل في النرويج على مستوى العالم؟,egy:ardqa:3add427422af,لماذا تستورد العديد من دول العالم الأسماك من النرويج؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:e70728764720,كم عدد الطماطم المطلوبة؟,egy:ardqa:d8075a3228c2,ما مقدار الكمون المطلوب في الحشوة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:edc4bce240a3,ما كمية الكوسة المستخدمة؟,egy:ardqa:1a8b535d7aa4,ما كمية البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:ef9f26bcea65,أين بقي المدون بعد زيارة الشلالات؟,egy:ardqa:2f70f5e5bf94,كيف يمكن وصف التجربة في الموقع الثاني؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f023e07305f4,هل توجد خدمات مصرفية عبر الإنترنت؟,egy:ardqa:0385d6e2e36f,كم عدد البنوك في توفالو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f0d0672a46b6,ما الخاصية التي يتميز بها هذا الشاطئ؟,egy:ardqa:d5e7d184214a,ما اسم الشاطئ الذي زاره المدون؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f19372cd0382,بأي زيت يقلى الباذنجان؟,egy:ardqa:7e32e66ba9f3,كم مدة ترك الباذنجان جانبا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f2c54d2174bf,على أي درجة حرارة يتم طهي البصل؟,egy:ardqa:0d7118c84a84,كم عدد حبات البصل المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f535b9005bef,كم كمية البقدونس المفروم المضافة؟,egy:ardqa:99ee308474ac,ما كمية صدر الدجاج المفروم المستخدمة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f5f2c3ed24ae,ماذا يجب فعله عندما تبرد التتبيلة؟,egy:ardqa:2c9d74d9ff56,كيف يمكن الحصول على التتبيلة المتبقية في الوعاء؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f673933f5704,ما الصناعات التي دخلتها أيسلندا بعد الابتعاد عن صيد الأسماك؟,egy:ardqa:53ef76319127,كيف تستفيد أيسلندا من بيئتها لتوليد الطاقة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f947b51408b9,ماذا سترى لحظة دخولك منطقة الأمازون؟,egy:ardqa:3b17ac48c809,كيف هو طعم غريناديلا؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:f9c9de0423e0,كم المدة اللازمة لنقع الكاجو؟,egy:ardqa:dcd29d8a07ba,ما هي كمية الكاجو المستخدمة في الوصفة؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:faee298431be,ما كمية مرقة الخضار؟,egy:ardqa:234a00fc38a7,كم كمية البصل المفروم؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:fb0d78996e2c,كم عدد الكرات الصغيرة التي يتم فردها فوق الكبيرة؟,egy:ardqa:1a7220fb75d1,بماذا تدهن بين كل طبقة والأخرى؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:fb386c5918cd,أين زرعوا هذه البذور في عام 2017؟,egy:ardqa:fc3218550de3,ما البذور التي أخرجوها من القبو؟,n
+test_ardqa,calibration_667,passage,-,1.0,egy:ardqa:fdbec13568f6,ما هي الدولة التي تبلغ مساحتها ضعف مساحة أوروبا؟,egy:ardqa:1f32bfb61c9f,ما النسبة المئوية من إجمالي مساحة الأمازون موجودة في البرازيل؟,n
+test_ardqa,calibration_667,semantic,egy,1.0,egy:ardqa:604e34a50f04,إيه النتيجة النهائية للقصة؟,egy:ardqa:bfd0b189fd41#egy,إيه النتيجة النهائية للقصة؟,y
+test_ardqa,calibration_667,semantic,egy,1.0,egy:ardqa:b1c1e87980f6,رد فعل الست العجوزة كان إيه على كلام الديك؟,egy:ardqa:c8b1bc0517c1#egy,رد فعل الست العجوزة كان إيه على كلام الديك؟,y
+test_ardqa,calibration_667,semantic,egy,1.0,egy:ardqa:0eda3279ed11,كام كمية معجون الطماطم؟,egy:ardqa:e3b3be69f0ad#egy,كام كمية معجون الطماطم؟,y
+test_ardqa,calibration_667,semantic,egy,1.0,egy:ardqa:44f4150d8ff1,احنا فين دلوقتي؟,egy:ardqa:fb5f1e2ed3ae#egy,احنا فين دلوقتي؟,y
+test_ardqa,calibration_667,semantic,egy,1.0,egy:ardqa:a551b703f044,إيه التوابل المستخدمة حسب الرغبة؟,egy:ardqa:e25a6cc3dbf0#egy,إيه التوابل المستخدمة حسب الرغبة؟,y
+test_ardqa,calibration_667,semantic,msa,1.0,egy:ardqa:604e34a50f04,ما النتيجة النهائية للقصة؟,egy:ardqa:bfd0b189fd41,ما النتيجة النهائية للقصة؟,y
+test_ardqa,calibration_667,semantic,msa,1.0,egy:ardqa:0eda3279ed11,كم كمية معجون الطماطم؟,egy:ardqa:e3b3be69f0ad,كم كمية معجون الطماطم؟,y
+test_ardqa,calibration_667,semantic,msa,1.0,egy:ardqa:44f4150d8ff1,أين نحن الآن؟,egy:ardqa:a5059fe71f37,أين نحن الآن؟,y
+test_ardqa,calibration_667,semantic,msa,1.0,egy:ardqa:a551b703f044,ما هي التوابل المستخدمة حسب الذوق؟,egy:ardqa:e25a6cc3dbf0,ما هي التوابل المستخدمة حسب الذوق؟,y
+test_heldout,complexity_train,semantic,msa,0.999,egy:held:arabicaqa:train:1184250,ما هو تعريف كسوف الشمس؟,arabicaqa:train:1170719,ما هو تعريف كسوف الشمس ؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.999,confirm2:arabicaqa:test:1103167,من هو مخرج فيلم من الصعب أن تكون إلها ؟,arabicaqa:train:1103164,من هو مخرج فيلم من الصعب أن تكون إلها؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.999,confirm2:arabicaqa:test:1182528,متي ظهرت الشخصية لأول مرة ؟,arabicaqa:train:1182895,متي ظهرت الشخصية لأول مرة؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.999,confirm2:arabicaqa:test:1158817,من هو مخرج وكاتب الفيلم ؟,arabicaqa:train:1179322,من هو مخرج وكاتب الفيلم؟,y
+test_heldout,complexity_dev,semantic,egy,0.999,egy:held:arabicaqa:dev:678739,إيه أهمية ميشيغان في الإبحار الترفيهي؟,arabicaqa:dev:678739,ما هي أهمية ميشيغان في الإبحار الترفيهي؟,y
+test_pilot,dialect_train,semantic,msa,0.998,egy:pilot:q158,متى بدأت الحرب العالمية الأولى؟,arabicragb:test:469,إمتى بدأت الحرب العالمية الأولى؟,y
+confirm_arabicaqa,complexity_train,semantic,egy,0.998,confirm2:arabicaqa:test:1171591,كام عدد الأحداث في دورة ساروس 134؟,arabicaqa:train:1176344,كم عدد الأحداث في دورة ساروس 134؟,y
+test_heldout,complexity_dev,semantic,egy,0.998,egy:held:arabicaqa:dev:1163570,إيه دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,arabicaqa:dev:1163570,ما هو دور المعهد التركي لبراءات الاختراع (TPE) وفاحصي العلامات التجارية في تركيا؟,y
+test_ardqa,dialect_dev_ardqa,semantic,egy,0.997,egy:ardqa:ceeb9c2c015a,إيه هي التوابل المستخدمة؟,ardqa:vlogs:dev:2875cb4d836a:egy,إيه التوابل المستخدمة؟,y
+test_heldout,complexity_train,semantic,egy,0.997,egy:held:arabicaqa:train:666646,إيه هي العاصمة وأكبر مدينة في أوزبكستان؟,arabicaqa:train:666646,ما هي العاصمة وأكبر مدينة في أوزبكستان؟,y
+test_heldout,complexity_train,semantic,egy,0.997,egy:held:arabicaqa:train:929353,إيه أهداف الجيش الأحمر الياباني؟,arabicaqa:train:929353,ما هي أهداف الجيش الأحمر الياباني؟,y
+test_pilot,dialect_train,semantic,egy,0.996,egy:pilot:q067,ايه اللغة الرسمية في مصر؟,arabicragb:train:4508,إيه هي اللغة الرسمية في مصر؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.996,confirm2:arabicaqa:test:1171591,كم عدد الأحداث دورة ساروس 134؟,arabicaqa:train:1176344,كم عدد الأحداث في دورة ساروس 134؟,y
+test_ardqa,calibration_667,semantic,msa,0.996,egy:ardqa:b1c1e87980f6,كيف كانت ردة فعل المرأة العجوز على كلام الديك؟,egy:ardqa:c8b1bc0517c1,ما كان رد فعل المرأة العجوز على كلام الديك؟,y
+test_ardqa,dialect_dev_ardqa,semantic,egy,0.995,egy:ardqa:0eda3279ed11,كام كمية معجون الطماطم؟,ardqa:vlogs:dev:248ee62479fa:glf,كم كمية معجون الطماطم؟,y
+confirm_arabicaqa,complexity_train,semantic,egy,0.995,confirm2:arabicaqa:test:1158817,مين مخرج وكاتب الفيلم؟,arabicaqa:train:1179322,من هو مخرج وكاتب الفيلم؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.994,confirm2:arabicaqa:test:1186997,متى تم عرض الفيلم؟,arabicaqa:train:1183894,متي تم عرض الفيلم؟,y
+test_ardqa,calibration_667,semantic,egy,0.994,egy:ardqa:c6bb210cc4ca,كام كمية الثوم المبشور المستخدمة؟,egy:ardqa:abe128dcf158,كم كمية الثوم المبشور المستخدمة؟,y
+test_pilot,dialect_dev,semantic,egy,0.993,egy:pilot:q064,مقر جامعة الدول العربية فين؟,arabicragb:train:3287,فين مقر جامعة الدول العربية؟,y
+test_pilot,complexity_train,semantic,egy,0.993,egy:pilot:q146,ايه عاصمة السودان؟,arabicaqa:train:986921,ما هي عاصمة السودان؟,y
+test_heldout,complexity_train,semantic,egy,0.992,egy:held:arabicaqa:train:1184250,إيه تعريف كسوف الشمس؟,arabicaqa:train:1170719,ما هو تعريف كسوف الشمس ؟,y
+test_ardqa,calibration_667,semantic,msa,0.992,egy:ardqa:c6bb210cc4ca,ما كمية الثوم المبشور المستخدمة؟,egy:ardqa:abe128dcf158,كم كمية الثوم المبشور المستخدمة؟,y
+test_pilot,dialect_train,semantic,egy,0.991,egy:pilot:q147,ايه عاصمة ليبيا؟,arabicragb:train:5127,ما هي عاصمة ليبيا؟,y
+test_pilot,complexity_train,semantic,egy,0.991,egy:pilot:q145,ايه عاصمة تركيا؟,arabicaqa:train:925736,ما هي عاصمة تركيا؟,y
+test_heldout,complexity_train,semantic,egy,0.991,egy:held:arabicaqa:train:1169355,مين كارلوس ريكالدي؟,arabicaqa:train:1169355,من هو كارلوس ريكالدي؟,y
+test_pilot,dialect_train,semantic,egy,0.99,egy:pilot:q079,ايه عاصمة السعودية؟,arabicragb:train:7360,ما هي عاصمة السعودية؟,y
+test_pilot,dialect_train,semantic,egy,0.99,egy:pilot:q149,ايه عاصمة العراق؟,arabicragb:train:9863,ما هي عاصمة العراق؟,y
+test_pilot,dialect_train,semantic,msa,0.99,egy:pilot:q020,في أي عام تأسست جامعة القاهرة؟,arabicragb:train:2660,إيمتى تأسست جامعة القاهرة؟,y
+test_heldout,complexity_train,semantic,egy,0.99,egy:held:arabicaqa:train:1184913,إيه أول أغنية أخرجها إينار؟,arabicaqa:train:1184913,ما هي الأغنية الأولى التي أخرجها إينار ؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.987,confirm2:arabicaqa:test:1174929,من هو المخرج الذي أخرج هذا الفيلم؟,arabicaqa:train:1184948,من هو المخرج لهذا الفيلم؟,y
+test_heldout,complexity_dev,semantic,msa,0.987,egy:held:arabicaqa:train:1184250,ما هو تعريف كسوف الشمس؟,arabicaqa:dev:1170627,ما هوتعريف كسوف الشمس؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.986,confirm2:arabicaqa:test:1097694,متى تم عرض الحلقة الأولى من المسلسل؟,arabicaqa:train:1095749,متى تم عرض أول حلقة من المسلسل؟,y
+test_pilot,dialect_train,semantic,msa,0.985,egy:pilot:q147,ما هي عاصمة دولة ليبيا؟,arabicragb:train:5127,ما هي عاصمة ليبيا؟,y
+test_pilot,complexity_train,semantic,msa,0.985,egy:pilot:q004,كم يبلغ طول نهر النيل تقريبا؟,arabicaqa:train:940932,ما هو طول نهر النيل ؟,y
+test_heldout,complexity_train,semantic,egy,0.985,egy:held:arabicaqa:train:1161933,"مين اللي كتب النص وأخرج فيلم ""جمال أسود""؟",arabicaqa:train:1161933,"من قام بكتابة النص وإخراج فيلم ""جمال أسود""؟",y
+test_heldout,complexity_train,semantic,egy,0.985,egy:held:arabicaqa:train:918373,إيه التدابير اللي الحكومة أخدتها عشان تمنع المظاهرات المحتملة؟,arabicaqa:train:918373,ما هي التدابير التي اتخذتها الحكومة لإحباط المظاهرات المحتملة؟,y
+test_heldout,complexity_train,semantic,egy,0.985,egy:held:arabicaqa:train:929383,إيه هي أختام كرمة؟,arabicaqa:train:929383,ما هي أختام كرمة؟,y
+confirm_arabicaqa,complexity_train,semantic,egy,0.984,confirm2:arabicaqa:test:1103167,مين مخرج فيلم من الصعب إنك تكون إلها؟,arabicaqa:train:1103164,من هو مخرج فيلم من الصعب أن تكون إلها؟,y
+test_heldout,complexity_dev,semantic,egy,0.984,egy:held:arabicaqa:train:1184250,إيه تعريف كسوف الشمس؟,arabicaqa:dev:1170627,ما هوتعريف كسوف الشمس؟,y
+test_ardqa,calibration_667,semantic,egy,0.984,egy:ardqa:29731a918a43,إزاي حال السجن في توفالو؟,egy:ardqa:09af9f1a99cf,ما حالة السجن في توفالو؟,y
+test_pilot,complexity_train,semantic,egy,0.983,egy:pilot:q004,نهر النيل طوله قد ايه تقريبا؟,arabicaqa:train:940932,ما هو طول نهر النيل ؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.98,confirm2:arabicaqa:test:1103023,أين توجد اللوحه الأن؟,arabicaqa:train:1125501,أين توجد اللوحه حاليا ؟,y
+confirm_arabicaqa,router_labels,semantic,msa,0.98,confirm2:arabicaqa:test:1103023,أين توجد اللوحه الأن؟,arabicaqa:train:1125496,أين توجد اللوحه حاليا ؟,y
+test_heldout,complexity_train,semantic,egy,0.979,egy:held:arabicaqa:train:1124632,في مناسبة دولية إيه شارك فيها دي جافو؟,arabicaqa:train:1124632,في أي مناسبة دولية شارك دي جافو؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.979,confirm2:arabicaqa:test:1193635,من هو مخرج المسلسل؟,arabicaqa:train:1192139,من هو مخرج المسلسل,y
+test_pilot,complexity_train,semantic,msa,0.977,egy:pilot:q146,ما هي عاصمة جمهورية السودان؟,arabicaqa:train:986921,ما هي عاصمة السودان؟,y
+test_heldout,complexity_train,semantic,egy,0.977,egy:held:arabicaqa:train:927146,إيه أهم الشركات والمؤسسات اللي مركزها في بريمن؟,arabicaqa:train:927146,ما هي أهم الشركات والمؤسسات المتمركزة في بريمن؟,y
+test_pilot,dialect_train,semantic,msa,0.975,egy:pilot:q079,ما هي عاصمة المملكة العربية السعودية؟,arabicragb:train:7360,ما هي عاصمة السعودية؟,y
+test_pilot,complexity_train,semantic,msa,0.975,egy:pilot:q145,ما هي عاصمة جمهورية تركيا؟,arabicaqa:train:925736,ما هي عاصمة تركيا؟,y
+test_heldout,complexity_train,semantic,egy,0.973,egy:held:arabicaqa:train:918241,إيه هي البلدة اللي ليوناردو أهداها للملك فرانسوا الأول فيها بيت؟,arabicaqa:train:918241,ما هي البلدة التي أهداها ليوناردو الملك فرانسوا الأول فيها منزلاً؟,y
+test_heldout,complexity_dev,semantic,egy,0.973,egy:held:arabicaqa:dev:998826,إيه الصفات الفاصلة اللي بيتم الاستشهاد بيها في المؤلفات العلمية عشان تصنيف المواد الفوقية؟,arabicaqa:dev:998826,ما هي الصفات الفاصلة التي يتم الاستشهاد بها في المؤلفات العلمية لتصنيف المواد الفوقية؟,y
+test_ardqa,calibration_667,semantic,egy,0.973,egy:ardqa:9f0fcb6ff85e,الست العجوز التانية قالت إيه للولد؟,egy:ardqa:d1d119f08550#egy,الست العجوز قالت إيه للولد؟,n
+test_heldout,complexity_train,semantic,egy,0.972,egy:held:arabicaqa:train:1118460,أحمد محمد الحسن اتولد فين؟,arabicaqa:train:1118454,متي ولد أحمد محمد الحسن ؟,n
+test_heldout,complexity_train,semantic,egy,0.972,egy:held:arabicaqa:train:1183770,كلوبينثيكسول ده إيه؟,arabicaqa:train:1183770,ما هو كلوبينثيكسول؟,y
+test_heldout,complexity_train,semantic,egy,0.971,egy:held:arabicaqa:train:652844,إيه مميزات فترة هوجو؟,arabicaqa:train:652844,ما مميزات فتره هوجو ؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.97,confirm2:arabicaqa:test:674912,كم عدد الأيام الذي يبقى لانتهاء السنة بعد اليوم المذكور؟,arabicaqa:train:698572,كم عدد الأيام التي تبقى لانتهاء السنة بعد هذا اليوم؟,y
+test_ardqa,calibration_667,semantic,egy,0.97,egy:ardqa:3afcaeb8b5f6,ايه اللي موجود في القطب الشمالي ومش موجود في القارة القطبية الجنوبية؟,egy:ardqa:c9bb980f467e#egy,ايه اللي موجود في القارة القطبية الجنوبية ومش موجود في القطب الشمالي؟,n
+test_heldout,complexity_train,semantic,egy,0.968,egy:held:arabicaqa:train:676467,مين حكام المماليك البرجية؟,arabicaqa:train:676467,من هم حكام المماليك البرجية؟,y
+test_pilot,dialect_train,semantic,msa,0.967,egy:pilot:q149,ما هي عاصمة جمهورية العراق؟,arabicragb:train:9863,ما هي عاصمة العراق؟,y
+confirm_arabicaqa,complexity_train,semantic,egy,0.967,confirm2:arabicaqa:test:1193635,مين مخرج المسلسل؟,arabicaqa:train:1068436,من هو المخرج الذي قام بإخراج المسلسل؟,y
+confirm_arabicaqa,complexity_train,semantic,egy,0.967,confirm2:arabicaqa:test:1097694,إمتى اتعرضت الحلقة الأولى من المسلسل؟,arabicaqa:train:1095749,متى تم عرض أول حلقة من المسلسل؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.967,confirm2:arabicaqa:test:1164681,ما هو التاريخ الذي حدث فيه الخسوف الكامل للقمر عام 2008؟,arabicaqa:train:1164602,متى وقع خسوفًا كليًا للقمر في عام 2008 ؟,y
+test_ardqa,calibration_667,semantic,egy,0.966,egy:ardqa:0d0edc7a7fc2,"ليه تم إنشاء ""مجلس لندن الكبرى""؟",egy:ardqa:900072f5fd93,"في أي عام تم تشكيل ""مجلس لندن الكبرى""؟",n
+test_ardqa,calibration_667,semantic,msa,0.965,egy:ardqa:8c37f221c5a5,كم عدد الرحلات التي لدى هذه الدولة في الأسبوع؟,egy:ardqa:38f490998dbd,كم عدد الرحلات في الأسبوع إلى هذه الدولة؟,y
+test_heldout,complexity_train,semantic,msa,0.964,egy:held:arabicaqa:train:1178560,ما هو تعريف الكسوف الشمسي؟,arabicaqa:train:1170719,ما هو تعريف كسوف الشمس ؟,y
+test_pilot,router_labels,semantic,egy,0.963,egy:pilot:q079,ايه عاصمة السعودية؟,arabicaqa:dev:916485,ما هي عاصمة المملكة العربية السعودية؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.961,confirm2:arabicaqa:test:1164888,أين كان هذا الخسوف مرئيًا ؟,arabicaqa:train:1165130,أين كان الخسوف مرئيًا؟,y
+test_ardqa,calibration_667,semantic,msa,0.961,egy:ardqa:29731a918a43,كيف هو السجن في توفالو؟,egy:ardqa:09af9f1a99cf,ما حالة السجن في توفالو؟,y
+test_pilot,dialect_train,semantic,egy,0.96,egy:pilot:q038,الكعبة موجودة فين؟,arabicragb:train:9191,وين تقع الكعبة؟,y
+test_ardqa,calibration_667,semantic,egy,0.96,egy:ardqa:1c0d881b8091,إيه اللي إدته الست العجوز للولد؟,egy:ardqa:3652649de247#egy,إيه قالت الست العجوز للولد؟,n
+test_heldout,complexity_train,semantic,egy,0.959,egy:held:arabicaqa:train:1178560,إيه تعريف الكسوف الشمسي؟,arabicaqa:train:1170719,ما هو تعريف كسوف الشمس ؟,y
+test_pilot,dialect_train,semantic,msa,0.958,egy:pilot:q031,من فاز بكأس العالم لكرة القدم عام 2022؟,arabicragb:train:1031,إيه الفريق اللي فاز بكأس العالم 2022؟,y
+confirm_arabicaqa,complexity_train,semantic,egy,0.958,confirm2:arabicaqa:test:1164681,التاريخ اللي حصل فيه الخسوف الكامل للقمر سنة 2008 إمتى؟,arabicaqa:train:1164602,متى وقع خسوفًا كليًا للقمر في عام 2008 ؟,y
+test_ardqa,calibration_667,semantic,msa,0.958,egy:ardqa:c9bd3b8e5bd7,ماذا قال الديك عند عودة الفتاة؟,egy:ardqa:85e56cb9d7d4,ما الذي أعلنه الديك عند عودة الفتاة؟,y
+test_heldout,complexity_dev,semantic,msa,0.957,egy:held:arabicaqa:train:1178560,ما هو تعريف الكسوف الشمسي؟,arabicaqa:dev:1170627,ما هوتعريف كسوف الشمس؟,y
+test_ardqa,calibration_667,semantic,egy,0.957,egy:ardqa:8c37f221c5a5,كام عدد الرحلات اللي عند الدولة دي في الأسبوع؟,egy:ardqa:38f490998dbd#egy,كام عدد الرحلات في الأسبوع للدولة دي؟,y
+test_ardqa,calibration_667,semantic,msa,0.957,egy:ardqa:3afcaeb8b5f6,ماذا يوجد في القطب الشمالي ولا يوجد في القارة القطبية الجنوبية؟,egy:ardqa:c9bb980f467e,ماذا يوجد في القارة القطبية الجنوبية ولا يوجد في القطب الشمالي؟,n
+test_ardqa,calibration_667,semantic,egy,0.956,egy:ardqa:22cf685fb089,الست العجوز التالتة كانت عاملة إزاي؟,egy:ardqa:e941f9a1c12e#egy,الست العجوز التانية كانت عاملة إزاي؟,n
+test_pilot,calibration_667,semantic,msa,0.955,egy:pilot:q182,ما هو النهر الذي تقع عليه مدينة لندن؟,egy:ardqa:6a12f60c1013,على أي نهر تقع لندن؟,y
+test_heldout,complexity_dev,semantic,egy,0.954,egy:held:arabicaqa:train:1178560,إيه تعريف الكسوف الشمسي؟,arabicaqa:dev:1170627,ما هوتعريف كسوف الشمس؟,y
+test_ardqa,calibration_667,semantic,msa,0.952,egy:ardqa:272f960859fa,كم كمية الثوم المبشور؟,egy:ardqa:abe128dcf158,كم كمية الثوم المبشور المستخدمة؟,y
+test_heldout,complexity_train,semantic,msa,0.95,egy:held:arabicaqa:train:1166974,متى وجد الإنسان الحديث تشريحيًا في شمال إفريقيا؟,arabicaqa:train:1166975,أين وجد الإنسان الحديث تشريحيًا في شمال إفريقيا؟,n
+confirm_arabicaqa,complexity_train,semantic,msa,0.95,confirm2:arabicaqa:test:681525,كم يومًا تبقى حتى نهاية السنة بعد اليوم المذكور؟,arabicaqa:train:698572,كم عدد الأيام التي تبقى لانتهاء السنة بعد هذا اليوم؟,y
+test_ardqa,calibration_667,semantic,egy,0.95,egy:ardqa:272f960859fa,كام كمية الثوم المبشور؟,egy:ardqa:abe128dcf158,كم كمية الثوم المبشور المستخدمة؟,y
+test_pilot,dialect_train,semantic,egy,0.949,egy:pilot:q031,مين اللي كسب كاس العالم سنة 2022؟,arabicragb:train:1031,إيه الفريق اللي فاز بكأس العالم 2022؟,y
+test_ardqa,dialect_dev_ardqa,semantic,egy,0.949,egy:ardqa:f2c54d2174bf,على أي درجة حرارة بيتطبخ البصل؟,ardqa:vlogs:dev:2776e8738f61:egy,على أي درجة حرارة بيتقلي البصل؟,y
+test_pilot,dialect_train,semantic,egy,0.948,egy:pilot:q148,ايه عاصمة الاردن؟,arabicragb:train:5033,إيه هي عاصمة الأردن؟,y
+test_heldout,complexity_train,semantic,egy,0.948,egy:held:arabicaqa:train:1160057,ليه الدامرجي استعان بشركة مصرية عشان يبني العمارة؟,arabicaqa:train:1160057,لماذا أستعان الدامرجي بشركة مصرية لبناء العمارة؟,y
+test_ardqa,dialect_dev_ardqa,semantic,msa,0.947,egy:ardqa:1c0d881b8091,ماذا أعطت المرأة العجوز للصبي؟,ardqa:narratives:dev:7d3c2e207257:msa,ماذا أعطى العجوز للصبي؟,y
+test_heldout,complexity_train,semantic,egy,0.947,egy:held:arabicaqa:train:1118161,إزاي اتنظم الدوري الفلسطيني الممتاز سنة 1945؟,arabicaqa:train:1118161,كيف تم تنظيم الدوري الفلسطيني الممتاز عام 1945؟,y
+test_ardqa,dialect_dev_ardqa,semantic,msa,0.945,egy:ardqa:f2c54d2174bf,على أي درجة حرارة يتم طهي البصل؟,ardqa:vlogs:dev:2776e8738f61:egy,على أي درجة حرارة بيتقلي البصل؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.942,confirm2:arabicaqa:test:1125532,من قام برسم اللوحه؟,arabicaqa:train:1125498,من رسم اللوحه ؟,y
+test_heldout,complexity_train,semantic,msa,0.941,egy:held:arabicaqa:train:1081087,ما هي عملية ومبوشو؟,arabicaqa:train:1081089,ما هو الهدف من عملية ومبوشو؟,n
+test_ardqa,calibration_667,semantic,msa,0.941,egy:ardqa:0e39891496a6,ما هو عدد سكان لندن الكبرى؟,egy:ardqa:b4a1039b7933#egy,كام عدد الناس في منطقة لندن الكبرى؟,y
+confirm_arabicaqa,dialect_train,semantic,egy,0.94,confirm2:arabicaqa:test:647995,إمتى بدأ توسع مدينة عمان؟,arabicragb:train:5197,إمتى بدأت مدينة عمان الحديثة بالتوسع؟,y
+confirm_arabicaqa,complexity_train,semantic,egy,0.94,confirm2:arabicaqa:test:1174929,مين المخرج اللي أخرج الفيلم ده؟,arabicaqa:train:1184948,من هو المخرج لهذا الفيلم؟,y
+confirm_arabicaqa,router_labels,semantic,egy,0.94,confirm2:arabicaqa:test:1158817,مين مخرج وكاتب الفيلم؟,arabicaqa:train:1183741,من هو مخرج الفيلم؟,n
+confirm_arabicaqa,router_labels,semantic,msa,0.94,confirm2:arabicaqa:test:1158817,من هو مخرج وكاتب الفيلم ؟,arabicaqa:train:1183741,من هو مخرج الفيلم؟,n
+test_pilot,dialect_train,semantic,egy,0.939,egy:pilot:q158,الحرب العالمية الاولى بدات امتى؟,arabicragb:test:469,إمتى بدأت الحرب العالمية الأولى؟,y
+test_heldout,complexity_train,semantic,egy,0.939,egy:held:arabicaqa:train:1169283,فرانكو كوستانزو اتولد فين؟,arabicaqa:train:1169283,أين ولد فرانكو كوستانزو؟,y
+test_pilot,dialect_train,semantic,egy,0.938,egy:pilot:q003,قناة السويس اتفتحت للملاحة سنة كام؟,arabicragb:test:267,إمتى فتحت قناة السويس؟,y
+confirm_arabicaqa,dialect_train,semantic,msa,0.938,confirm2:arabicaqa:test:647995,متى بدأ توسع مدينة عمان؟,arabicragb:train:5197,إمتى بدأت مدينة عمان الحديثة بالتوسع؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.938,confirm2:arabicaqa:test:681212,ما هو عدد الأيام المتبقية حتى نهاية السنة بعد اليوم الحادي والعشرين من الشهر الثامن؟,arabicaqa:train:699207,كم يومًا تبقى حتى نهاية السنة بعد اليوم الثامن عشر من الشهر الثامن؟,n
+test_pilot,dialect_dev,semantic,msa,0.937,egy:pilot:q064,أين تقع جامعة الدول العربية؟,arabicragb:train:3287,فين مقر جامعة الدول العربية؟,y
+test_ardqa,dialect_dev_ardqa,semantic,msa,0.937,egy:ardqa:cea03d65ebe6,ماذا قدمت المرأة العجوز للصبي؟,ardqa:narratives:dev:7d3c2e207257:msa,ماذا أعطى العجوز للصبي؟,y
+test_heldout,complexity_train,semantic,egy,0.937,egy:held:arabicaqa:train:686933,إيه هي اللغة الرسمية اللي كان بيتكلموا بيها المروانيين؟,arabicaqa:train:686933,ما هي اللغة الرسمية التي تحدث بها المروانيون؟,y
+test_heldout,complexity_train,semantic,msa,0.937,egy:held:arabicaqa:train:1197372,متي ولد لاجوس دوناي؟,arabicaqa:train:1197369,من هو لاجوس دوناي؟,n
+confirm_arabicaqa,router_labels,semantic,msa,0.937,confirm2:arabicaqa:test:1167703,متي ولد ماركينيوس دو سول ؟,arabicaqa:test:1167704,أين ولد ماركينيوس دو سول ؟,n
+confirm_arabicaqa,router_labels,semantic,msa,0.937,confirm2:arabicaqa:test:1165215,من هو لويس بيمنتا ؟,arabicaqa:test:1165218,متي ولد لويس بيمنتا ؟,n
+test_ardqa,calibration_667,semantic,egy,0.937,egy:ardqa:0e39891496a6,كام هو عدد سكان لندن الكبرى؟,egy:ardqa:b4a1039b7933#egy,كام عدد الناس في منطقة لندن الكبرى؟,y
+test_ardqa,calibration_667,semantic,egy,0.937,egy:ardqa:7e9a9c2ed013,لندن في أنهي مرتبة من حيث ناتج المنطقة الحضرية؟,egy:ardqa:01220a0625e8#egy,لندن في أنهي مرتبة في العالم من حيث الناتج المحلي الإجمالي للمنطقة الحضرية؟,y
+test_pilot,dialect_dev,semantic,msa,0.935,egy:pilot:q003,في أي عام افتتحت قناة السويس للملاحة؟,arabicragb:train:77,إمتى افتتحت قناة السويس؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.933,confirm2:arabicaqa:test:1196263,في أي مركز يلعب مايك ماكجينتي في كرة القدم؟,arabicaqa:train:1195336,في أي مركز يلعب شون ماكجينتي في كرة القدم؟,n
+confirm_arabicaqa,complexity_train,semantic,msa,0.933,confirm2:arabicaqa:test:1158297,متى بدأ عرض هذا المسلسل لأول مرة؟,arabicaqa:train:1134474,متي تم عرض المسلسل لأول مرة؟,y
+confirm_arabicaqa,router_labels,semantic,msa,0.933,confirm2:arabicaqa:test:1158297,متى بدأ عرض هذا المسلسل لأول مرة؟,arabicaqa:test:1186714,متي تم عرض المسلسل لأول مرة؟,y
+confirm_arabicaqa,router_labels,semantic,msa,0.933,confirm2:arabicaqa:test:1189609,من هو أنجيلو ماريانو دي ألميدا ؟,arabicaqa:test:1189606,متى ولد أنجيلو ماريانو دي ألميدا؟,n
+test_ardqa,calibration_667,semantic,msa,0.933,egy:ardqa:7e9a9c2ed013,أين تحتل لندن من حيث ناتج المنطقة الحضرية؟,egy:ardqa:01220a0625e8,أين تحتل لندن في العالم من حيث الناتج المحلي الإجمالي للمنطقة الحضرية؟,y
+test_pilot,dialect_train,semantic,msa,0.932,egy:pilot:q003,في أي عام افتتحت قناة السويس للملاحة؟,arabicragb:train:8357,متى فتحت قناة السويس؟,y
+test_heldout,complexity_train,semantic,msa,0.932,egy:held:arabicaqa:train:1192844,متي ولد أغوستين كانو؟,arabicaqa:train:1192841,من هو أغوستين كانو؟,n
+test_pilot,calibration_667,semantic,egy,0.932,egy:pilot:q142,ايه عاصمة بريطانيا؟,egy:ardqa:1d60b107c6eb,ما هي المدينة التي تعد عاصمة إنجلترا؟,n
+test_heldout,complexity_train,semantic,msa,0.931,egy:held:arabicaqa:train:1163872,من هو رين شين؟,arabicaqa:train:1163875,متي ولد رين شين؟,n
+test_pilot,dialect_train,semantic,msa,0.93,egy:pilot:q021,متى بني الجامع الأزهر؟,arabicragb:train:1151,إمتى تأسس الجامع الأزهر؟,y
+confirm_arabicaqa,complexity_train,semantic,msa,0.93,confirm2:arabicaqa:test:1116778,أين يتواجد التمثال حاليًا؟,arabicaqa:train:1100166,أين يمكن العثور على التمثال حاليًا؟,y
+confirm_arabicaqa,calibration_667,semantic,msa,0.93,confirm2:arabicaqa:test:1196298,من هي الشخصية الرئيسية في القصة؟,egy:ardqa:2d2496d7232f,من هي الشخصية الرئيسية في الكتاب؟,y
+test_pilot,dialect_dev,semantic,egy,0.929,egy:pilot:q003,قناة السويس اتفتحت للملاحة سنة كام؟,arabicragb:train:77,إمتى افتتحت قناة السويس؟,y
+confirm_arabicaqa,router_labels,semantic,msa,0.929,confirm2:arabicaqa:test:1174929,من هو المخرج الذي أخرج هذا الفيلم؟,arabicaqa:train:1183741,من هو مخرج الفيلم؟,y
+test_ardqa,calibration_667,semantic,msa,0.929,egy:ardqa:f538b1ae693c,"في أي عام نشرت رواية ""قتل طائر بريء"" لأول مرة؟",egy:ardqa:f396aadc455f,"متى بدأت رواية ""قتل طائر بريء"" في الانتشار؟",n
+confirm_arabicaqa,complexity_train,semantic,egy,0.927,confirm2:arabicaqa:test:1138041,مين رئيس مجلس إدارة أوراسكوم المالية القابضة؟,arabicaqa:train:1098424,"من يرأس مجلس إدارة ""أوراسكوم للاستثمار القابضة""؟",n
+test_ardqa,calibration_667,semantic,egy,0.927,egy:ardqa:f538b1ae693c,"في أي سنة اتنشرت رواية ""قتل طائر بريء"" لأول مرة؟",egy:ardqa:f396aadc455f,"متى بدأت رواية ""قتل طائر بريء"" في الانتشار؟",n
+test_ardqa,calibration_667,semantic,msa,0.927,egy:ardqa:f535b9005bef,كم كمية البقدونس المفروم المضافة؟,egy:ardqa:bd768bf53489#egy,قد إيه كمية البقدونس المفروم؟,y
+test_heldout,complexity_train,semantic,egy,0.926,egy:held:arabicaqa:train:1197372,إمتى اتولد لاجوس دوناي؟,arabicaqa:train:1197373,أين ولد لاجوس دوناي؟,n
+confirm_arabicaqa,complexity_train,semantic,msa,0.926,confirm2:arabicaqa:test:1175926,ما هي فترة تكرار سلسلة ميتونيك؟,arabicaqa:train:1184246,متى تتكرر سلسلة ميتونيك؟,y
+test_ardqa,dialect_dev_ardqa,semantic,egy,0.925,egy:ardqa:7aa27e83a7b9,مع إيه بيتقدم الطبق؟,ardqa:vlogs:dev:928475ba26b3:egy,إزاي بيتقدم الطبق؟,n
+confirm_arabicaqa,complexity_train,semantic,msa,0.925,confirm2:arabicaqa:test:1138041,من هو رئيس مجلس إدارة أوراسكوم المالية القابضة؟,arabicaqa:train:1098424,"من يرأس مجلس إدارة ""أوراسكوم للاستثمار القابضة""؟",n
+confirm_arabicaqa,router_labels,semantic,egy,0.925,confirm2:arabicaqa:test:1189609,مين أنجيلو ماريانو دي ألميدا؟,arabicaqa:test:1189606,متى ولد أنجيلو ماريانو دي ألميدا؟,n
+confirm_arabicaqa,router_labels,semantic,msa,0.925,confirm2:arabicaqa:test:1160957,متي صدر فيلم يا عزيزي كلنا لصوص؟,arabicaqa:test:1160951,متي صدرت رواية يا عزيزي كلنا لصوص؟,n
+test_ardqa,calibration_667,semantic,egy,0.925,egy:ardqa:2d56a3a2b526,كام كمية اللحمة المفرومة؟,egy:ardqa:b69900caef37#egy,كمية اللحمة المفرومة المطلوبة قد إيه؟,y
+test_heldout,complexity_train,semantic,egy,0.924,egy:held:arabicaqa:train:1198142,إيه الاسم اللي معروفة بيه ليتيسيا كاليجاس باوتيستا؟,arabicaqa:train:1198141,من هي ليتيسيا كاليجاس باوتيستا؟,n
+confirm_arabicaqa,complexity_train,semantic,egy,0.924,confirm2:arabicaqa:test:1175926,إيه فترة تكرار سلسلة ميتونيك؟,arabicaqa:train:1184246,متى تتكرر سلسلة ميتونيك؟,y
+confirm_arabicaqa,dialect_train,semantic,egy,0.923,confirm2:arabicaqa:test:664731,اسم ليبيا كان إيه بعد الاستقلال؟,arabicragb:train:6791,متى حصلت ليبيا على استقلالها وشو كان اسمها بعد الاستقلال؟,n
+test_ardqa,calibration_667,semantic,msa,0.923,egy:ardqa:e37ddaf26cb7,ماذا فعل القنفذ بعد ذلك؟,egy:ardqa:22b3bc840dd8,ماذا حدث للقنفذ بعد ذلك؟,n
+confirm_arabicaqa,complexity_train,semantic,egy,0.922,confirm2:arabicaqa:test:1193255,إمتى اتعلن عن الفيلم لأول مرة وفي أي مهرجان سينمائي؟,arabicaqa:train:1194673,في أي مهرجان تم عرض الفيلم لأول مرة؟,n
+confirm_arabicaqa,router_labels,semantic,egy,0.922,confirm2:arabicaqa:test:1165215,مين لويس بيمنتا؟,arabicaqa:test:1165218,متي ولد لويس بيمنتا ؟,n
+confirm_arabicaqa,router_labels,semantic,egy,0.922,confirm2:arabicaqa:test:1174929,مين المخرج اللي أخرج الفيلم ده؟,arabicaqa:train:1183741,من هو مخرج الفيلم؟,y
+confirm_arabicaqa,router_labels,semantic,msa,0.922,confirm2:arabicaqa:test:1191917,في أي سنة وُلدت رواز فايق؟,arabicaqa:test:1191918,أين وُلدت رواز فايق؟,n
+test_pilot,calibration_667,semantic,msa,0.922,egy:pilot:q142,ما هي عاصمة المملكة المتحدة؟,egy:ardqa:1d60b107c6eb,ما هي المدينة التي تعد عاصمة إنجلترا؟,n
+test_pilot,dialect_test_ragb,semantic,msa,0.921,egy:pilot:q195,ما هو المطار الرئيسي الأكبر في مصر؟,arabicragb:train:3181,ما هو المطار الأكثر أهمية في مصر؟,n
+test_heldout,complexity_train,semantic,msa,0.921,egy:held:arabicaqa:train:1062491,من هو ناثان مايكل كولينز؟,arabicaqa:train:1062492,متى ولد ناثان مايكل كولينز؟,n
+test_ardqa,calibration_667,semantic,msa,0.921,egy:ardqa:96026c44b17d,من كتب سيناريو الفيلم الذي عرض في عام 1962؟,egy:ardqa:4a1342a8a5e0,من هو مخرج الفيلم الذي عرض في عام 1962؟,n
+confirm_arabicaqa,calibration_667,semantic,egy,0.921,confirm2:arabicaqa:test:1196298,مين الشخصية الرئيسية في القصة؟,egy:ardqa:2d2496d7232f#egy,مين هي الشخصية الرئيسية في الكتاب؟,y

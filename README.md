@@ -8,7 +8,10 @@ AR-Route is a retrieval-augmented generation (RAG) system for Arabic question an
 4. answers from only the **top-2 reranked passages** (cheap), and
 5. **escalates to iterative multi-step retrieval** only when the first answer is "I don't know" (confidence gate).
 
-On 1,000 held-out Egyptian test questions it reaches **78.7% accuracy at $0.456 per 1,000 questions**. Standard RAG gets 69.4% at $0.534, and always using iterative RAG gets 77.4% at $0.936. AR-Route is more accurate than standard RAG and costs about half as much as iterative RAG.
+On a **frozen, pre-specified confirmatory test** of 1,027 unused Egyptian questions it reaches **76.8% accuracy at $0.566 per 1,000 questions**, against 74.3% at $0.606 for standard RAG (+2.5 points, McNemar p = 0.012) and 78.9% at $0.963 for always using iterative RAG. It stays within a 5-point non-inferiority margin of iterative RAG at 41% lower generator cost. A larger gain on the first test set (78.7% vs 69.4%) is exploratory, because the "I don't know" fallback was chosen after a first run on that set.
+
+> Paper: *Dialect-Aware, Confidence-Gated Retrieval for Arabic RAG: When Learned Complexity Routing Fails to Transfer* (A. Dewaidar, M. Shaheen, E. AbdelAziz), under review.
+> Evaluation data: [ahmedewaidar22/ar-route-eval](https://huggingface.co/datasets/ahmedewaidar22/ar-route-eval) (DOI [10.57967/hf/11866](https://doi.org/10.57967/hf/11866)) · Models and corpus: [ahmedewaidar22/ar-route](https://huggingface.co/ahmedewaidar22/ar-route) (DOI [10.57967/hf/11867](https://doi.org/10.57967/hf/11867))
 
 The repository contains the full research pipeline (phases 0–10), the final system, a Django web app with a Docker setup, tests, and the scripts used to produce every result table.
 
@@ -31,6 +34,8 @@ The repository contains the full research pipeline (phases 0–10), the final sy
 - [Tests](#tests)
 - [Evaluation methodology](#evaluation-methodology)
 - [Limitations](#limitations)
+- [Citation](#citation)
+- [License](#license)
 
 ---
 
@@ -73,7 +78,25 @@ The code is in [arroute/pipeline/final.py](arroute/pipeline/final.py) (`FinalSys
 
 ## Results
 
-All numbers come from [scripts/final_report.py](scripts/final_report.py). The test set is 1,000 questions that were never used for training or tuning: 500 ArDQA (native Egyptian), 200 pilot (native Egyptian) and 300 held-out (translated). `gpt-4.1-mini` is both the generator and the judge.
+`gpt-4.1-mini` is both the generator and the judge. The **primary result** is the frozen confirmatory test below. The first test set (1,000 questions: 500 ArDQA written natively in Egyptian, 200 pilot questions written with LLM help and 300 held-out questions machine-translated into Egyptian, each non-native question checked by one native speaker) is **partly exploratory** for the final system: its "I don't know" fallback was adopted after a first run on these questions. First-test numbers come from [scripts/final_report.py](scripts/final_report.py).
+
+### Primary result: frozen confirmatory test (1,027 questions, Egyptian input)
+
+The pipeline was frozen ([freeze_manifest.json](freeze_manifest.json)) and three hypotheses were fixed before any confirmatory question was drawn. The questions are unused ArabicaQA questions rewritten into Egyptian by `gpt-4.1-mini`, each with its MSA original.
+
+| System | Accuracy | 95% CI | $ / 1k q |
+|---|---|---|---|
+| Standard RAG | 74.3% | 71.5–76.9 | 0.606 |
+| Always iterative RAG (C2) | 78.9% | 76.3–81.3 | 0.963 |
+| **Final system (AR-Route)** | **76.8%** | 74.1–79.3 | **0.566** |
+
+- **H1** (more accurate than standard RAG): +2.5 points [+0.6, +4.5], McNemar p = 0.012: **pass**
+- **H2** (cheaper than always C2): −$0.397 per 1k [−0.440, −0.356]: **pass**
+- **H3** (within 5 points of always C2): −2.0 points, one-sided 95% lower bound −3.6: **pass**
+
+With every question flagged by the split-integrity audit as a duplicate of a build-set question removed (1,022 questions), all three still pass (+2.5 points, p = 0.012).
+
+**Second generator (configuration set after the freeze).** With `gpt-6.1-sol` as the generator, `gpt-4.1-mini` as the rewriter and a lighter fallback, the final system reached 79.3% at $2.396 per 1k, against 76.5% at $3.130 for standard RAG (+2.7 points, p = 0.004) and 81.3% at $5.176 for always C2.
 
 ### Dialect head
 
@@ -84,7 +107,7 @@ All numbers come from [scripts/final_report.py](scripts/final_report.py). The te
 | Held-out | 300 | 98.0% | 97.0% |
 | **All** | 1,667 | **97.0%** | **98.7%** |
 
-### End-to-end accuracy and cost, Egyptian input
+### First test set (exploratory for the final system): accuracy and cost, Egyptian input
 
 | System | Accuracy | 95% CI | $ / 1k q |
 |---|---|---|---|
@@ -108,11 +131,14 @@ The final system escalated to C2 on 8.3% of questions. On MSA input it reaches *
 | + rerank, top-2 passages | 75.2% | 0.302 | +3.7 (p = 0.001) |
 | + "I don't know" → C2 | 78.7% | 0.456 | +3.5 (p < 0.001) |
 
+Without the 30 first-test questions that the audit confirmed as duplicates of build-set questions, the final system reaches 78.9% against 69.4% for standard RAG (+9.5 points, p < 0.001).
+
 ### Validation
 
-- **LLM judge vs. human grading:** 95% agreement on 100 items, Cohen's κ = 0.90.
-- **Confirmatory test:** the pipeline was frozen first ([freeze_manifest.json](freeze_manifest.json)). Native speakers then wrote 561 new Egyptian questions, and the frozen system answered 459 of them correctly (81.8%).
-- **Out-of-sample check:** on 667 native ArDQA questions outside the test set, the ranking held: final system 77.2%, always-C2 76.6%, at about one third of the cost.
+- **LLM judge vs. human grading:** human labels for 506 unique answers (five systems, 200 sampled questions); agreement between annotators κ = 0.984. For every system the judge's accuracy is within 1.0 point of the human accuracy.
+- **Discarded first confirmatory attempt:** a first frozen test used 561 questions written from 600 sampled corpus passages. On that set the final system scored 81.8%, against 85.4% for standard RAG (−3.6 points, p = 0.009) and 90.9% for always C2, so H1 and H3 failed (H2 passed). The set was discarded because many questions were templated or had truncated reference answers; the decision was made after the result was known, so it is reported in full in the paper and should be read as a second, unfavorable result.
+- **Out-of-sample check:** on 667 native ArDQA questions outside the test set (used to fit Router v2 and choose `k`, so a robustness check rather than an independent confirmation), the ranking held: final system 77.2% at $0.284 per 1k, always-C2 76.6% at $0.803.
+- **Split-integrity audit:** every evaluation question was checked against every set used to build a system (exact, near-duplicate and paraphrase matches, then a manual check). All flags are published in the evaluation dataset (`audit/provenance_flags.csv`). Re-choosing `k` on the training questions alone also gives `k = 2`.
 
 The full tables are in `runs_final/thesis_tables.md`, which is generated locally and not committed.
 
@@ -192,12 +218,14 @@ On Windows, `setup.ps1` and `setup_train.ps1` automate these steps.
 
 The model weights (about 516 MB each) and the retrieval corpus are too large for GitHub. They are hosted at:
 
-**https://huggingface.co/ahmedewaidar22/ar-route**
+**https://huggingface.co/ahmedewaidar22/ar-route** (DOI [10.57967/hf/11867](https://doi.org/10.57967/hf/11867))
+
+The evaluation data (test sets, confirmatory set, per-question results and audit) are at **https://huggingface.co/datasets/ahmedewaidar22/ar-route-eval** (DOI [10.57967/hf/11866](https://doi.org/10.57967/hf/11866)).
 
 | Folder | Contents | Needed by |
 |---|---|---|
 | `dialect_head/` | AraBERT (`aubmindlab/bert-base-arabertv02`) fine-tuned for Egyptian vs. MSA, plus `meta.json` (temperature, lo/hi thresholds) | final system, web app |
-| `final_router/` | Phase 4e complexity router (text head, passage readers, stage B/C models, policy) | router experiments |
+| `final_router/` | Router v1: the Phase 4e learned complexity router (text head, passage readers, stage B/C models, policy). **Not part of the final system**; kept to reproduce the router experiments | router experiments |
 | `corpus/` | 25,147 passages (`passages.jsonl`), BGE-M3 embeddings (`emb_bgem3.npy`), ids | final system, web app |
 
 Download them into place:
@@ -354,7 +382,7 @@ See [LOCAL_README.md](LOCAL_README.md) for step-by-step notes per phase. [script
 | **ArDQA** | Native Egyptian questions (test set) |
 | **ArabicRAGB** (`HeshamHaroon/ArabicRAGB`) | Dialect split used to train the dialect head |
 | **MAFQA** | Additional passages (manual download) |
-| Pilot set | 200 validated Egyptian/MSA pairs |
+| Pilot set | 200 Egyptian/MSA pairs written with LLM help, each checked by one native speaker |
 
 The corpus has 25,147 passages: ArabicaQA 14,051, translated HotpotQA contexts 9,389, MAFQA 1,162, ArDQA 345, pilot 200.
 
@@ -398,12 +426,12 @@ The tests cover the data loaders, splits, retrieval, rewriting, the routers (v1,
 
 ## Evaluation methodology
 
-- **Correctness.** Cheap rules first, then an LLM judge (`gpt-4.1-mini`) that sees the reference answers ([arroute/pipeline/judge.py](arroute/pipeline/judge.py)). It was validated against human grades (κ = 0.90).
+- **Correctness.** Cheap rules first, then an LLM judge (`gpt-4.1-mini`) that sees the reference answers ([arroute/pipeline/judge.py](arroute/pipeline/judge.py)). It was validated against human labels on 506 answers (judge within 1.0 point of human accuracy for every system).
 - **Offline scoring.** During labelling, every question was answered by C0, C1 and C2. Any routing policy can therefore be scored offline for free by looking up stored outcomes and costs ([arroute/router/final_eval.py](arroute/router/final_eval.py)).
 - **Statistics.** 95% Wilson intervals for accuracy, paired bootstrap for differences, exact McNemar tests for paired comparisons.
-- **No test leakage.** The dialect-head thresholds, `k` and the router thresholds were all chosen on training/calibration questions only. The 300 held-out questions were excluded from router training.
+- **Test-set discipline.** The dialect-head thresholds, `k` and the router thresholds were chosen on training/calibration questions, and the 300 held-out questions were excluded from router training. The "I don't know" fallback, however, was adopted after a first run on the test set, which is why the first-test result is reported as exploratory and the claim rests on the frozen confirmatory test.
 - **Cost.** Generator tokens at $0.4 / $1.6 per 1M (input/output), including the rewrite call.
-- **Pre-registration.** `freeze_manifest.json` stores hashes of the final pipeline. They were recorded before the confirmatory questions were written. Check them with `python review/freeze_manifest.py --verify freeze_manifest.json`.
+- **Pre-registration.** `freeze_manifest.json` stores hashes of the final pipeline. They were recorded before the confirmatory questions were drawn. Check them with `python review/freeze_manifest.py --verify freeze_manifest.json`.
 
 ---
 
@@ -411,5 +439,24 @@ The tests cover the data loaders, splits, retrieval, rewriting, the routers (v1,
 
 - The dialect head distinguishes **Egyptian vs. MSA** only. Other dialects are untested.
 - Answers depend on a commercial LLM (`gpt-4.1-mini`). Results can change as the provider updates the model.
-- The held-out set is LLM-translated into Egyptian. The native sets (ArDQA, pilot, confirmatory) are the stronger evidence.
+- Only the 500 ArDQA test questions are natively written Egyptian. The pilot questions were written with LLM help, and the held-out and confirmatory questions were machine-translated into Egyptian; each was checked by a single native speaker. A test on new, natively written Egyptian questions remains to be done.
 - Single-GPU, one-question-at-a-time serving. The web app is a demo, not a production deployment.
+
+---
+
+## Citation
+
+```bibtex
+@misc{dewaidar2026arroute,
+  title  = {Dialect-Aware, Confidence-Gated Retrieval for Arabic RAG: When Learned Complexity Routing Fails to Transfer},
+  author = {Dewaidar, Ahmed and Shaheen, Mohamed and AbdelAziz, Eman},
+  year   = {2026},
+  note   = {Under review}
+}
+```
+
+---
+
+## License
+
+The code is released under the [Apache License 2.0](LICENSE). The datasets used (ArabicaQA, ArDQA, ArabicRAGB, HotpotQA, NQ-Open, MAFQA) remain under their own licenses; please cite them if you use the data.
